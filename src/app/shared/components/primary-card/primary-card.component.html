@@ -1,0 +1,32 @@
+<a
+  [href]="path"
+  class="relative group"
+>
+  <div
+    class="absolute transition-all top-0 left-0 w-full h-full rounded-md transform translate-x-1 translate-y-1 bg-gray-200 group-hover:translate-x-0 group-hover:translate-y-0 group-focus:translate-x-0 group-focus:translate-y-0"
+  ></div>
+  <div
+    class="relative transition-color flex flex-col items-stretch  h-full  rounded-md bg-gray-50 group-hover:bg-gray-100 group-focus:bg-gray-100"
+  >
+
+    <div class="relative h-48 bg-black m-2 mb-0 rounded-md overflow-hidden shadow-sm group-hover:shadow-lg">
+      <img
+        class="absolute inset-0 block max-w-none object-cover w-full h-full"
+        *ngIf="image && image.src; else placeholderImage"
+        [src]="image.src"
+        [alt]="image.alt"
+      >
+      <ng-template #placeholderImage>
+
+        <img
+          class="absolute inset-0 block max-w-none object-cover w-full h-full"
+          src="https://source.unsplash.com/random"
+          alt="No image available. heres a random one"
+        >
+      </ng-template>
+    </div>
+    <div class="relative p-4">
+      <h3>{{ title }}</h3>
+    </div>
+  </div>
+</a>
