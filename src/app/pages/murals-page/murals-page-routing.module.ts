@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutPageComponent } from './about-page.component';
+import { MuralsPageComponent } from './murals-page.component';
 
 const routes: Routes = [
-  {path:'', pathMatch:'full', component: AboutPageComponent}
+  {path:'', pathMatch:'full', component: MuralsPageComponent}
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class AboutPageRoutingModule { }
+export class MuralsPageRoutingModule { }

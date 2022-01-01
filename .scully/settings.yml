@@ -1,0 +1,11 @@
+identifier: kfxdvca522e1x5k4
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: art-and-arbor
+homeFolder: /Users/qvopkt/Things/art-and-arbor
+distFolder: dist/art-and-arbor
+outDir: /Users/qvopkt/Things/art-and-arbor/dist/static
+handle404: ''
+allowErrorCollect: false

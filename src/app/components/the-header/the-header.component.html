@@ -4,7 +4,7 @@
       <a [routerLink]="'/'">{{ name }}</a>
     </strong>
     <nav class="nav">
-      <ul>
+      <ul class="flex">
         <li>
           <a
             class=""
@@ -12,11 +12,16 @@
           >Home</a>
         </li>
         <li>
-
           <a
             class="ml-4"
             [routerLink]="'/about/'"
           >About</a>
+        </li>
+        <li>
+          <a
+            class="ml-4"
+            [routerLink]="'/murals/'"
+          >murals</a>
         </li>
       </ul>
     </nav>
