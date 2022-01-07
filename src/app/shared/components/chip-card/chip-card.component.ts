@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'chip-card',
@@ -12,9 +12,9 @@ export class ChipCardComponent implements OnInit {
   image: any = {
 
   }
-  title: string ='cardcardcard'
-  path: string = "example.com"
-
+  
+  @Input() title: string 
+  @Input() path: string 
   ngOnInit(): void {
   }
 

@@ -1,5 +1,8 @@
 <div class="container ml-auto mr-auto mb-10">
-  <a [routerLink]="'/murals'" class="underline">see all murals</a>
+  <a
+    [routerLink]="'/murals'"
+    class="underline"
+  >see all murals</a>
   <ng-container *ngIf="mural | async as mural">
     <h1 class="bg-grey-900 text-4xl">{{ mural.title }}</h1>
     <div>ATTRIBUTION: {{ mural.attribution }}</div>
@@ -8,14 +11,14 @@
         class="object-cover w-full "
         src="https://source.unsplash.com/random"
         alt="No image available. heres a random one"
-        >
+      >
     </div>
     <div class="mt-4 pb-2 border-gray-300 border-b-2">
       <h2 class="text-2xl">Location</h2>
     </div>
     <div class="flex justify-center">
       <div class=" flex-1 max-w-lg">
-       <the-map></the-map>
+        <the-map [mapPoints]="mapPoints$|async"></the-map>
       </div>
     </div>
   </ng-container>
@@ -30,12 +33,10 @@
 
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-3">
-    <!-- <SecondaryCard
-          v-for="tree in trees"
-          :path="tree.path"
-          :key="tree.id"
-          :title="tree.title"
-          :image="{src: tree.src, alt: tree.alt,}"
-        /> -->
+    <chip-card
+      *ngFor="let tree of (trees$ | async)"
+      [path]="tree.route"
+      [title]="tree.title"
+    ></chip-card>
   </div>
 </div>

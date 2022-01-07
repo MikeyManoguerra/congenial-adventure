@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ScullyRoute, ScullyRoutesService } from '@scullyio/ng-lib';
-import { map, Observable, tap } from 'rxjs';
+import { map, Observable, share, tap } from 'rxjs';
 import { Mural } from 'src/app/models/mural';
 
 @Component({
@@ -12,14 +12,25 @@ export class MuralsPageComponent implements OnInit {
 
   constructor(private scully: ScullyRoutesService) { }
 
-
-  murals$: Observable<Mural[]> = this.scully.available$.pipe(
-    map(routes => routes.filter(route => route.route.startsWith('/murals/') && route.sourceFile?.endsWith('.md')) as Mural[])
+  murals$: Observable<Mural[]>   = this.scully.available$.pipe(
+    map(routes =>
+      routes.filter(
+        route => route.route.startsWith('/murals/') && route.sourceFile?.endsWith('.md')
+      ) as Mural[]
+    ),
+    share()
   );
 
+
   ngOnInit(): void {
-    this.murals$.pipe(tap(x=>{console.log(x)}
-    )).subscribe()
+    this.murals$ = this.scully.available$.pipe(
+      map(routes =>
+        routes.filter(
+          route => route.route.startsWith('/murals/') && route.sourceFile?.endsWith('.md')
+        ) as Mural[]
+      ),
+      share()
+    );
   }
 
 }

@@ -1,12 +1,15 @@
 import { ScullyRoute } from "@scullyio/ng-lib";
 import { BaseContent } from "./BaseContent";
 
-export interface Mural extends BaseContent, ScullyRoute {
+
+export interface Tree extends BaseContent, ScullyRoute {
   location: string;
-  title: string;
+  id: string;
   src: string;
   alt: string;
-  attribution: string
+  title: string;
+  species: string;
+  mural: string;
   publish: boolean
-  date: Date
+  date: Date;
 }

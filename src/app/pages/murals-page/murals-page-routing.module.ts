@@ -4,7 +4,7 @@ import { MuralComponent } from './mural/mural.component';
 import { MuralsPageComponent } from './murals-page.component';
 
 const routes: Routes = [
-  {path:':postId', component: MuralComponent},
+  {path:':slug', component: MuralComponent},
   {path:'', component: MuralsPageComponent}
 ];
 

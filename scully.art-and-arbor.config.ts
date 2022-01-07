@@ -9,10 +9,22 @@ export const config: ScullyConfig = {
   outDir: './dist/static',
   routes: {
 
-    '/murals/:postId': {
+    '/murals/:slug': {
       type: 'contentFolder',
-      postId: {
-        folder: "./murals"
+      slug: {
+        folder: "./content/murals"
+      }
+    },
+    '/species/:slug': {
+      type: 'contentFolder',
+      slug: {
+        folder: "./content/species"
+      }
+    },
+    '/trees/:slug': {
+      type: 'contentFolder',
+      slug: {
+        folder: "./content/trees"
       }
     },
   }
