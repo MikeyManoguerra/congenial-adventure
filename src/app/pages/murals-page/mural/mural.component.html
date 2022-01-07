@@ -1,0 +1,41 @@
+<div class="container ml-auto mr-auto mb-10">
+  <a [routerLink]="'/murals'" class="underline">see all murals</a>
+  <ng-container *ngIf="mural | async as mural">
+    <h1 class="bg-grey-900 text-4xl">{{ mural.title }}</h1>
+    <div>ATTRIBUTION: {{ mural.attribution }}</div>
+    <div class="mt-8  overflow-hidden rounded-xl shadow-lg">
+      <img
+        class="object-cover w-full "
+        src="https://source.unsplash.com/random"
+        alt="No image available. heres a random one"
+        >
+    </div>
+    <div class="mt-4 pb-2 border-gray-300 border-b-2">
+      <h2 class="text-2xl">Location</h2>
+    </div>
+    <div class="flex justify-center">
+      <div class=" flex-1 max-w-lg">
+       <the-map></the-map>
+      </div>
+    </div>
+  </ng-container>
+  <div class="mt-4 pb-2 border-gray-300 border-b-2">
+    <h2 class="text-2xl">Blog</h2>
+    <scully-content></scully-content>
+  </div>
+  <div class=" mt-3 text-lg font-serif">
+  </div>
+  <div class="mt-4 pb-2 border-gray-300 border-b-2">
+    <h2 class="text-2xl">Nearby Trees</h2>
+
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-3">
+    <!-- <SecondaryCard
+          v-for="tree in trees"
+          :path="tree.path"
+          :key="tree.id"
+          :title="tree.title"
+          :image="{src: tree.src, alt: tree.alt,}"
+        /> -->
+  </div>
+</div>

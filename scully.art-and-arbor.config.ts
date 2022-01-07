@@ -8,5 +8,12 @@ export const config: ScullyConfig = {
   projectName: "art-and-arbor",
   outDir: './dist/static',
   routes: {
+
+    '/murals/:postId': {
+      type: 'contentFolder',
+      postId: {
+        folder: "./murals"
+      }
+    },
   }
 };

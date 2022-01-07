@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { MuralComponent } from './mural/mural.component';
 import { MuralsPageComponent } from './murals-page.component';
 
 const routes: Routes = [
-  {path:'', pathMatch:'full', component: MuralsPageComponent}
+  {path:':postId', component: MuralComponent},
+  {path:'', component: MuralsPageComponent}
 ];
 
 @NgModule({
