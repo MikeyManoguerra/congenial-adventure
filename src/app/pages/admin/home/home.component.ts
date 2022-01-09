@@ -1,5 +1,18 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, Inject, OnInit, RendererFactory2 } from '@angular/core';
+import { v4 } from 'uuid';
+
+declare global {
+  interface Window {
+    // add you custom properties and methods
+    CMS: {
+      registerEventListener: (config: {
+        name: string,
+        handler: ({ }: any) => string
+      }) => string
+    }
+  }
+}
 
 @Component({
   selector: 'home',
@@ -9,7 +22,9 @@ import { Component, Inject, OnInit, RendererFactory2 } from '@angular/core';
 export class HomeComponent implements OnInit {
   private renderer2; constructor(
     private rendererFactory2: RendererFactory2,
-    @Inject(DOCUMENT) private _document: Document
+    @Inject(DOCUMENT) private _document: Document,
+    private window: Window
+
   ) {
     this.renderer2 = this.rendererFactory2.createRenderer(null, null);
   }
@@ -19,5 +34,17 @@ export class HomeComponent implements OnInit {
     script.src = `https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js`;
     script.text = '';
     this.renderer2.appendChild(this._document.body, script);
+
+    this.window?.CMS.registerEventListener({
+      name: 'preSave',
+      handler: ({ entry }) => {
+        if (entry.get('slug')) {
+          return;
+        }
+
+        return entry.get('data').set('id', v4());
+      },
+    });
+
   }
 }

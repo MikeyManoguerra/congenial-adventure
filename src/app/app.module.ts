@@ -20,7 +20,7 @@ import { PlaceholderComponent } from './components/placeholder/placeholder.compo
     AppRoutingModule,
     ScullyLibModule
   ],
-  providers: [],
+  providers: [ { provide: Window, useValue: window }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
