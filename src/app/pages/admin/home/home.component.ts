@@ -35,16 +35,19 @@ export class HomeComponent implements OnInit {
     script.text = '';
     this.renderer2.appendChild(this._document.body, script);
 
-    this.window?.CMS.registerEventListener({
-      name: 'preSave',
-      handler: ({ entry }) => {
-        if (entry.get('slug')) {
-          return;
-        }
-
-        return entry.get('data').set('id', v4());
-      },
-    });
-
+    setTimeout(() => {
+      // settimeout hack for now
+      this.window.CMS.registerEventListener({
+        name: 'preSave',
+        handler: ({ entry }) => {
+          if (entry.get('slug')) {
+            return;
+          }
+          
+          return entry.get('data').set('id', v4());
+        },
+      });
+      
+    },5000);
   }
 }
