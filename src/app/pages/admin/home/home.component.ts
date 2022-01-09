@@ -43,11 +43,9 @@ export class HomeComponent implements OnInit {
           if (entry.get('slug')) {
             return;
           }
-          
           return entry.get('data').set('id', v4());
         },
       });
-      
-    },5000);
+    }, 5000);
   }
 }
