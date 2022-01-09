@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "scully": "npx scully --",
+    "scully": "npx scully --scanroutes",
     "build:prod": "ng build",
     "scully:serve": "npx scully serve --",
     "netlify": "npm run build:prod && npm run scully"
