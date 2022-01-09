@@ -1,0 +1,176 @@
+
+# loaded via angular.json file
+backend:
+  name: git-gateway
+  # local_backend: true
+  # localStorage.removeItem("netlifySiteURL");
+  # name: github
+  repo: mikeymanoguerra/congenial-adventure
+  branch: main
+
+media_folder: static/uploads
+public_folder: /uploads
+
+
+collections:
+  - label: Page level information
+    name: global
+    files:
+      - name: home
+        label: Home Page
+        file: content/global/home.md
+        identifier_field: heading
+        fields:
+          - label: Hero Heading
+            name: heading
+            widget: string
+          - label: Hero Kicker
+            name: kicker
+            widget: string
+          - label: Hero Image
+            name: src
+            widget: image
+            required: false
+          - label: Hero Image Alt Text
+            name: alt
+            widget: string
+          - label: Content
+            name: body
+            minimal: true
+            widget: markdown
+            required: false
+
+      - label: About Page
+        name: about
+        identifier_field: heading
+        file: "content/globals/about.md"
+        fields:
+          - label: Heading
+            name: heading
+            widget: string
+          - label: Kicker
+            name: kicker
+            widget: string
+          - label: Image
+            name: src
+            widget: image
+            required: false
+          - label: Image Alt Text
+            name: alt
+            widget: string
+          - label: Content
+            name: body
+            minimal: true
+            widget: markdown
+            required: false
+
+# content configs
+  - name: "tree"
+    label: "Tree"
+    extention: md
+    folder: "content/tree"
+    create: true
+    identifier_field: title
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: ID
+        name: id
+        widget: hidden
+      - label: Tree Species
+        name: species
+        widget: relation
+        collection: species
+        search_fields: [name, genus, species]
+        value_field: id
+        display_fields: [genus, species]
+      - label: Nearby Mural
+        name: mural
+        widget: relation
+        collection: mural
+        search_fields: [title]
+        value_field: id
+        display_fields: [title]
+      - label: Image
+        name: src
+        widget: image
+        required: false
+      - label: Image Alt Text
+        name: alt
+        widget: string
+      - label: Location
+        name: location
+        widget: map
+        default: '{"type":"Point","coordinates":[-75.1640227,39.9523726]}'
+      - label: Publish Date
+        name: date
+        widget: date
+      - label: Content
+        name: body
+        minimal: true
+        widget: markdown
+        required: false
+  - name: "mural"
+    label: "Mural"
+    extention: md
+    folder: "content/mural"
+    create: true
+    identifier_field: title
+    fields:
+      - label: Mural Title
+        name: title
+        widget: string
+      - label: ID
+        name: id
+        widget: hidden
+      - label: Attribution
+        name: attribution
+        widget: string
+      - label: Image
+        name: src
+        widget: image
+        required: false
+      - label: Image Alt Text
+        name: alt
+        widget: string
+      - label: Location
+        name: location
+        widget: map
+        default: '{"type":"Point","coordinates":[-75.1640227,39.9523726]}'
+      - label: Publish Date
+        name: date
+        widget: date
+      - label: Content
+        name: body
+        minimal: true
+        widget: markdown
+        required: false
+  - name: species
+    label: Species
+    extention: md
+    folder: content/species
+    create: true
+    slug: "{{genus}}-{{species}}"
+    identifier_field: name
+    fields:
+      - label: Common Name
+        name: name
+        widget: string
+      - label: ID
+        name: id
+        widget: hidden
+      - label: Species
+        name: species
+        widget: string
+      - label: Genus
+        name: genus
+        widget: string
+      - label: Family
+        name: family
+        widget: string
+      - label: Content
+        name: body
+        minimal: true
+        widget: markdown
+        required: false
