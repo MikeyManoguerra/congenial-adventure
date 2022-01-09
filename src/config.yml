@@ -68,7 +68,7 @@ collections:
   - name: "tree"
     label: "Tree"
     extention: md
-    folder: "content/tree"
+    folder: "content/trees"
     create: true
     identifier_field: title
     fields:
@@ -114,7 +114,7 @@ collections:
   - name: "mural"
     label: "Mural"
     extention: md
-    folder: "content/mural"
+    folder: "content/murals"
     create: true
     identifier_field: title
     fields:
