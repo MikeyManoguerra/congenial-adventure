@@ -1,0 +1,76 @@
+[
+  {
+    'common': 'Tatarian Maple',
+   'latin': 'Acer tararicum',
+   'variety': None,
+    'error': KeyError('parse')
+  }, 
+  {
+    'common': 'Aurora Dogwood',
+   'latin': 'Cornus x rutban',
+   'variety': None,
+    'error': KeyError('parse')
+  }, 
+  {
+    'common': "galli var.'Inermis' --Thornless cockspur hawthorn", 'latin': 'Crataegus crus',
+   'variety': None,
+    'error': KeyError('parse')
+  }, 
+  {
+    'common': 'Japanese Snowbell',
+   'latin': 'Styrax japonicas',
+   'variety': None,
+    'error': KeyError('parse')
+  }, 
+  {
+    'common': 'Pacific Sunset Maple',
+   'latin': 'Acer truncatum x Acer platanoides',
+   'variety': "'Warrenred'", 'error': KeyError('parse')
+  }, 
+  {
+    'common': "'Harvest Gold'", 'latin': 'Malus ×',
+   'variety': "'Harvest Gold'", 'error': KeyError('parse')
+  }, 
+  {
+    'common': "'Snow' Crabapple", 'latin': 'Malus ×',
+   'variety': "'Snow'", 'error': KeyError('parse')
+  }, 
+  {
+    'common': 'Canada Red',
+   'latin': 'Prunus virginaina',
+   'variety': "'Schubert'", 'error': KeyError('parse')
+  }, 
+  {
+    'common': 'Common Chokecherry',
+   'latin': 'Chokecherry Prunus virginiana',
+   'variety': None,
+    'error': KeyError('parse')
+  }, 
+  {
+    'common': 'Tall Stewartia',
+   'latin': 'Stewartia monadelpha',
+   'variety': None,
+    'error': KeyError('parse')
+  }, 
+  {
+    'common': 'Norwegian Sunset Maple',
+   'latin': 'Acer truncatum x Acer platanoides',
+   'variety': "'Keithsform'", 'error': KeyError('parse')
+  }, 
+  {
+    'common': "'Celebration' Hybrid Maple", 'latin': 'Acer x freemani',
+   'variety': "'Celebration'", 'error': KeyError('parse')
+  }, 
+  {
+    'common': "'Scarlet Sentinel' Hybrid Maple", 'latin': 'Acer x freeemani',
+   'variety': "'Scarlet Sentinel'", 'error': KeyError('parse')
+  }, 
+  {
+    'common': "American Elm 'Valley Forge'- DED resistant tree", 'latin': 'Ulmus Americana',
+   'variety': "'Valley Forge'", 'error': KeyError('parse')
+  }, 
+  {
+    'common': 'Crimson Spire Oak',
+   'latin': 'Quercus robur x Q. alba',
+   'variety': "' Crimsmidt'", 'error': KeyError('parse')}
+  ]

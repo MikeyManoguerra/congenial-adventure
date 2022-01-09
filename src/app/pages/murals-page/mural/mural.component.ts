@@ -26,27 +26,23 @@ export class MuralComponent implements OnInit {
     map(([slug, routes]) =>
       routes.find(route => route.route === `/murals/${slug}`) as Mural
     ),
-    // share()
   );
 
   muralId$: Observable<string> = this.mural.pipe(
     map(mural => mural.id),
-    // share()
   )
 
-  trees$: Observable<any> = combineLatest([
+  trees$: Observable<Tree[]> = combineLatest([
     this.muralId$,
     this.publishedRoutes
   ]).pipe(
-    map(([id, routes]) => routes.filter(route => route.mural === id)),
-    // share()
+    map(([id, routes]) => routes.filter(route => route.mural === id) as Tree[]),
   )
 
   mapPoints$: Observable<PointOfInterest[]> = combineLatest([this.mural, this.trees$]).pipe(
     map(([mural, trees]) =>
       [{ ...mural, isPrimary: true }, ...trees].map((point: Tree | Mural) => mapPoint(point))
     ),
-    tap(x => { console.log(x); })
   );
 
   ngOnInit(): void {
