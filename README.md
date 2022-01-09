@@ -26,7 +26,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-https://www.netlify.com/blog/2020/02/24/update-on-scully-angulars-static-site-generator/
+https://www.netlify.com/blog/2020/02/24/update-on-scully-angulars-static-site-generator/\    
+// "build:prod": "ng build --prod --stats-json",
+
 ---
 
 ## todo
