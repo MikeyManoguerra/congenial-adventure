@@ -12,25 +12,13 @@ export class MuralsPageComponent implements OnInit {
 
   constructor(private scully: ScullyRoutesService) { }
 
-  murals$: Observable<Mural[]>   = this.scully.available$.pipe(
+  murals$: Observable<Mural[]> = this.scully.available$.pipe(
     map(routes =>
       routes.filter(
         route => route.route.startsWith('/murals/') && route.sourceFile?.endsWith('.md')
       ) as Mural[]
-    ),
-    share()
+    )
   );
-
-
-  ngOnInit(): void {
-    this.murals$ = this.scully.available$.pipe(
-      map(routes =>
-        routes.filter(
-          route => route.route.startsWith('/murals/') && route.sourceFile?.endsWith('.md')
-        ) as Mural[]
-      ),
-      share()
-    );
-  }
-
+  
+  ngOnInit(): void { }
 }

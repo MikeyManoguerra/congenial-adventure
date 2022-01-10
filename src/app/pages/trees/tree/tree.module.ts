@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { TreeRoutingModule } from './tree-routing.module';
 import { TreeComponent } from './tree.component';
 import { ScullyLibModule } from '@scullyio/ng-lib';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
   imports: [
     CommonModule,
     ScullyLibModule,
-    TreeRoutingModule
+    TreeRoutingModule,
+    SharedModule
   ]
 })
 export class TreeModule { }

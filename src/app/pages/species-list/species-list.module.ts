@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { SpeciesListRoutingModule } from './species-list-routing.module';
 import { SpeciesListComponent } from './species-list.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { SpeciesListComponent } from './species-list.component';
   ],
   imports: [
     CommonModule,
-    SpeciesListRoutingModule
+    SpeciesListRoutingModule,
+    SharedModule
   ]
 })
 export class SpeciesListModule { }

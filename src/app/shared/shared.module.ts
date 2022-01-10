@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { PrimaryCardComponent } from './components/primary-card/primary-card.component';
 import { ChipCardComponent } from './components/chip-card/chip-card.component';
 import { TheMapComponent } from './components/the-map/the-map.component';
+import { TheLayoutComponent } from './components/the-layout/the-layout.component';
 
 
 
@@ -10,7 +11,8 @@ import { TheMapComponent } from './components/the-map/the-map.component';
   declarations: [
     PrimaryCardComponent,
     ChipCardComponent,
-    TheMapComponent
+    TheMapComponent,
+    TheLayoutComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +20,8 @@ import { TheMapComponent } from './components/the-map/the-map.component';
   exports:[
     PrimaryCardComponent,
     ChipCardComponent,
-    TheMapComponent
+    TheMapComponent,
+    TheLayoutComponent
   ]
 })
 export class SharedModule { }

@@ -7,6 +7,7 @@ import { TheFooterComponent } from './components/the-footer/the-footer.component
 import { TheHeaderComponent } from './components/the-header/the-header.component';
 import { ScullyLibModule } from '@scullyio/ng-lib';
 import { PlaceholderComponent } from './components/placeholder/placeholder.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PlaceholderComponent } from './components/placeholder/placeholder.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ScullyLibModule
+    ScullyLibModule,
+    SharedModule
   ],
   providers: [ { provide: Window, useValue: window }],
   bootstrap: [AppComponent]

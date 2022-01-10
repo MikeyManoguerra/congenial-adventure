@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { TreesRoutingModule } from './trees-routing.module';
 import { TreesComponent } from './trees.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { TreesComponent } from './trees.component';
   ],
   imports: [
     CommonModule,
-    TreesRoutingModule
+    TreesRoutingModule,
+    SharedModule
   ]
 })
 export class TreesModule { }

@@ -1,29 +1,49 @@
 <header class="bg-yellow-500 pt-2 pb-2 ">
-  <div class="container flex justify-between ml-auto mr-auto">
-    <strong>
-      <a [routerLink]="'/'">{{ name }}</a>
-    </strong>
-    <nav class="nav">
-      <ul class="flex">
-        <li>
-          <a
-            class=""
-            [routerLink]="'/'"
-          >Home</a>
-        </li>
-        <li>
-          <a
-            class="ml-4"
-            [routerLink]="'/about/'"
-          >About</a>
-        </li>
-        <li>
-          <a
-            class="ml-4"
-            [routerLink]="'/murals/'"
-          >murals</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  <the-layout>
+    <div class="container flex justify-between ml-auto mr-auto">
+      <strong>
+        <a [routerLink]="'/'">{{ name }}</a>
+      </strong>
+      <nav class="nav">
+        <ul class="flex">
+          <li>
+            <a
+              class=""
+              [routerLink]="'/'"
+            >Home</a>
+          </li>
+          <li>
+            <a
+              class="ml-4"
+              [routerLink]="'/about/'"
+            >About</a>
+          </li>
+          <li>
+            <a
+              class="ml-4"
+              [routerLink]="'/murals/'"
+            >Murals</a>
+          </li>
+          <li>
+            <a
+              class="ml-4"
+              [routerLink]="'/species/'"
+            >Species</a>
+          </li>
+          <li>
+            <a
+              class="ml-4"
+              [routerLink]="'/species/'"
+            >Trees</a>
+          </li>
+          <li>
+            <a
+              class="ml-4"
+              [routerLink]="'/admin/'"
+            >Admin</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </the-layout>
 </header>

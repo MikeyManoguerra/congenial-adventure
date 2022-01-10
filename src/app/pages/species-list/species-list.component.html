@@ -1,1 +1,11 @@
-<p>species-list works!</p>
+<the-layout>
+  <h1>These are the speciess</h1>
+  <ul class="flex flex-col">
+    <li *ngFor="let species of (speciesList$ | async)">
+      <a
+        class="underline hover:no-underline"
+        [routerLink]="species.route"
+      >{{species.name}}</a>
+    </li>
+  </ul>
+</the-layout>

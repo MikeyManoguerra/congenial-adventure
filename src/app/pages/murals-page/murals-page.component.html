@@ -1,11 +1,11 @@
-<div class="container px-4 sm:px-0 sm:mx-auto">
+<the-layout>
   <h1>These are the murals</h1>
-  <ul class="grid gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+  <ul class="">
     <li *ngFor="let mural of (murals$ | async)">
-      <primary-card
-        [title]="mural.title"
-        [path]="mural.route"
-      ></primary-card>
+      <a
+        class="underline hover:no-underline"
+        [routerLink]="mural.route"
+      >{{mural.title}}</a>
     </li>
   </ul>
-</div>
+</the-layout>

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { AboutPageRoutingModule } from './about-page-routing.module';
 import { AboutPageComponent } from './about-page.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
@@ -10,6 +11,7 @@ import { AboutPageComponent } from './about-page.component';
     AboutPageComponent
   ],
   imports: [
+    SharedModule,
     CommonModule,
     AboutPageRoutingModule
   ]
