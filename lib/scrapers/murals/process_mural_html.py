@@ -1,0 +1,1 @@
+from process_mural_titles import title_and_slug
