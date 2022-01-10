@@ -1,5 +1,5 @@
 ---
-name: 'Sterling' Silver Linden
+name: \'Sterling\' Silver Linden
 id: 58189ecc-6257-4694-949c-85edee159e31
 species: tomentosa
 genus: Tilia

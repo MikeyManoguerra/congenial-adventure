@@ -1,5 +1,5 @@
 ---
-name: 'Redmond' American linden
+name: \'Redmond\' American linden
 id: a783074c-128d-4f9f-8d25-662255fc7852
 species: americana
 genus: Tilia

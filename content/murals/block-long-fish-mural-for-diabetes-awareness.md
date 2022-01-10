@@ -1,5 +1,5 @@
 ---
-title: "You Can Be Stronger Than Diabetes "
+title: "You Can Be Stronger Than Diabetes"
 id: 86308e87-e6d8-4c50-bebd-d45de19ebff2
 attribution: Kristin Groenveld
 publish: true

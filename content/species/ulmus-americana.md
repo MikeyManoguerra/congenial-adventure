@@ -1,5 +1,5 @@
 ---
-name: 'Delaware' American Elm
+name: \'Delaware\' American Elm
 id: 46bf6aa4-5786-43ab-87fd-0abd4c33de77
 species: americana
 genus: Ulmus

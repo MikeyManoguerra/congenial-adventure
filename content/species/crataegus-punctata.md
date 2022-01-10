@@ -1,5 +1,5 @@
 ---
-name: 'Ohio Pioneer' Hawthorn
+name: \'Ohio Pioneer\' Hawthorn
 id: 4edf6659-b073-414b-b120-81dfa32016ba
 species: punctata
 genus: Crataegus

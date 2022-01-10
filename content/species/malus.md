@@ -1,5 +1,5 @@
 ---
-name: 'Sugar Tyme' Crabapple
+name: \'Sugar Tyme\' Crabapple
 id: a8641c07-fa20-4d15-8ad1-1bfaf0c81697
 species: 
 genus: Malus
