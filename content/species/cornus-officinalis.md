@@ -17,7 +17,7 @@ Etymology
 In Korean it is known as sansuyu (산수유), in  Chinese as shān zhū yú (山茱萸) and in Japanese as sanshuyu (さんしゅゆ).
 The Latin specific epithet officinalis refers to plants which have some medicinal or culinary use - in this case the edible berries.
 Cultivation
-The plant is valued in cultivation for providing year-round interest in the garden. It is, however, quite a substantial shrub, typically growing to 8 m (26 ft) tall and broad. The cultivar 'Kintoki', with larger and more abundant flowers, has won the Royal Horticultural Society's Award of Garden Merit.
+The plant is valued in cultivation for providing year-round interest in the garden. It is, however, quite a substantial shrub, typically growing to 8 m (26 ft) tall and broad. The cultivar 'Kintoki', with larger and more abundant flowers, has won the Royal Horticultural Society's Award of Garden Merit.
 Traditional medicine
 It occurs in China, Japan and Korea where it is used as a food plant and as a medicinal plant.
 

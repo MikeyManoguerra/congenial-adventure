@@ -11,7 +11,7 @@ Summary
 
 Ulmus parvifolia, commonly known as the Chinese elm or lacebark elm, is a species native to eastern Asia, including mainland China, Taiwan, Japan, North Korea, South Korea and Vietnam. It has been described as "one of the most splendid elms, having the poise of a graceful Nothofagus".The tree was introduced to the UK in 1794 by James Main, who collected in China for Gilbert Slater of Low Layton, Essex.
 Description
-A small to medium deciduous, semi-deciduous (rarely semi-evergreen) tree growing to 10–18 m (33–59 ft) tall and 15–20 m (49–66 ft) wide with a slender trunk and crown. The leathery, lustrous green single-toothed leaves are small, 2–5 cm long by 1–3 cm broad, and often retained as late as December or even January in Europe and North America. The apetalous wind-pollinated perfect flowers are produced in early autumn, small and inconspicuous. The fruit is a samara, elliptic to ovate-elliptic, 10–13 mm long by 6–8 mm broad. The samara is mostly glabrous, the seed at the centre or toward the apex, borne on a stalk 1–3 mm in length; it matures rapidly and disperses by late autumn. The trunk has a handsome, flaking bark of mottled greys with tans and reds, giving rise to its other common name, the lacebark elm, although scarring from major branch loss can lead to large canker-like wounds. Ploidy: 2n = 28.
+A small to medium deciduous, semi-deciduous (rarely semi-evergreen) tree growing to 10–18 m (33–59 ft) tall and 15–20 m (49–66 ft) wide with a slender trunk and crown. The leathery, lustrous green single-toothed leaves are small, 2–5 cm long by 1–3 cm broad, and often retained as late as December or even January in Europe and North America. The apetalous wind-pollinated perfect flowers are produced in early autumn, small and inconspicuous. The fruit is a samara, elliptic to ovate-elliptic, 10–13 mm long by 6–8 mm broad. The samara is mostly glabrous, the seed at the centre or toward the apex, borne on a stalk 1–3 mm in length; it matures rapidly and disperses by late autumn. The trunk has a handsome, flaking bark of mottled greys with tans and reds, giving rise to its other common name, the lacebark elm, although scarring from major branch loss can lead to large canker-like wounds. Ploidy: 2n = 28.
 
 
 
@@ -30,7 +30,7 @@ The Chinese elm is highly resistant, but not immune, to Dutch elm disease. It is
 
 Cultivation
 The Chinese elm is a tough landscape tree, hardy enough for use in harsh planting situations such as parking lots, small planters along streets, and plazas or patios. The tree is arguably the most ubiquitous elm, now found on all continents except Antarctica. It was introduced to Europe at the end of the 18th century as an ornamental and is found in many botanical gardens and arboreta. It was introduced to the United States in 1794, and has proved very popular in recent years as a replacement for American elms killed by Dutch elm disease. The tree was distributed in Victoria, Australia, from 1857. At the beginning of the 20th century Searl's Garden Emporium, Sydney marketed it. In New Zealand, it was found to be particularly suitable for windswept locations along the coast. The tree is commonly planted as an ornamental in Japan, notably around Osaka Castle.
-Ulmus parvifolia is one of the cold-hardiest of the Chinese species. In artificial freezing tests at the Morton Arboretum. the LT50 (temp. at which 50% of tissues die) was found to be −34 °C (−29 °F).
+Ulmus parvifolia is one of the cold-hardiest of the Chinese species. In artificial freezing tests at the Morton Arboretum. the LT50 (temp. at which 50% of tissues die) was found to be −34 °C (−29 °F).
 
 
 
@@ -66,7 +66,7 @@ Scott Arboretum, US. Acc. nos. 62210, 71765, 71767, 71771, 75152, 64441.
 Smith College, US. Acc. no. 42894.
 U S National Arboretum, Washington, D.C., US. Acc. nos. 58000/1/2/3/4/5/6/7/8.EuropeBrighton & Hove City Council, UK. NCCPG Elm Collection.
 Cambridge Botanic Garden, University of Cambridge, UK. No accession details available.
-Dyffryn Gardens, Glamorgan. UK champion, 13 m high, 37 cm d.b.h., last surveyed 1997.
+Dyffryn Gardens, Glamorgan. UK champion, 13 m high, 37 cm d.b.h., last surveyed 1997.
 Grange Farm Arboretum, Sutton St. James, Spalding, Lincolnshire, UK. Acc. no. 516.
 Great Fontley Butterfly Conservation Elm Trials plantation, UK. One seedling planted 2019.
 Hortus Botanicus Nationalis, Salaspils, Latvia. Acc. nos. 18150, 18151.

@@ -18,7 +18,7 @@ List of hawthorn species with yellow fruitReferences
 External links
  Media related to Crataegus punctata at Wikimedia Commons
 
-Phipps, J.B.; O'Kennon, R.J.; Lance, R.W. (2003). Hawthorns and medlars. Cambridge, U.K.: Royal Horticultural Society. ISBN 0881925918.
+Phipps, J.B.; O'Kennon, R.J.; Lance, R.W. (2003). Hawthorns and medlars. Cambridge, U.K.: Royal Horticultural Society. ISBN 0881925918.
 Uses
 
 TBD

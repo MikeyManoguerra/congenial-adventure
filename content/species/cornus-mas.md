@@ -10,7 +10,7 @@ Summary
 Cornus mas, the Cornelian cherry, European cornel or Cornelian cherry dogwood, is a species of flowering plant in the dogwood family Cornaceae, native to Southern Europe and Southwestern Asia.
 
 Description
-It is a medium to large deciduous shrub or small tree growing to 5–12 m tall, with dark brown branches and greenish twigs. The leaves are opposite, 4–10 cm long and 2–4 cm broad, with an ovate to oblong shape and an entire margin. The flowers are small (5–10 mm in diameter), with four yellow petals, produced in clusters of 10–25 together in the late winter (between February and March in the UK), well before the leaves appear. The fruit is an oblong red drupe 2 cm long and 1.5 cm in diameter, containing a single seed.
+It is a medium to large deciduous shrub or small tree growing to 5–12 m tall, with dark brown branches and greenish twigs. The leaves are opposite, 4–10 cm long and 2–4 cm broad, with an ovate to oblong shape and an entire margin. The flowers are small (5–10 mm in diameter), with four yellow petals, produced in clusters of 10–25 together in the late winter (between February and March in the UK), well before the leaves appear. The fruit is an oblong red drupe 2 cm long and 1.5 cm in diameter, containing a single seed.
 
 Uses
 Fruit

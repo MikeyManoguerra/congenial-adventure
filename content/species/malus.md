@@ -13,11 +13,11 @@ Malus ( or ) is a genus of about 30–55 species of small deciduous trees or shr
 The genus is native to the temperate zone of the Northern Hemisphere.
 
 Description
-Apple trees are typically 4–12 m (13–39 ft) talI at maturity, with a dense, twiggy crown. The leaves are 3–10 cm (1.2–3.9 in) long, alternate, simple, with a serrated margin. The flowers are borne in corymbs, and have five petals, which may be white, pink, or red, and are perfect, with usually red stamens that produce copious pollen, and a half-inferior ovary; flowering occurs in the spring after 50–80 growing degree days (varying greatly according to subspecies and cultivar).
+Apple trees are typically 4–12 m (13–39 ft) talI at maturity, with a dense, twiggy crown. The leaves are 3–10 cm (1.2–3.9 in) long, alternate, simple, with a serrated margin. The flowers are borne in corymbs, and have five petals, which may be white, pink, or red, and are perfect, with usually red stamens that produce copious pollen, and a half-inferior ovary; flowering occurs in the spring after 50–80 growing degree days (varying greatly according to subspecies and cultivar).
 Many apples require cross-pollination between individuals by insects (typically bees, which freely visit the flowers for both nectar and pollen); these are called self-sterile, so self-pollination is impossible, making pollinating insects essential.
 A number of cultivars  are self-pollinating, such as 'Granny Smith' and 'Golden Delicious', but are considerably fewer in number compared to their cross-pollination dependent counterparts.
 Several Malus species, including domestic apples, hybridize freely. They are used as food plants by the larvae of a large number of Lepidoptera species; see list of Lepidoptera that feed on Malus.
-The fruit is a globose pome, varying in size from 1–4 cm (0.39–1.57 in) diameter in most of the wild species, to 6 cm (2.4 in) in M. sylvestris sieversii, 8 cm (3.1 in) in M. domestica, and even larger in certain cultivated orchard apples. The centre of the fruit contains five carpels arranged star-like, each containing one or two seeds.
+The fruit is a globose pome, varying in size from 1–4 cm (0.39–1.57 in) diameter in most of the wild species, to 6 cm (2.4 in) in M. sylvestris sieversii, 8 cm (3.1 in) in M. domestica, and even larger in certain cultivated orchard apples. The centre of the fruit contains five carpels arranged star-like, each containing one or two seeds.
 
 Subdivisions and species
 About 42 to 55 species and natural hybrids are known, with about 25 from China, of which 15 are endemic. The genus Malus is subdivided into eight sections (six, with two added in 2006 and 2008).

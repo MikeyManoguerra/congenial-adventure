@@ -11,9 +11,9 @@ Summary
 
 Quercus coccinea, the scarlet oak, is a deciduous tree in the red oak section Lobatae of the genus Quercus, in the family Fagaceae. It can be mistaken for the pin oak, the black oak, or occasionally the red oak. On the scarlet oak the sinuses between lobes are "C"-shaped in comparison to pin oak, Quercus palustris, which has U-shaped sinuses and the acorns are half covered by a deep cap.It is primarily distributed in the central and eastern United States, from southern Maine west to Wisconsin, Michigan and Missouri, and south as far as Louisiana, Alabama, and Georgia. It occurs on dry, sandy, usually acidic soils. It is often an important canopy species in oak–heath forests.
 Description
-Quercus coccinea is a medium to large deciduous tree growing to 20–30 m (66–98 ft) tall with an open, rounded crown.
-The leaves are glossy green, 7–17 cm (2.8–6.7 in) long and 8–13 cm (3.1–5.1 in) broad, with seven lobes, and deep sinuses between the lobes. Each lobe has 3–7 bristle-tipped teeth. The leaf is hairless (unlike the related pin oak (Quercus palustris), which has tufts of pale orange-brown down where the lobe veins join the central vein). The common English name is derived from the fall (autumn) coloration of the foliage, which generally becomes bright scarlet; in contrast, pin oak foliage generally turns bronze in autumn.
-The acorns are ovate, 7–13 mm broad and 17–31 mm long, a third to a half covered in a deep cup, green maturing pale brown about 18 months after pollination; the kernel is very bitter.
+Quercus coccinea is a medium to large deciduous tree growing to 20–30 m (66–98 ft) tall with an open, rounded crown.
+The leaves are glossy green, 7–17 cm (2.8–6.7 in) long and 8–13 cm (3.1–5.1 in) broad, with seven lobes, and deep sinuses between the lobes. Each lobe has 3–7 bristle-tipped teeth. The leaf is hairless (unlike the related pin oak (Quercus palustris), which has tufts of pale orange-brown down where the lobe veins join the central vein). The common English name is derived from the fall (autumn) coloration of the foliage, which generally becomes bright scarlet; in contrast, pin oak foliage generally turns bronze in autumn.
+The acorns are ovate, 7–13 mm broad and 17–31 mm long, a third to a half covered in a deep cup, green maturing pale brown about 18 months after pollination; the kernel is very bitter.
 
 
 Uses

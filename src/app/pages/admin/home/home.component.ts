@@ -37,6 +37,7 @@ export class HomeComponent implements OnInit {
 
     setTimeout(() => {
       // settimeout hack for now
+      // TODO use polling at least
       this.window.CMS.registerEventListener({
         name: 'preSave',
         handler: ({ entry }) => {

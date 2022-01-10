@@ -11,8 +11,8 @@ Summary
 
 Koelreuteria paniculata is a species of flowering plant in the family Sapindaceae, native to eastern Asia, in China and Korea. It was introduced in Europe in 1747, and to America in 1763, and has become a popular landscape tree worldwide. Common names include goldenrain tree, pride of India, China tree, and the varnish tree.
 Description
-It is a small to medium-sized deciduous tree growing to 7 m (23 ft) tall, with a broad, dome-shaped crown. The leaves are pinnate, 15–40 cm (6–16 in) long, rarely to 50 cm (20 in), with 7-15 leaflets 3–8 cm long, with a deeply serrated margin; the larger leaflets at the midpoint of the leaf are sometimes themselves pinnate but the leaves are not consistently fully bipinnate as in the related Koelreuteria bipinnata.
-The flowers are yellow, with four petals, growing in large terminal panicles 20–40 cm (8–16 in) long. The fruit is a three-part inflated bladderlike pod, 3–6 cm long and 2–4 cm broad, that is green, then ripening from orange to pink in autumn. It contains several dark brown to black seeds 5–8 mm diameter.
+It is a small to medium-sized deciduous tree growing to 7 m (23 ft) tall, with a broad, dome-shaped crown. The leaves are pinnate, 15–40 cm (6–16 in) long, rarely to 50 cm (20 in), with 7-15 leaflets 3–8 cm long, with a deeply serrated margin; the larger leaflets at the midpoint of the leaf are sometimes themselves pinnate but the leaves are not consistently fully bipinnate as in the related Koelreuteria bipinnata.
+The flowers are yellow, with four petals, growing in large terminal panicles 20–40 cm (8–16 in) long. The fruit is a three-part inflated bladderlike pod, 3–6 cm long and 2–4 cm broad, that is green, then ripening from orange to pink in autumn. It contains several dark brown to black seeds 5–8 mm diameter.
 There are two varieties:
 
 K. paniculata var. paniculata. Northern China and Korea. Leaves single-pinnate.
