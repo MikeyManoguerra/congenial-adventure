@@ -5,6 +5,7 @@ format text file into a list of python objects
 import re
 from typing import Dict, List, Tuple
 
+input('to run scraper hit "enter" to continue')
 
 class WikiError(Exception):
     pass

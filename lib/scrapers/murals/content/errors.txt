@@ -1,0 +1,104 @@
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Manayunk Towpath', 'manayunk-towpath'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Journeys South', 'journeys-south'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Open Source', 'open-source'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Room For Growth', 'room-for-growth'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Spring Arts District', 'spring-arts-district'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Goldman Properties Collaboration', 'goldman-properties-collaboration'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Rendering Justice', 'rendering-justice'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Mind Over Media', 'mind-over-media'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Industrious Light', 'industrious-light'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Southeast by Southeast (Mural Projects)', 'southeast-by-southeast-mural-projects'), 'info': None}
+
+
+PROCESS COMPLETE
+
+
+{'error': AttributeError("ResultSet object has no attribute 'get_attribute_list'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()?"), 'data': ('Start Here', 'start-here'), 'info': <ul class="artwork-info flex-contain border-bottom">
+<li class="info-item icon icon-location">
+<span class="info-label uppercase">location</span>
+<a class="f-primary bold" href="https://www.google.com/maps/place/Passyunk%20and%20Dickinson%2C%20philadlephia" target="_BLANK">Passyunk and Dickinson</a>
+</li>
+<li class="info-item icon icon-neighborhood">
+<span class="info-label uppercase">Neighborhood</span>
+<p class="f-primary bold">South Philadelphia</p>
+</li>
+<li class="info-item icon icon-calendar">
+<span class="info-label uppercase">completion date</span>
+<p class="f-primary bold">June 11, 2011</p>
+</li>
+</ul>}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Journeys South', 'journeys-south'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Southeast by Southeast (Mural Projects)', 'southeast-by-southeast-mural-projects'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Open Source', 'open-source'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Rendering Justice', 'rendering-justice'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Goldman Properties Collaboration', 'goldman-properties-collaboration'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Mind Over Media', 'mind-over-media'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Industrious Light', 'industrious-light'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Room For Growth', 'room-for-growth'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Manayunk Towpath', 'manayunk-towpath'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Spring Arts District', 'spring-arts-district'), 'info': None}
+
+
+PROCESS COMPLETE
+
+
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Southeast by Southeast (Mural Projects)', 'southeast-by-southeast-mural-projects'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Mind Over Media', 'mind-over-media'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Goldman Properties Collaboration', 'goldman-properties-collaboration'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Journeys South', 'journeys-south'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Room For Growth', 'room-for-growth'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Industrious Light', 'industrious-light'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Rendering Justice', 'rendering-justice'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Open Source', 'open-source'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Manayunk Towpath', 'manayunk-towpath'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Spring Arts District', 'spring-arts-district'), 'info': None}
+
+
+PROCESS COMPLETE
+
+
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Open Source', 'open-source'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Manayunk Towpath', 'manayunk-towpath'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Room For Growth', 'room-for-growth'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Southeast by Southeast (Mural Projects)', 'southeast-by-southeast-mural-projects'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Rendering Justice', 'rendering-justice'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Industrious Light', 'industrious-light'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Spring Arts District', 'spring-arts-district'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Mind Over Media', 'mind-over-media'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Goldman Properties Collaboration', 'goldman-properties-collaboration'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Journeys South', 'journeys-south'), 'info': None}
+
+
+PROCESS COMPLETE
+
+
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Open Source', 'open-source'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Goldman Properties Collaboration', 'goldman-properties-collaboration'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Southeast by Southeast (Mural Projects)', 'southeast-by-southeast-mural-projects'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Room For Growth', 'room-for-growth'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Rendering Justice', 'rendering-justice'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Spring Arts District', 'spring-arts-district'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Journeys South', 'journeys-south'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Mind Over Media', 'mind-over-media'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Industrious Light', 'industrious-light'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Manayunk Towpath', 'manayunk-towpath'), 'info': None}
+
+
+PROCESS COMPLETE
+
+
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Southeast by Southeast (Mural Projects)', 'southeast-by-southeast-mural-projects'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Room For Growth', 'room-for-growth'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Manayunk Towpath', 'manayunk-towpath'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Rendering Justice', 'rendering-justice'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Journeys South', 'journeys-south'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Industrious Light', 'industrious-light'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Spring Arts District', 'spring-arts-district'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Goldman Properties Collaboration', 'goldman-properties-collaboration'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Open Source', 'open-source'), 'info': None}
+{'error': AttributeError("'NoneType' object has no attribute 'find_all'"), 'data': ('Mind Over Media', 'mind-over-media'), 'info': None}
+
+
+PROCESS COMPLETE
+
+
