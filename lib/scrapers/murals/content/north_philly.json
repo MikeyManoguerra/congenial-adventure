@@ -1,0 +1,2314 @@
+[
+  {
+    "artists": [
+      "Cesar Viveros"
+    ],
+    "title": "The Sacred Now",
+    "slug": "the-sacred-now",
+    "location": {
+      "address": null,
+      "original": "1012 w. thompson street",
+      "osm": [
+        {
+          "place_id": 2372781,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 357309103,
+          "boundingbox": [
+            "39.9722931",
+            "39.9723931",
+            "-75.1535152",
+            "-75.1534152"
+          ],
+          "lat": "39.9723431",
+          "lon": "-75.1534652",
+          "display_name": "St. Malachy Catholic School, 1012, West Thompson Street, Harrison Plaza, Philadelphia, Philadelphia County, Pennsylvania, 19122, United States",
+          "class": "amenity",
+          "type": "school",
+          "importance": 0.648160971568546,
+          "icon": "https://nominatim.openstreetmap.org/ui/mapicons//education_school.p.20.png",
+          "address": {
+            "amenity": "St. Malachy Catholic School",
+            "house_number": "1012",
+            "road": "West Thompson Street",
+            "residential": "Harrison Plaza",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19122",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "November 30, 2015",
+    "related": [
+      "https://www.muralarts.org/artworks/legacy-bishop-richard-allen-m-e-church/",
+      "https://www.muralarts.org/artworks/tree-of-knowledge/",
+      "https://www.muralarts.org/artworks/voices/"
+    ],
+    "href": "https://muralarts.org/artworks/the-sacred-now/"
+  },
+  {
+    "artists": [
+      "James Burns"
+    ],
+    "title": "Personal Renaissance",
+    "slug": "personal-renaissance",
+    "location": {
+      "address": null,
+      "original": "jevs act 2, 1745 north 4th street",
+      "osm": []
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "September 01, 2010",
+    "related": [
+      "https://www.muralarts.org/artworks/sanctuary/",
+      "https://www.muralarts.org/artworks/contemplation-clarity-resilience/",
+      "https://www.muralarts.org/artworks/the-north-philadelphia-beacon-project/"
+    ],
+    "href": "https://muralarts.org/artworks/personal-renaissance/"
+  },
+  {
+    "artists": [
+      "Carlos \u201cCALO\u201d Rosa"
+    ],
+    "title": "Transformation Bridge",
+    "slug": "transformation-bridge",
+    "location": {
+      "address": null,
+      "original": "b and tusculum streets",
+      "osm": []
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "December 01, 2017",
+    "related": [
+      "https://www.muralarts.org/artworks/bloom/",
+      "https://www.muralarts.org/artworks/monumentlab/the-times/",
+      "https://www.muralarts.org/artworks/curing-community/"
+    ],
+    "href": "https://muralarts.org/artworks/transformation-bridge/"
+  },
+  {
+    "artists": [
+      "Keir Johnston",
+      "Ernel Martinez"
+    ],
+    "title": "The Color of Your Voice",
+    "slug": "the-color-of-your-voice",
+    "location": {
+      "address": null,
+      "original": "2417 ridge avenue",
+      "osm": [
+        {
+          "place_id": 288256988,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 884645745,
+          "boundingbox": [
+            "39.982094733333",
+            "39.982194733333",
+            "-75.174454333333",
+            "-75.174354333333"
+          ],
+          "lat": "39.982144733333335",
+          "lon": "-75.17440433333334",
+          "display_name": "2417, Ridge Avenue, Sharswood, Philadelphia, Philadelphia County, Pennsylvania, 19121, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.42099999999999993,
+          "address": {
+            "house_number": "2417",
+            "road": "Ridge Avenue",
+            "neighbourhood": "Sharswood",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19121",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "October 13, 2012",
+    "related": [
+      "https://www.muralarts.org/blog/mural-arts-featured-wheel-fortune/"
+    ],
+    "href": "https://muralarts.org/artworks/the-color-of-your-voice/"
+  },
+  {
+    "artists": [
+      "Kent Twitchell"
+    ],
+    "title": "Dr J.",
+    "slug": "dr-j",
+    "location": {
+      "address": null,
+      "original": "1234 ridge avenue",
+      "osm": [
+        {
+          "place_id": 288244994,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 980227100,
+          "boundingbox": [
+            "39.9623081",
+            "39.9624081",
+            "-75.15814215",
+            "-75.15804215"
+          ],
+          "lat": "39.962358099999996",
+          "lon": "-75.15809215",
+          "display_name": "1234, Ridge Avenue, Poplar, Philadelphia, Philadelphia County, Pennsylvania, 19123, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.42099999999999993,
+          "address": {
+            "house_number": "1234",
+            "road": "Ridge Avenue",
+            "neighbourhood": "Poplar",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19123",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "October 01, 1990",
+    "related": [
+      "https://www.muralarts.org/artworks/kevin-hart-live-love-laugh/",
+      "https://www.muralarts.org/artworks/common-threads/",
+      "https://www.muralarts.org/artworks/76ers-beyond-court/"
+    ],
+    "href": "https://muralarts.org/artworks/dr-j/"
+  },
+  {
+    "artists": [
+      "Cesar Viveros",
+      "Parris Stancell"
+    ],
+    "title": "Healing Walls",
+    "slug": "healing-walls",
+    "location": {
+      "address": null,
+      "original": "two locations",
+      "osm": []
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "October 15, 2004",
+    "related": [
+      "https://www.muralarts.org/artworks/a-celebration-of-poetry/",
+      "https://www.muralarts.org/artworks/family-interrupted/",
+      "https://www.muralarts.org/artworks/voices/"
+    ],
+    "href": "https://muralarts.org/artworks/healing-walls/"
+  },
+  {
+    "artists": [
+      "Kathryn Pannepacker"
+    ],
+    "title": "Nana Blankets",
+    "slug": "nana-blankets",
+    "location": {
+      "address": null,
+      "original": "diamond street between 25th & 26th streets",
+      "osm": []
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "September 09, 2014",
+    "related": [
+      "https://www.muralarts.org/artworks/a-tribute-to-urban-horsemen/",
+      "https://www.muralarts.org/artworks/frequencies/",
+      "https://www.muralarts.org/artworks/forever-home/"
+    ],
+    "href": "https://muralarts.org/artworks/nana-blankets/"
+  },
+  {
+    "artists": [
+      "Gerald A. Brown",
+      "Roberto Lugo",
+      "Isaac Scott"
+    ],
+    "title": "Stay Golden",
+    "slug": "stay-golden",
+    "location": {
+      "address": "3301  diamond",
+      "original": "33rd & diamond",
+      "osm": [
+        {
+          "place_id": 288254951,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 133518617,
+          "boundingbox": [
+            "39.988706",
+            "39.988806",
+            "-75.187161",
+            "-75.187061"
+          ],
+          "lat": "39.988756",
+          "lon": "-75.187111",
+          "display_name": "3301, West Diamond Street, Strawberry Mansion, Philadelphia, Philadelphia County, Pennsylvania, 19121, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.32100000000000006,
+          "address": {
+            "house_number": "3301",
+            "road": "West Diamond Street",
+            "neighbourhood": "Strawberry Mansion",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19121",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "July 31, 2020",
+    "related": [
+      "https://www.inquirer.com/arts/mural-photojournalism-philadelphia-stay-golden-protest-strawberry-mansion-20200729.html"
+    ],
+    "href": "https://muralarts.org/artworks/stay-golden/"
+  },
+  {
+    "artists": [
+      "SWOON"
+    ],
+    "title": "Healing Begins Through Connection",
+    "slug": "healing-begins-through-connection",
+    "location": {
+      "address": null,
+      "original": "2913 kensington avenue",
+      "osm": [
+        {
+          "place_id": 288261301,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 626575022,
+          "boundingbox": [
+            "39.99277725",
+            "39.99287725",
+            "-75.11990075",
+            "-75.11980075"
+          ],
+          "lat": "39.99282725",
+          "lon": "-75.11985075",
+          "display_name": "2913, Kensington Avenue, Philadelphia, Philadelphia County, Pennsylvania, 19134, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.42099999999999993,
+          "address": {
+            "house_number": "2913",
+            "road": "Kensington Avenue",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19134",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "October 30, 2018",
+    "related": [
+      "https://www.muralarts.org/blog/how-to-ignite-change-in-people/"
+    ],
+    "href": "https://muralarts.org/artworks/healing-begins-through-connection/"
+  },
+  {
+    "artists": [
+      "Joe Boruchow"
+    ],
+    "title": "Uptown Locomotion",
+    "slug": "uptown-locomotion",
+    "location": {
+      "address": null,
+      "original": "33rd street bridge",
+      "osm": []
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "October 28, 2015",
+    "related": [
+      "https://www.muralarts.org/artworks/psychylustro/",
+      "https://www.muralarts.org/artworks/open-source/swoon/",
+      "https://www.muralarts.org/artworks/watchtowers/"
+    ],
+    "href": "https://muralarts.org/artworks/uptown-locomotion/"
+  },
+  {
+    "artists": [
+      "David McShane"
+    ],
+    "title": "Jackie Robinson",
+    "slug": "jackie-robinson",
+    "location": {
+      "address": null,
+      "original": "2803 n. broad street",
+      "osm": [
+        {
+          "place_id": 288234005,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 588569157,
+          "boundingbox": [
+            "39.995613857143",
+            "39.995713857143",
+            "-75.154161428571",
+            "-75.154061428571"
+          ],
+          "lat": "39.99566385714286",
+          "lon": "-75.15411142857143",
+          "display_name": "2803, North Broad Street, Stanton, Philadelphia, Philadelphia County, Pennsylvania, 19132, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "2803",
+            "road": "North Broad Street",
+            "neighbourhood": "Stanton",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19132",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "January 01, 1997",
+    "related": [
+      "https://www.muralarts.org/blog/five-murals-for-free-streets/",
+      "https://www.muralarts.org/blog/revisiting-the-baseball-murals/"
+    ],
+    "href": "https://muralarts.org/artworks/jackie-robinson/"
+  },
+  {
+    "artists": [
+      "Jason Slowik"
+    ],
+    "title": "A Tribute to Urban Horsemen",
+    "slug": "a-tribute-to-urban-horsemen",
+    "location": {
+      "address": null,
+      "original": "3222 w. montgomery avenue",
+      "osm": [
+        {
+          "place_id": 288213988,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 133518775,
+          "boundingbox": [
+            "39.983866",
+            "39.983966",
+            "-75.187132",
+            "-75.187032"
+          ],
+          "lat": "39.983916",
+          "lon": "-75.187082",
+          "display_name": "3222, West Montgomery Avenue, Strawberry Mansion, Philadelphia, Philadelphia County, Pennsylvania, 19121, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "3222",
+            "road": "West Montgomery Avenue",
+            "neighbourhood": "Strawberry Mansion",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19121",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "May 01, 2005",
+    "related": [
+      "https://www.muralarts.org/artworks/nana-blankets/",
+      "https://www.muralarts.org/artworks/philly-rowing-schuylkill-timeline-and-at-the-end-of-the-race/",
+      "https://www.muralarts.org/artworks/a-celebration-of-poetry/"
+    ],
+    "href": "https://muralarts.org/artworks/a-tribute-to-urban-horsemen/"
+  },
+  {
+    "artists": [
+      "Danny Simmons",
+      "Gabe Tiberino"
+    ],
+    "title": "This Deep Desire",
+    "slug": "this-deep-desire",
+    "location": {
+      "address": null,
+      "original": "5604 north marvine street",
+      "osm": [
+        {
+          "place_id": 288217575,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 12150486,
+          "boundingbox": [
+            "40.038195081633",
+            "40.038295081633",
+            "-75.140388673469",
+            "-75.140288673469"
+          ],
+          "lat": "40.03824508163265",
+          "lon": "-75.14033867346939",
+          "display_name": "5604, North Marvine Street, Tabor, Philadelphia, Philadelphia County, Pennsylvania, 19141, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "5604",
+            "road": "North Marvine Street",
+            "neighbourhood": "Tabor",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19141",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "April 16, 2021",
+    "related": [
+      "https://www.muralarts.org/artworks/ikire-jones/",
+      "https://www.muralarts.org/artworks/heart-of-a-champion-tribute-to-smokin-joe-frazier/",
+      "https://www.muralarts.org/artworks/dreams-diaspora-and-destiny-2018/"
+    ],
+    "href": "https://muralarts.org/artworks/this-deep-desire/"
+  },
+  {
+    "artists": [
+      "Phillip Adams"
+    ],
+    "title": "Industrious Light: Brewerytown",
+    "slug": "industrious-light-brewerytown",
+    "location": {
+      "address": "3101  master streets",
+      "original": "31st and master streets",
+      "osm": []
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "August 02, 2017",
+    "related": [
+      "https://www.muralarts.org/artworks/industrious-light/industrious-light-ortleibs-brewery/",
+      "https://www.muralarts.org/artworks/industrious-light/industrious-light-main-belting-company/",
+      "https://www.muralarts.org/artworks/industrious-light/industrious-light-rowhouse-spirits/"
+    ],
+    "href": "https://muralarts.org/artworks/industrious-light-brewerytown/"
+  },
+  {
+    "artists": [
+      "Ernel Martinez",
+      "Keir Johnston"
+    ],
+    "title": "La Frontera",
+    "slug": "la-frontera",
+    "location": {
+      "address": null,
+      "original": "2200 north 8th st.",
+      "osm": [
+        {
+          "place_id": 288268208,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 867226280,
+          "boundingbox": [
+            "39.985148",
+            "39.985248",
+            "-75.146911",
+            "-75.146811"
+          ],
+          "lat": "39.985198",
+          "lon": "-75.146861",
+          "display_name": "2200, North 8th Street, Hartranft, Philadelphia, Philadelphia County, Pennsylvania, 19133, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "2200",
+            "road": "North 8th Street",
+            "neighbourhood": "Hartranft",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19133",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "November 01, 2015",
+    "related": [
+      "https://www.muralarts.org/artworks/open-source/steps-and-pyramid/",
+      "https://www.muralarts.org/artworks/open-source/waste-transfer-station/",
+      "https://www.muralarts.org/artworks/open-source/still-life-with-flower/"
+    ],
+    "href": "https://muralarts.org/artworks/la-frontera/"
+  },
+  {
+    "artists": [
+      "Chip Thomas aka Jetsonorama",
+      "Ursula Rucker"
+    ],
+    "title": "You Go Girl",
+    "slug": "you-go-girl",
+    "location": {
+      "address": null,
+      "original": "1531 ridge avenue.",
+      "osm": [
+        {
+          "place_id": 288207634,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 49960969,
+          "boundingbox": [
+            "39.96848855102",
+            "39.96858855102",
+            "-75.162498204082",
+            "-75.162398204082"
+          ],
+          "lat": "39.96853855102041",
+          "lon": "-75.16244820408164",
+          "display_name": "1531, Ridge Avenue, Francisville, Philadelphia, Philadelphia County, Pennsylvania, 19130, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.42099999999999993,
+          "address": {
+            "house_number": "1531",
+            "road": "Ridge Avenue",
+            "neighbourhood": "Francisville",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19130",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "June 06, 2014",
+    "related": [
+      "https://www.muralarts.org/blog/stellar-mural-arts-month-soars-awesome-events/"
+    ],
+    "href": "https://muralarts.org/artworks/you-go-girl/"
+  },
+  {
+    "artists": [
+      "Parris Stancell"
+    ],
+    "title": "A Celebration of Poetry",
+    "slug": "a-celebration-of-poetry",
+    "location": {
+      "address": null,
+      "original": "1531 west girard ave.",
+      "osm": [
+        {
+          "place_id": 288266316,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 192995604,
+          "boundingbox": [
+            "39.971781755102",
+            "39.971881755102",
+            "-75.161700632653",
+            "-75.161600632653"
+          ],
+          "lat": "39.97183175510204",
+          "lon": "-75.16165063265306",
+          "display_name": "1531, West Girard Avenue, North Central, Philadelphia, Philadelphia County, Pennsylvania, 19130, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "1531",
+            "road": "West Girard Avenue",
+            "neighbourhood": "North Central",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19130",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "October 01, 2004",
+    "related": [
+      "https://www.muralarts.org/artworks/a-tribute-to-urban-horsemen/",
+      "https://www.muralarts.org/artworks/healing-walls/",
+      "https://www.muralarts.org/artworks/we-the-youth/"
+    ],
+    "href": "https://muralarts.org/artworks/a-celebration-of-poetry/"
+  },
+  {
+    "artists": [
+      "Gabe Tiberino",
+      "DISTORT"
+    ],
+    "title": "Reaching Out",
+    "slug": "reaching-out",
+    "location": {
+      "address": null,
+      "original": "3221 kensington avenue",
+      "osm": [
+        {
+          "place_id": 288211096,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 588346514,
+          "boundingbox": [
+            "39.9968261",
+            "39.9969261",
+            "-75.1125368",
+            "-75.1124368"
+          ],
+          "lat": "39.996876099999994",
+          "lon": "-75.1124868",
+          "display_name": "3221, Kensington Avenue, Tioga Park, Philadelphia, Philadelphia County, Pennsylvania, 19134, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "3221",
+            "road": "Kensington Avenue",
+            "neighbourhood": "Tioga Park",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19134",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "November 16, 2021",
+    "related": [
+      "https://www.muralarts.org/blog/new-kensington-storefront-hub-location/"
+    ],
+    "href": "https://muralarts.org/artworks/reaching-out/"
+  },
+  {
+    "artists": [
+      "Derrick Adams"
+    ],
+    "title": "Your Own Channel",
+    "slug": "your-own-channel",
+    "location": {
+      "address": "601  norris streets",
+      "original": "6th and norris streets",
+      "osm": []
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "May 01, 2017",
+    "related": [
+      "https://www.muralarts.org/artworks/all-the-way-live-from-the-215/",
+      "https://www.muralarts.org/artworks/mind-over-media/",
+      "https://www.muralarts.org/artworks/open-source/shine-space/"
+    ],
+    "href": "https://muralarts.org/artworks/your-own-channel/"
+  },
+  {
+    "artists": [
+      "Stephanie Diamond"
+    ],
+    "title": "Time Capsules for our Grandchildren",
+    "slug": "time-capsules-for-our-grandchildren",
+    "location": {
+      "address": null,
+      "original": "tyler school of art",
+      "osm": [
+        {
+          "place_id": 145499793,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 183996820,
+          "boundingbox": [
+            "39.9829076",
+            "39.9841685",
+            "-75.1540458",
+            "-75.1530282"
+          ],
+          "lat": "39.9835808",
+          "lon": "-75.15336221016943",
+          "display_name": "Tyler School of Art, North 12th Street, Yorktown, Philadelphia, Philadelphia County, Pennsylvania, 19133, United States",
+          "class": "amenity",
+          "type": "university",
+          "importance": 0.8583764706069639,
+          "icon": "https://nominatim.openstreetmap.org/ui/mapicons//education_university.p.20.png",
+          "address": {
+            "amenity": "Tyler School of Art",
+            "road": "North 12th Street",
+            "neighbourhood": "Yorktown",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19133",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "June 06, 2013",
+    "related": [
+      "https://www.muralarts.org/artworks/inputoutput-photography-as-exchange/chalk-talk/",
+      "https://www.muralarts.org/artworks/inputoutput-photography-as-exchange/",
+      "https://www.muralarts.org/artworks/inputoutput-photography-as-exchange/you-go-girl/"
+    ],
+    "href": "https://muralarts.org/artworks/time-capsules-for-our-grandchildren/"
+  },
+  {
+    "artists": [
+      "Trapeta B. Mayson"
+    ],
+    "title": "Our Story of Us",
+    "slug": "our-story-of-us",
+    "location": {
+      "address": null,
+      "original": "2400 kensington avenue",
+      "osm": [
+        {
+          "place_id": 288227493,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 12207364,
+          "boundingbox": [
+            "39.98671",
+            "39.98681",
+            "-75.131335",
+            "-75.131235"
+          ],
+          "lat": "39.98676",
+          "lon": "-75.131285",
+          "display_name": "2400, Kensington Avenue, Kensington, Philadelphia, Philadelphia County, Pennsylvania, 19125, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.42099999999999993,
+          "address": {
+            "house_number": "2400",
+            "road": "Kensington Avenue",
+            "neighbourhood": "Kensington",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19125",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "December 15, 2021",
+    "related": [
+      "https://www.muralarts.org/artworks/we-still-here/",
+      "https://www.muralarts.org/artworks/14-movements-symphony-color-words/",
+      "https://www.muralarts.org/artworks/peace-haiku-song/"
+    ],
+    "href": "https://muralarts.org/artworks/our-story-of-us/"
+  },
+  {
+    "artists": [
+      "Phillip Adams"
+    ],
+    "title": "Still Life",
+    "slug": "still-life",
+    "location": {
+      "address": null,
+      "original": "dover and thompson streets",
+      "osm": []
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "November 13, 2018",
+    "related": [
+      "https://www.muralarts.org/artworks/industrious-light/",
+      "https://www.muralarts.org/artworks/imagining-justice/",
+      "https://www.muralarts.org/artworks/water-gives-life/"
+    ],
+    "href": "https://muralarts.org/artworks/still-life/"
+  },
+  {
+    "artists": [
+      "Phillip Adams"
+    ],
+    "title": "Industrious Light: Rowhouse Spirits",
+    "slug": "industrious-light-rowhouse-spirits",
+    "location": {
+      "address": null,
+      "original": "2430 frankford avenue",
+      "osm": [
+        {
+          "place_id": 46179431,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 3915645892,
+          "boundingbox": [
+            "39.9822873",
+            "39.9823873",
+            "-75.1272257",
+            "-75.1271257"
+          ],
+          "lat": "39.9823373",
+          "lon": "-75.1271757",
+          "display_name": "Rowhouse Spirits, 2430, Frankford Avenue, Kensington, Philadelphia, Philadelphia County, Pennsylvania, 19125, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.42099999999999993,
+          "address": {
+            "place": "Rowhouse Spirits",
+            "house_number": "2430",
+            "road": "Frankford Avenue",
+            "neighbourhood": "Kensington",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19125",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "November 06, 2015",
+    "related": [
+      "https://www.muralarts.org/blog/light-creativity-interview-phillip-adams/"
+    ],
+    "href": "https://muralarts.org/artworks/industrious-light-rowhouse-spirits/"
+  },
+  {
+    "artists": [
+      "Roberto Lugo"
+    ],
+    "title": "The Talented Mr. Trotter: You Can Be Anything",
+    "slug": "the-talented-mr-trotter-you-can-be-anything",
+    "location": {
+      "address": null,
+      "original": "olde kensington",
+      "osm": [
+        {
+          "place_id": 402396,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 158487726,
+          "boundingbox": [
+            "39.9590016",
+            "39.9790016",
+            "-75.1532323",
+            "-75.1332323"
+          ],
+          "lat": "39.9690016",
+          "lon": "-75.1432323",
+          "display_name": "Olde Kensington, Philadelphia, Philadelphia County, Pennsylvania, 19123, United States",
+          "class": "place",
+          "type": "neighbourhood",
+          "importance": 0.6482964020691847,
+          "address": {
+            "neighbourhood": "Olde Kensington",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19123",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "September 20, 2022",
+    "related": [
+      "https://www.muralarts.org/artworks/legendary/"
+    ],
+    "href": "https://muralarts.org/artworks/the-talented-mr-trotter-you-can-be-anything/"
+  },
+  {
+    "artists": [
+      "Danny Torres"
+    ],
+    "title": "Latinx Heroes",
+    "slug": "latinx-heroes",
+    "location": {
+      "address": null,
+      "original": "julia de burgos elementary school",
+      "osm": [
+        {
+          "place_id": 218732871,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 555949206,
+          "boundingbox": [
+            "39.9920043",
+            "39.9934721",
+            "-75.1391675",
+            "-75.1380964"
+          ],
+          "lat": "39.9928798",
+          "lon": "-75.13860216325847",
+          "display_name": "Julia de Burgos Elementary School, 401, West Lehigh Avenue, West Kensington, Philadelphia, Philadelphia County, Pennsylvania, 19133, United States",
+          "class": "amenity",
+          "type": "school",
+          "importance": 0.611,
+          "icon": "https://nominatim.openstreetmap.org/ui/mapicons//education_school.p.20.png",
+          "address": {
+            "amenity": "Julia de Burgos Elementary School",
+            "house_number": "401",
+            "road": "West Lehigh Avenue",
+            "neighbourhood": "West Kensington",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19133",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "September 29, 2017",
+    "related": [
+      "https://www.muralarts.org/artworks/butterflies-of-the-caribbean/",
+      "https://www.muralarts.org/artworks/open-source/la-frontera/",
+      "https://www.muralarts.org/artworks/philly-painting/"
+    ],
+    "href": "https://muralarts.org/artworks/latinx-heroes/"
+  },
+  {
+    "artists": [
+      "Haas & Hahn"
+    ],
+    "title": "Philly Painting",
+    "slug": "philly-painting",
+    "location": {
+      "address": null,
+      "original": "2500-2800 germantown ave.",
+      "osm": []
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "December 15, 2012",
+    "related": [
+      "http://tmagazine.blogs.nytimes.com/2012/05/21/urban-bright-philly-gets-a-paint-job/?_r=0",
+      "https://www.muralarts.org/blog/practicing-vibrancy-among-vacancy/"
+    ],
+    "href": "https://muralarts.org/artworks/philly-painting/"
+  },
+  {
+    "artists": [
+      "Jess X Snow",
+      "Frisly Soberanis"
+    ],
+    "title": "The Future Is Worth The Fight, Just Hold On & You Will See",
+    "slug": "the-future-is-worth-the-fight-just-hold-on-you-will-see",
+    "location": {
+      "address": null,
+      "original": "3404 kensington avenue",
+      "osm": [
+        {
+          "place_id": 288241836,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 273288969,
+          "boundingbox": [
+            "39.999193",
+            "39.999293",
+            "-75.108579",
+            "-75.108479"
+          ],
+          "lat": "39.999243",
+          "lon": "-75.108529",
+          "display_name": "3404, Kensington Avenue, Tioga Park, Philadelphia, Philadelphia County, Pennsylvania, 19134, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "3404",
+            "road": "Kensington Avenue",
+            "neighbourhood": "Tioga Park",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19134",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "November 04, 2021",
+    "related": [
+      "https://www.muralarts.org/artworks/the-trust-project/",
+      "https://www.muralarts.org/artworks/we-the-people/",
+      "https://www.muralarts.org/artworks/healing-begins-through-connection/"
+    ],
+    "href": "https://muralarts.org/artworks/the-future-is-worth-the-fight-just-hold-on-you-will-see/"
+  },
+  {
+    "artists": [
+      "Jonathan Laidacker"
+    ],
+    "title": "Philly Rowing (Schuylkill Timeline and At the End of the Race)",
+    "slug": "philly-rowing-schuylkill-timeline-and-at-the-end-of-the-race",
+    "location": {
+      "address": null,
+      "original": "girard avenue bridge (beneath east and west banks)",
+      "osm": []
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "August 01, 2014",
+    "related": [
+      "https://www.muralarts.org/artworks/artbartrams/",
+      "https://www.muralarts.org/artworks/a-tribute-to-urban-horsemen/",
+      "https://www.muralarts.org/artworks/the-phillies-mural/"
+    ],
+    "href": "https://muralarts.org/artworks/philly-rowing-schuylkill-timeline-and-at-the-end-of-the-race/"
+  },
+  {
+    "artists": [
+      "Shepard Fairey"
+    ],
+    "title": "Lotus Diamond",
+    "slug": "lotus-diamond",
+    "location": {
+      "address": null,
+      "original": "1228 frankford avenue",
+      "osm": [
+        {
+          "place_id": 288221874,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 626091328,
+          "boundingbox": [
+            "39.969381638298",
+            "39.969481638298",
+            "-75.134588021277",
+            "-75.134488021277"
+          ],
+          "lat": "39.96943163829787",
+          "lon": "-75.1345380212766",
+          "display_name": "1228, Frankford Avenue, Fishtown, Philadelphia, Philadelphia County, Pennsylvania, 19125, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.42099999999999993,
+          "address": {
+            "house_number": "1228",
+            "road": "Frankford Avenue",
+            "neighbourhood": "Fishtown",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19125",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "August 08, 2014",
+    "related": [
+      "https://www.muralarts.org/artworks/welcome-to-the-neighborhood/",
+      "https://www.muralarts.org/artworks/open-source/the-stamp-of-incarceration/",
+      "https://www.muralarts.org/artworks/open-source/"
+    ],
+    "href": "https://muralarts.org/artworks/lotus-diamond/"
+  },
+  {
+    "artists": [
+      "Abdul Karim Awad",
+      "Paul Santoleri"
+    ],
+    "title": "Light of the Northeast",
+    "slug": "light-of-the-northeast",
+    "location": {
+      "address": null,
+      "original": "6826 bustleton avenue",
+      "osm": [
+        {
+          "place_id": 288236008,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 608318925,
+          "boundingbox": [
+            "40.040961",
+            "40.041061",
+            "-75.065193",
+            "-75.065093"
+          ],
+          "lat": "40.041011",
+          "lon": "-75.065143",
+          "display_name": "6826, Bustleton Avenue, Philadelphia, Philadelphia County, Pennsylvania, 19149, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.42099999999999993,
+          "address": {
+            "house_number": "6826",
+            "road": "Bustleton Avenue",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19149",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Near Northeast Philadelphia",
+    "completion": "November 24, 2020",
+    "related": [
+      "https://northeasttimes.com/2020/11/25/new-oxford-circle-mural-incites-liberty-unity/"
+    ],
+    "href": "https://muralarts.org/artworks/light-of-the-northeast/"
+  },
+  {
+    "artists": [
+      "Creative Resilience Collective"
+    ],
+    "title": "The Trust Project",
+    "slug": "the-trust-project",
+    "location": {
+      "address": null,
+      "original": "harrowgate park",
+      "osm": [
+        {
+          "place_id": 181275832,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 334272264,
+          "boundingbox": [
+            "39.9983471",
+            "40.0001881",
+            "-75.1074578",
+            "-75.1052959"
+          ],
+          "lat": "39.9992729",
+          "lon": "-75.10639227105543",
+          "display_name": "Harrowgate Park, Tioga Park, Philadelphia, Philadelphia County, Pennsylvania, United States",
+          "class": "leisure",
+          "type": "park",
+          "importance": 0.56,
+          "address": {
+            "leisure": "Harrowgate Park",
+            "neighbourhood": "Tioga Park",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "June 01, 2021",
+    "related": [],
+    "href": "https://muralarts.org/artworks/the-trust-project/"
+  },
+  {
+    "artists": [
+      "Willis \u201cNomo\u201d Humphrey",
+      "Jonny Buss"
+    ],
+    "title": "Staircases and Mountaintops: Ascending Beyond the Dream",
+    "slug": "staircases-and-mountaintops-ascending-beyond-the-dream",
+    "location": {
+      "address": null,
+      "original": "martin luther king, jr. recreation center",
+      "osm": []
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "October 23, 2014",
+    "related": [
+      "https://www.muralarts.org/blog/10-murals-propose-front/",
+      "https://www.muralarts.org/blog/remembering-an-icon-willis-nomo-humphrey/"
+    ],
+    "href": "https://muralarts.org/artworks/staircases-and-mountaintops-ascending-beyond-the-dream/"
+  },
+  {
+    "artists": [
+      "Ricky Lee Gordon (aka Freddy Sam)"
+    ],
+    "title": "Together Moving Mountains",
+    "slug": "together-moving-mountains",
+    "location": {
+      "address": null,
+      "original": "161 west cecil b. moore ave",
+      "osm": []
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "August 05, 2013",
+    "related": [
+      "https://www.muralarts.org/artworks/all-the-way-live-from-the-215/",
+      "https://www.muralarts.org/artworks/inputoutput-photography-as-exchange/chalk-talk/",
+      "https://www.muralarts.org/artworks/we-are-all-neurons/"
+    ],
+    "href": "https://muralarts.org/artworks/together-moving-mountains/"
+  },
+  {
+    "artists": [
+      "Nathaniel Lee",
+      "Jesse Gardner"
+    ],
+    "title": "Tribute to Batallion Chief Michael Goodwin",
+    "slug": "tribute-to-batallion-chief-michael-goodwin",
+    "location": {
+      "address": null,
+      "original": "2601 belgrade street",
+      "osm": [
+        {
+          "place_id": 288252567,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 205683963,
+          "boundingbox": [
+            "39.97882",
+            "39.97892",
+            "-75.118468",
+            "-75.118368"
+          ],
+          "lat": "39.97887",
+          "lon": "-75.118418",
+          "display_name": "2601, Belgrade Street, Philadelphia, Philadelphia County, Pennsylvania, 19125, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.42099999999999993,
+          "address": {
+            "house_number": "2601",
+            "road": "Belgrade Street",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19125",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "November 14, 2015",
+    "related": [
+      "https://www.muralarts.org/artworks/tribute-to-lt-robert-neary-ff-daniel-sweeney/",
+      "https://www.muralarts.org/artworks/a-tribute-to-gloria-casarez/",
+      "https://www.muralarts.org/artworks/tribute-to-herman-wrice/"
+    ],
+    "href": "https://muralarts.org/artworks/tribute-to-batallion-chief-michael-goodwin/"
+  },
+  {
+    "artists": [
+      "James Burns"
+    ],
+    "title": "The North Philadelphia Beacon Project",
+    "slug": "the-north-philadelphia-beacon-project",
+    "location": {
+      "address": null,
+      "original": "2701 north broad street.",
+      "osm": [
+        {
+          "place_id": 288259045,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 588569157,
+          "boundingbox": [
+            "39.993997",
+            "39.994097",
+            "-75.154507",
+            "-75.154407"
+          ],
+          "lat": "39.994047",
+          "lon": "-75.154457",
+          "display_name": "2701, North Broad Street, Stanton, Philadelphia, Philadelphia County, Pennsylvania, 19132, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "2701",
+            "road": "North Broad Street",
+            "neighbourhood": "Stanton",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19132",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "October 25, 2013",
+    "related": [
+      "https://www.muralarts.org/blog/mural-arts-featured-cbs-sunday-morning/",
+      "https://www.muralarts.org/blog/five-murals-for-free-streets/"
+    ],
+    "href": "https://muralarts.org/artworks/the-north-philadelphia-beacon-project/"
+  },
+  {
+    "artists": [
+      "Dennis McNett"
+    ],
+    "title": "Offering of the Wolfbat",
+    "slug": "offering-of-the-wolfbat",
+    "location": {
+      "address": null,
+      "original": "mobile project",
+      "osm": []
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "May 08, 2014",
+    "related": [
+      "https://www.muralarts.org/artworks/all-the-way-live-from-the-215/",
+      "https://www.muralarts.org/artworks/inputoutput-photography-as-exchange/chalk-talk/",
+      "https://www.muralarts.org/artworks/goldman-properties-collaboration/"
+    ],
+    "href": "https://muralarts.org/artworks/offering-of-the-wolfbat/"
+  },
+  {
+    "artists": [
+      "Marion Wilson",
+      "Eurhi Jones"
+    ],
+    "title": "Uprooted/reRooted",
+    "slug": "uprooted-rerooted",
+    "location": {
+      "address": null,
+      "original": "cramp elementary school",
+      "osm": [
+        {
+          "place_id": 252565918,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 773615751,
+          "boundingbox": [
+            "40.0018447",
+            "40.0033118",
+            "-75.1305085",
+            "-75.1294548"
+          ],
+          "lat": "40.0026298",
+          "lon": "-75.12997156711305",
+          "display_name": "William Cramp Elementary School, West Tioga Street, Chopersville, Philadelphia, Philadelphia County, Pennsylvania, 19140, United States",
+          "class": "amenity",
+          "type": "school",
+          "importance": 0.411,
+          "icon": "https://nominatim.openstreetmap.org/ui/mapicons//education_school.p.20.png",
+          "address": {
+            "amenity": "William Cramp Elementary School",
+            "road": "West Tioga Street",
+            "neighbourhood": "Chopersville",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19140",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "October 23, 2019",
+    "related": [
+      "https://www.muralarts.org/blog/how-to-ignite-change-in-places/",
+      "https://www.muralarts.org/blog/how-to-plant-seeds-in-a-community-garden/"
+    ],
+    "href": "https://muralarts.org/artworks/uprooted-rerooted/"
+  },
+  {
+    "artists": [
+      "Ian Pierce (Artes Ekeko)"
+    ],
+    "title": "Families Belong Together",
+    "slug": "families-belong-together",
+    "location": {
+      "address": null,
+      "original": "2536 n front st",
+      "osm": [
+        {
+          "place_id": 288269330,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 63060429,
+          "boundingbox": [
+            "39.988344285714",
+            "39.988444285714",
+            "-75.131589285714",
+            "-75.131489285714"
+          ],
+          "lat": "39.988394285714286",
+          "lon": "-75.13153928571428",
+          "display_name": "2536, North Front Street, Kensington, Philadelphia, Philadelphia County, Pennsylvania, 19133, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "2536",
+            "road": "North Front Street",
+            "neighbourhood": "Kensington",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19133",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "July 16, 2018",
+    "related": [
+      "https://www.muralarts.org/artworks/open-source/familias-separadas-2/",
+      "https://www.muralarts.org/artworks/monumentlab/monument-new-immigrants/",
+      "https://www.muralarts.org/artworks/we-the-people/"
+    ],
+    "href": "https://muralarts.org/artworks/families-belong-together/"
+  },
+  {
+    "artists": [
+      "Chris Stain"
+    ],
+    "title": "All the Way Live from the 215",
+    "slug": "all-the-way-live-from-the-215",
+    "location": {
+      "address": null,
+      "original": "200 west norris street",
+      "osm": [
+        {
+          "place_id": 288250328,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 12157102,
+          "boundingbox": [
+            "39.980616",
+            "39.980716",
+            "-75.137988",
+            "-75.137888"
+          ],
+          "lat": "39.980666",
+          "lon": "-75.137938",
+          "display_name": "200, West Norris Street, West Kensington, Philadelphia, Philadelphia County, Pennsylvania, 19122, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "200",
+            "road": "West Norris Street",
+            "neighbourhood": "West Kensington",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19122",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "August 04, 2014",
+    "related": [
+      "https://www.muralarts.org/blog/meet-mural-arts-student-giovanni/"
+    ],
+    "href": "https://muralarts.org/artworks/all-the-way-live-from-the-215/"
+  },
+  {
+    "artists": [
+      "Jonathan Laidacker"
+    ],
+    "title": "Philly Rowing, 2018",
+    "slug": "philly-rowing-2018",
+    "location": {
+      "address": null,
+      "original": "girard avenue bridge (beneath east and west banks)",
+      "osm": []
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "May 01, 2019",
+    "related": [
+      "https://www.muralarts.org/artworks/philly-rowing-schuylkill-timeline-and-at-the-end-of-the-race/",
+      "https://www.muralarts.org/artworks/artbartrams/",
+      "https://www.muralarts.org/artworks/5th-street-tunnels/"
+    ],
+    "href": "https://muralarts.org/artworks/philly-rowing-2018/"
+  },
+  {
+    "artists": [
+      "Jeffro Kilpatrick",
+      "Brad Carney"
+    ],
+    "title": "Welcome to the Neighborhood",
+    "slug": "welcome-to-the-neighborhood",
+    "location": {
+      "address": null,
+      "original": "ac auto repairs",
+      "osm": []
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "May 21, 2016",
+    "related": [
+      "https://www.muralarts.org/artworks/all-the-way-live-from-the-215/",
+      "https://www.muralarts.org/artworks/lotus-diamond/",
+      "https://www.muralarts.org/artworks/open-source/swoon/"
+    ],
+    "href": "https://muralarts.org/artworks/welcome-to-the-neighborhood/"
+  },
+  {
+    "artists": [
+      "Shinique Smith"
+    ],
+    "title": "Shine Space",
+    "slug": "shine-space",
+    "location": {
+      "address": "801  diamond playground",
+      "original": "8th and diamond playground",
+      "osm": []
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "November 01, 2015",
+    "related": [
+      "https://www.muralarts.org/artworks/open-source/norris/",
+      "https://www.muralarts.org/artworks/open-source/migrants-ibrahim-mingora-philadelphia/",
+      "https://www.muralarts.org/artworks/open-source/still-life-with-flower/"
+    ],
+    "href": "https://muralarts.org/artworks/shine-space/"
+  },
+  {
+    "artists": [
+      "Cesar Viveros"
+    ],
+    "title": "Curing Community",
+    "slug": "curing-community",
+    "location": {
+      "address": null,
+      "original": "101 west lehigh avenue",
+      "osm": [
+        {
+          "place_id": 224608092,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 601734019,
+          "boundingbox": [
+            "39.9910728",
+            "39.9914395",
+            "-75.1313626",
+            "-75.1309018"
+          ],
+          "lat": "39.991258450000004",
+          "lon": "-75.13113260917235",
+          "display_name": "Liberty, 101, West Lehigh Avenue, Kensington, Philadelphia, Philadelphia County, Pennsylvania, 19133, United States",
+          "class": "amenity",
+          "type": "fuel",
+          "importance": 0.5209999999999999,
+          "icon": "https://nominatim.openstreetmap.org/ui/mapicons//transport_fuel.p.20.png",
+          "address": {
+            "amenity": "Liberty",
+            "house_number": "101",
+            "road": "West Lehigh Avenue",
+            "neighbourhood": "Kensington",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19133",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "November 01, 2017",
+    "related": [
+      "https://www.muralarts.org/artworks/monumentlab/the-times/",
+      "https://www.muralarts.org/artworks/why-we-love-coltrane/",
+      "https://www.muralarts.org/artworks/the-sacred-now/"
+    ],
+    "href": "https://muralarts.org/artworks/curing-community/"
+  },
+  {
+    "artists": [
+      "Ernel Martinez"
+    ],
+    "title": "Heart of a Champion: Tribute to Smokin\u2019 Joe Frazier",
+    "slug": "heart-of-a-champion-tribute-to-smokin-joe-frazier",
+    "location": {
+      "address": null,
+      "original": "1302 w. allegheny ave.",
+      "osm": [
+        {
+          "place_id": 288258886,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 12203312,
+          "boundingbox": [
+            "40.001207727273",
+            "40.001307727273",
+            "-75.150992272727",
+            "-75.150892272727"
+          ],
+          "lat": "40.00125772727273",
+          "lon": "-75.15094227272726",
+          "display_name": "1302, West Allegheny Avenue, Philadelphia, Philadelphia County, Pennsylvania, 19132, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "1302",
+            "road": "West Allegheny Avenue",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19132",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "October 01, 2020",
+    "related": [
+      "https://www.phillytrib.com/sports/mural-arts-philadelphia-family-and-friends-honor-legacy-of-joe-frazier-with-mural/article_0895dcd7-570e-5851-8441-2c4b975443f0.html",
+      "https://www.muralarts.org/blog/heart-of-a-champion-snags-best-of-philly-award/"
+    ],
+    "href": "https://muralarts.org/artworks/heart-of-a-champion-tribute-to-smokin-joe-frazier/"
+  },
+  {
+    "artists": [
+      "Katharina Grosse"
+    ],
+    "title": "psychylustro",
+    "slug": "psychylustro",
+    "location": {
+      "address": null,
+      "original": "northeast rail corridor between 30th street station and north philadelphia station",
+      "osm": []
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "October 01, 2015",
+    "related": [
+      "https://www.muralarts.org/blog/playgrounds-for-useful-knowledge-nominated-for-national-award/"
+    ],
+    "href": "https://muralarts.org/artworks/psychylustro/"
+  },
+  {
+    "artists": [
+      "SWOON"
+    ],
+    "title": "SWOON",
+    "slug": "swoon",
+    "location": {
+      "address": null,
+      "original": "3060 west jefferson street",
+      "osm": [
+        {
+          "place_id": 256945467,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 803449707,
+          "boundingbox": [
+            "39.9787431",
+            "39.9792945",
+            "-75.18575",
+            "-75.1851717"
+          ],
+          "lat": "39.9790592",
+          "lon": "-75.18548578647591",
+          "display_name": "Atelier Fine Art Services, 3060, West Jefferson Street, Sharswood Townhouses II, Philadelphia, Philadelphia County, Pennsylvania, 19121, United States",
+          "class": "office",
+          "type": "yes",
+          "importance": 0.5209999999999999,
+          "address": {
+            "office": "Atelier Fine Art Services",
+            "house_number": "3060",
+            "road": "West Jefferson Street",
+            "residential": "Sharswood Townhouses II",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19121",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "November 01, 2015",
+    "related": [
+      "https://www.muralarts.org/blog/barra-foundation-talks-open-source/",
+      "https://www.muralarts.org/blog/a-trauma-informed-mothers-day-in-kensington/"
+    ],
+    "href": "https://muralarts.org/artworks/swoon/"
+  },
+  {
+    "artists": [
+      "Benjamin Volta"
+    ],
+    "title": "Frequencies",
+    "slug": "frequencies",
+    "location": {
+      "address": null,
+      "original": "3812 old york road",
+      "osm": [
+        {
+          "place_id": 288250827,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 62148417,
+          "boundingbox": [
+            "40.010615367347",
+            "40.010715367347",
+            "-75.147467918367",
+            "-75.147367918367"
+          ],
+          "lat": "40.01066536734694",
+          "lon": "-75.14741791836734",
+          "display_name": "3812, Old York Road, Hunting Park, Philadelphia, Philadelphia County, Pennsylvania, 19140, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.621,
+          "address": {
+            "house_number": "3812",
+            "road": "Old York Road",
+            "neighbourhood": "Hunting Park",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19140",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "September 06, 2015",
+    "related": [
+      "https://www.muralarts.org/blog/zymir-found-job-mentor-family/"
+    ],
+    "href": "https://muralarts.org/artworks/frequencies/"
+  },
+  {
+    "artists": [
+      "Beverly Fisher",
+      "Eric Gibbs",
+      "Michael Reali",
+      "Christina D\u2019Abrosio"
+    ],
+    "title": "Norris Passage",
+    "slug": "norris-passage",
+    "location": {
+      "address": null,
+      "original": "norris street between front street and frankford avenue",
+      "osm": []
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "October 01, 2009",
+    "related": [],
+    "href": "https://muralarts.org/artworks/norris-passage/"
+  },
+  {
+    "artists": [
+      "Eric Okdeh"
+    ],
+    "title": "Family Interrupted",
+    "slug": "family-interrupted",
+    "location": {
+      "address": null,
+      "original": "709 west dauphin street",
+      "osm": [
+        {
+          "place_id": 288268206,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 685724211,
+          "boundingbox": [
+            "39.986624428571",
+            "39.986724428571",
+            "-75.14601955102",
+            "-75.14591955102"
+          ],
+          "lat": "39.98667442857143",
+          "lon": "-75.14596955102041",
+          "display_name": "709, West Dauphin Street, Hartranft, Philadelphia, Philadelphia County, Pennsylvania, 19133, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "709",
+            "road": "West Dauphin Street",
+            "neighbourhood": "Hartranft",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19133",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "June 01, 2012",
+    "related": [
+      "https://www.youtube.com/watch?v=OKemJytfNS0"
+    ],
+    "href": "https://muralarts.org/artworks/family-interrupted/"
+  },
+  {
+    "artists": [
+      "Ernel Martinez"
+    ],
+    "title": "Why We Love Coltrane",
+    "slug": "why-we-love-coltrane",
+    "location": {
+      "address": "2901  diamond streets",
+      "original": "29th and diamond streets",
+      "osm": []
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "October 01, 2017",
+    "related": [
+      "https://www.inquirer.com/real-estate/mural-coltrane-jazz-strawberry-mansion-gentrification-development-philadelphia-20200729.html"
+    ],
+    "href": "https://muralarts.org/artworks/why-we-love-coltrane/"
+  },
+  {
+    "artists": [
+      "Salvador Gonz\u00e1les Escalona"
+    ],
+    "title": "Butterflies of the Caribbean",
+    "slug": "butterflies-of-the-caribbean",
+    "location": {
+      "address": null,
+      "original": "163 w susquehanna avenue",
+      "osm": [
+        {
+          "place_id": 288233683,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 626575009,
+          "boundingbox": [
+            "39.9836552",
+            "39.9837552",
+            "-75.135676",
+            "-75.135576"
+          ],
+          "lat": "39.983705199999996",
+          "lon": "-75.135626",
+          "display_name": "163, West Susquehanna Avenue, Kensington, Philadelphia, Philadelphia County, Pennsylvania, 19122, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "163",
+            "road": "West Susquehanna Avenue",
+            "neighbourhood": "Kensington",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19122",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "July 01, 2000",
+    "related": [
+      "https://www.muralarts.org/artworks/voa-nu-pwisans-nu-our-voice-our-strength/"
+    ],
+    "href": "https://muralarts.org/artworks/butterflies-of-the-caribbean/"
+  },
+  {
+    "artists": [
+      "David McShane",
+      "Jesse Gardner"
+    ],
+    "title": "Tribute to Lt. Robert Neary & FF. Daniel Sweeney",
+    "slug": "tribute-to-lt-robert-neary-ff-daniel-sweeney",
+    "location": {
+      "address": null,
+      "original": "2024 e. arizona st",
+      "osm": [
+        {
+          "place_id": 288268925,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 12165625,
+          "boundingbox": [
+            "39.9833854",
+            "39.9834854",
+            "-75.1304464",
+            "-75.1303464"
+          ],
+          "lat": "39.9834354",
+          "lon": "-75.1303964",
+          "display_name": "2024, East Arizona Street, Kensington, Philadelphia, Philadelphia County, Pennsylvania, 19125, United States",
+          "class": "place",
+          "type": "house",
+          "importance": 0.5209999999999999,
+          "address": {
+            "house_number": "2024",
+            "road": "East Arizona Street",
+            "neighbourhood": "Kensington",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19125",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "July 10, 2014",
+    "related": [
+      "https://www.muralarts.org/artworks/a-tribute-to-gloria-casarez/",
+      "https://www.muralarts.org/artworks/tribute-to-herman-wrice/",
+      "https://www.muralarts.org/artworks/tribute-to-batallion-chief-michael-goodwin/"
+    ],
+    "href": "https://muralarts.org/artworks/tribute-to-lt-robert-neary-ff-daniel-sweeney/"
+  },
+  {
+    "artists": [
+      "Willis \u201cNomo\u201d Humphrey"
+    ],
+    "title": "Kevin Hart: Live. Love. Laugh.",
+    "slug": "kevin-hart-live-love-laugh",
+    "location": {
+      "address": null,
+      "original": "germantown & erie avenue",
+      "osm": [
+        {
+          "place_id": 282397798,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "relation",
+          "osm_id": 125836,
+          "boundingbox": [
+            "38.544612",
+            "38.567284",
+            "-89.559377",
+            "-89.53035"
+          ],
+          "lat": "38.5536601",
+          "lon": "-89.5384209",
+          "display_name": "Germantown, Clinton County, Illinois, United States",
+          "class": "boundary",
+          "type": "administrative",
+          "importance": 0.5296806637390702,
+          "icon": "https://nominatim.openstreetmap.org/ui/mapicons//poi_boundary_administrative.p.20.png",
+          "address": {
+            "village": "Germantown",
+            "county": "Clinton County",
+            "state": "Illinois",
+            "country": "United States",
+            "country_code": "us"
+          }
+        },
+        {
+          "place_id": 282347142,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "relation",
+          "osm_id": 133495,
+          "boundingbox": [
+            "39.127853",
+            "39.214792",
+            "-77.317176",
+            "-77.211502"
+          ],
+          "lat": "39.1711725",
+          "lon": "-77.26559881516536",
+          "display_name": "Germantown, Montgomery County, Maryland, United States",
+          "class": "boundary",
+          "type": "census",
+          "importance": 0.5287485870051533,
+          "address": {
+            "boundary": "Germantown",
+            "city": "Germantown",
+            "county": "Montgomery County",
+            "state": "Maryland",
+            "country": "United States",
+            "country_code": "us"
+          }
+        },
+        {
+          "place_id": 322119821,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 158476529,
+          "boundingbox": [
+            "39.0131621",
+            "39.3331621",
+            "-77.4316502",
+            "-77.1116502"
+          ],
+          "lat": "39.1731621",
+          "lon": "-77.2716502",
+          "display_name": "Germantown, Montgomery County, Maryland, 20874, United States",
+          "class": "place",
+          "type": "city",
+          "importance": 0.5287485870051533,
+          "icon": "https://nominatim.openstreetmap.org/ui/mapicons//poi_place_city.p.20.png",
+          "address": {
+            "city": "Germantown",
+            "county": "Montgomery County",
+            "state": "Maryland",
+            "postcode": "20874",
+            "country": "United States",
+            "country_code": "us"
+          }
+        },
+        {
+          "place_id": 383605,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 157589804,
+          "boundingbox": [
+            "40.0334449",
+            "40.0534449",
+            "-75.1901775",
+            "-75.1701775"
+          ],
+          "lat": "40.0434449",
+          "lon": "-75.1801775",
+          "display_name": "Germantown, Philadelphia, Philadelphia County, Pennsylvania, 19119:19144, United States",
+          "class": "place",
+          "type": "neighbourhood",
+          "importance": 0.5265984015254268,
+          "address": {
+            "neighbourhood": "Germantown",
+            "city": "Philadelphia",
+            "county": "Philadelphia County",
+            "state": "Pennsylvania",
+            "postcode": "19119:19144",
+            "country": "United States",
+            "country_code": "us"
+          }
+        },
+        {
+          "place_id": 282329247,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "relation",
+          "osm_id": 195783,
+          "boundingbox": [
+            "35.028698",
+            "35.121072",
+            "-89.84554",
+            "-89.735191"
+          ],
+          "lat": "35.0867577",
+          "lon": "-89.8100858",
+          "display_name": "Germantown, Shelby County, Tennessee, United States",
+          "class": "boundary",
+          "type": "administrative",
+          "importance": 0.520803171748129,
+          "icon": "https://nominatim.openstreetmap.org/ui/mapicons//poi_boundary_administrative.p.20.png",
+          "address": {
+            "town": "Germantown",
+            "county": "Shelby County",
+            "state": "Tennessee",
+            "country": "United States",
+            "country_code": "us"
+          }
+        },
+        {
+          "place_id": 282324616,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "relation",
+          "osm_id": 130764,
+          "boundingbox": [
+            "38.65381",
+            "38.658062",
+            "-83.968696",
+            "-83.959684"
+          ],
+          "lat": "38.655627",
+          "lon": "-83.96417469031562",
+          "display_name": "Germantown, Bracken County, Kentucky, United States",
+          "class": "boundary",
+          "type": "administrative",
+          "importance": 0.4922748605526186,
+          "icon": "https://nominatim.openstreetmap.org/ui/mapicons//poi_boundary_administrative.p.20.png",
+          "address": {
+            "city": "Germantown",
+            "county": "Bracken County",
+            "state": "Kentucky",
+            "country": "United States",
+            "country_code": "us"
+          }
+        },
+        {
+          "place_id": 282311293,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "relation",
+          "osm_id": 182952,
+          "boundingbox": [
+            "39.615314",
+            "39.651736",
+            "-84.394129",
+            "-84.336299"
+          ],
+          "lat": "39.6261682",
+          "lon": "-84.3693882",
+          "display_name": "Germantown, Montgomery County, Ohio, 45327, United States",
+          "class": "boundary",
+          "type": "administrative",
+          "importance": 0.4472856032024495,
+          "icon": "https://nominatim.openstreetmap.org/ui/mapicons//poi_boundary_administrative.p.20.png",
+          "address": {
+            "village": "Germantown",
+            "county": "Montgomery County",
+            "state": "Ohio",
+            "postcode": "45327",
+            "country": "United States",
+            "country_code": "us"
+          }
+        },
+        {
+          "place_id": 340237,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 153691536,
+          "boundingbox": [
+            "38.2045151",
+            "38.2445151",
+            "-85.7566286",
+            "-85.7166286"
+          ],
+          "lat": "38.2245151",
+          "lon": "-85.7366286",
+          "display_name": "Germantown, Louisville, Jefferson County, Kentucky, 40217, United States",
+          "class": "place",
+          "type": "hamlet",
+          "importance": 0.43778492693979587,
+          "icon": "https://nominatim.openstreetmap.org/ui/mapicons//poi_place_village.p.20.png",
+          "address": {
+            "hamlet": "Germantown",
+            "city": "Louisville",
+            "county": "Jefferson County",
+            "state": "Kentucky",
+            "postcode": "40217",
+            "country": "United States",
+            "country_code": "us"
+          }
+        },
+        {
+          "place_id": 410546,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 158587217,
+          "boundingbox": [
+            "39.406774",
+            "39.426774",
+            "-76.4685739",
+            "-76.4485739"
+          ],
+          "lat": "39.416774",
+          "lon": "-76.4585739",
+          "display_name": "Germantown, Perry Hall, Baltimore County, Maryland, 21128, United States",
+          "class": "place",
+          "type": "neighbourhood",
+          "importance": 0.39658646804433373,
+          "address": {
+            "neighbourhood": "Germantown",
+            "town": "Perry Hall",
+            "county": "Baltimore County",
+            "state": "Maryland",
+            "postcode": "21128",
+            "country": "United States",
+            "country_code": "us"
+          }
+        },
+        {
+          "place_id": 355226,
+          "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 153931532,
+          "boundingbox": [
+            "39.5639623",
+            "39.6039623",
+            "-81.3376163",
+            "-81.2976163"
+          ],
+          "lat": "39.5839623",
+          "lon": "-81.3176163",
+          "display_name": "Germantown, Washington County, Ohio, United States",
+          "class": "place",
+          "type": "hamlet",
+          "importance": 0.38799765292481647,
+          "icon": "https://nominatim.openstreetmap.org/ui/mapicons//poi_place_village.p.20.png",
+          "address": {
+            "hamlet": "Germantown",
+            "county": "Washington County",
+            "state": "Ohio",
+            "country": "United States",
+            "country_code": "us"
+          }
+        }
+      ]
+    },
+    "neighborhood": "North Philadelphia",
+    "completion": "July 06, 2017",
+    "related": [
+      "https://www.muralarts.org/blog/remembering-an-icon-willis-nomo-humphrey/",
+      "http://www.latimes.com/entertainment/la-et-entertainment-news-updates-july-kevin-hart-day-1499360135-htmlstory.html"
+    ],
+    "href": "https://muralarts.org/artworks/kevin-hart-live-love-laugh/"
+  },
+  {
+    "artists": [
+      "Kah Yangni"
+    ],
+    "title": "We Are Universal",
+    "slug": "we-are-universal",
+    "location": {
+      "address": null,
+      "original": "cake life bake shop",
+      "osm": []
+    },
+    "neighborhood": "Fishtown / Kensington",
+    "completion": "September 28, 2021",
+    "related": [
+      "https://www.nbcnews.com/nbc-out/out-community-voices/philadelphia-unveils-first-mural-celebrating-transgender-people-rcna2569?icid=recommended",
+      "https://www.muralarts.org/blog/interview-with-tazmere-stephens/"
+    ],
+    "href": "https://muralarts.org/artworks/we-are-universal/"
+  }
+]

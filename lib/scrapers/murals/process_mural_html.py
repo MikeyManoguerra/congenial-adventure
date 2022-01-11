@@ -66,6 +66,7 @@ def search_html(h, data):
             (info_name, info_info) = mural_info(li)
             # always there at this point
             if info_name:
+                info_name = info_name.lower().split(' ')[0]
                 the_mural.update({info_name: info_info})
 
         related = soup.find("div", "related")
