@@ -10,9 +10,12 @@ location: diamond street between 25th & 26th streets
 
 
             
-related: https://www.muralarts.org/artworks/a-tribute-to-urban-horsemen/
-https://www.muralarts.org/artworks/frequencies/
-https://www.muralarts.org/artworks/forever-home/
+
+
+
+
+
+
 
 
 

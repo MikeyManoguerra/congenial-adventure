@@ -63,13 +63,14 @@ for mural in murals:
             f.write(f"attribution: {artists(mural['artists'])}\n")
             f.write(f"publish: true\n")
             if loc:
-                f.write(f"location: {json.JSONEncoder().encode(loc['geojson'])}\n")
+                f.write(f"location: '{json.JSONEncoder().encode(loc['geojson'])}'\n")
             f.write("---\n")
             f.write(
+                # related: {#related(mural['related'])}
+
                 f"""
 location: {mural['location']['original']}
 \n\n            
-related: {related(mural['related'])}
 \n\n
             """
             )

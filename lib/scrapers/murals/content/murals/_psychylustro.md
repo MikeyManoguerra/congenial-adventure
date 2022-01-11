@@ -10,7 +10,8 @@ location: northeast rail corridor between 30th street station and north philadel
 
 
             
-related: https://www.muralarts.org/blog/playgrounds-for-useful-knowledge-nominated-for-national-award/
+
+
 
 
 

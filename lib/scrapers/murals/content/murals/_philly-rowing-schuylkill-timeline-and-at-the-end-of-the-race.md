@@ -10,9 +10,12 @@ location: girard avenue bridge (beneath east and west banks)
 
 
             
-related: https://www.muralarts.org/artworks/artbartrams/
-https://www.muralarts.org/artworks/a-tribute-to-urban-horsemen/
-https://www.muralarts.org/artworks/the-phillies-mural/
+
+
+
+
+
+
 
 
 

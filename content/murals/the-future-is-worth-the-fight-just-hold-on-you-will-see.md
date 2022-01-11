@@ -4,16 +4,19 @@ id: 8bac6c1c-ece0-4eb6-a821-7efa201fcf68
 neighborhood: Fishtown / Kensington
 attribution: Jess X Snow, Frisly Soberanis
 publish: true
-location: {"type": "Point", "coordinates": ["-75.108529", "39.999243"]}
+location: '{"type": "Point", "coordinates": ["-75.108529", "39.999243"]}'
 ---
 
 location: 3404 kensington avenue
 
 
             
-related: https://www.muralarts.org/artworks/the-trust-project/
-https://www.muralarts.org/artworks/we-the-people/
-https://www.muralarts.org/artworks/healing-begins-through-connection/
+
+
+
+
+
+
 
 
 

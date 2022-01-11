@@ -4,14 +4,15 @@ id: 81a364a3-d51b-4544-87d9-04b1185ba54e
 neighborhood: North Philadelphia
 attribution: Eric Okdeh
 publish: true
-location: {"type": "Point", "coordinates": ["-75.14596955102041", "39.98667442857143"]}
+location: '{"type": "Point", "coordinates": ["-75.14596955102041", "39.98667442857143"]}'
 ---
 
 location: 709 west dauphin street
 
 
             
-related: https://www.youtube.com/watch?v=OKemJytfNS0
+
+
 
 
 

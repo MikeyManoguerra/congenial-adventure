@@ -10,9 +10,12 @@ location: 8th and diamond playground
 
 
             
-related: https://www.muralarts.org/artworks/open-source/norris/
-https://www.muralarts.org/artworks/open-source/migrants-ibrahim-mingora-philadelphia/
-https://www.muralarts.org/artworks/open-source/still-life-with-flower/
+
+
+
+
+
+
 
 
 

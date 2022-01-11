@@ -10,8 +10,10 @@ location: cake life bake shop
 
 
             
-related: https://www.nbcnews.com/nbc-out/out-community-voices/philadelphia-unveils-first-mural-celebrating-transgender-people-rcna2569?icid=recommended
-https://www.muralarts.org/blog/interview-with-tazmere-stephens/
+
+
+
+
 
 
 

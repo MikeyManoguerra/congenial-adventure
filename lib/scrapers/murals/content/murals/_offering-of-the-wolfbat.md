@@ -10,9 +10,12 @@ location: mobile project
 
 
             
-related: https://www.muralarts.org/artworks/all-the-way-live-from-the-215/
-https://www.muralarts.org/artworks/inputoutput-photography-as-exchange/chalk-talk/
-https://www.muralarts.org/artworks/goldman-properties-collaboration/
+
+
+
+
+
+
 
 
 

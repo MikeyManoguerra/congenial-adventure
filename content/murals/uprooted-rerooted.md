@@ -4,15 +4,17 @@ id: ca19085e-99e9-4c17-8c84-a938d7b450be
 neighborhood: North Philadelphia
 attribution: Marion Wilson, Eurhi Jones
 publish: true
-location: {"type": "Point", "coordinates": ["-75.12997156711305", "40.0026298"]}
+location: '{"type": "Point", "coordinates": ["-75.12997156711305", "40.0026298"]}'
 ---
 
 location: cramp elementary school
 
 
             
-related: https://www.muralarts.org/blog/how-to-ignite-change-in-places/
-https://www.muralarts.org/blog/how-to-plant-seeds-in-a-community-garden/
+
+
+
+
 
 
 

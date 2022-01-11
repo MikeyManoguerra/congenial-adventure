@@ -10,9 +10,12 @@ location: b and tusculum streets
 
 
             
-related: https://www.muralarts.org/artworks/bloom/
-https://www.muralarts.org/artworks/monumentlab/the-times/
-https://www.muralarts.org/artworks/curing-community/
+
+
+
+
+
+
 
 
 

@@ -4,16 +4,19 @@ id: 09340296-ce4c-4c3b-b421-d78b3fe64c54
 neighborhood: Fishtown / Kensington
 attribution: Trapeta B. Mayson
 publish: true
-location: {"type": "Point", "coordinates": ["-75.131285", "39.98676"]}
+location: '{"type": "Point", "coordinates": ["-75.131285", "39.98676"]}'
 ---
 
 location: 2400 kensington avenue
 
 
             
-related: https://www.muralarts.org/artworks/we-still-here/
-https://www.muralarts.org/artworks/14-movements-symphony-color-words/
-https://www.muralarts.org/artworks/peace-haiku-song/
+
+
+
+
+
+
 
 
 

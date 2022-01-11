@@ -47,6 +47,7 @@ export class TheMapComponent implements AfterViewInit {
   }
 
   private serializeMapPoints() {
+    debugger
     return this.mapPoints?.map(point => {
       return {
         ...point,

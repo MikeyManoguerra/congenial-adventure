@@ -10,9 +10,12 @@ location: 6th and norris streets
 
 
             
-related: https://www.muralarts.org/artworks/all-the-way-live-from-the-215/
-https://www.muralarts.org/artworks/mind-over-media/
-https://www.muralarts.org/artworks/open-source/shine-space/
+
+
+
+
+
+
 
 
 

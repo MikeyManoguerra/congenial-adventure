@@ -4,14 +4,15 @@ id: 4bb88090-57f5-42e8-8d40-f2ebc6f150db
 neighborhood: North Philadelphia
 attribution: Chris Stain
 publish: true
-location: {"type": "Point", "coordinates": ["-75.137938", "39.980666"]}
+location: '{"type": "Point", "coordinates": ["-75.137938", "39.980666"]}'
 ---
 
 location: 200 west norris street
 
 
             
-related: https://www.muralarts.org/blog/meet-mural-arts-student-giovanni/
+
+
 
 
 

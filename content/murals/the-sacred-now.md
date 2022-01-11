@@ -4,16 +4,19 @@ id: 6301dee0-8145-4552-ba99-b5583dac8e26
 neighborhood: North Philadelphia
 attribution: Cesar Viveros
 publish: true
-location: {"type": "Point", "coordinates": ["-75.1534652", "39.9723431"]}
+location: '{"type": "Point", "coordinates": ["-75.1534652", "39.9723431"]}'
 ---
 
 location: 1012 w. thompson street
 
 
             
-related: https://www.muralarts.org/artworks/legacy-bishop-richard-allen-m-e-church/
-https://www.muralarts.org/artworks/tree-of-knowledge/
-https://www.muralarts.org/artworks/voices/
+
+
+
+
+
+
 
 
 

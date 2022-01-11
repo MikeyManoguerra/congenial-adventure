@@ -10,9 +10,12 @@ location: dover and thompson streets
 
 
             
-related: https://www.muralarts.org/artworks/industrious-light/
-https://www.muralarts.org/artworks/imagining-justice/
-https://www.muralarts.org/artworks/water-gives-life/
+
+
+
+
+
+
 
 
 

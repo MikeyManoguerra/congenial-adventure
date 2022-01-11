@@ -10,7 +10,8 @@ location: 29th and diamond streets
 
 
             
-related: https://www.inquirer.com/real-estate/mural-coltrane-jazz-strawberry-mansion-gentrification-development-philadelphia-20200729.html
+
+
 
 
 

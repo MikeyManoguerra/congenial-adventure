@@ -4,14 +4,15 @@ id: 3d364583-92db-49d4-b76b-2783b478eddb
 neighborhood: Near Northeast Philadelphia
 attribution: Abdul Karim Awad, Paul Santoleri
 publish: true
-location: {"type": "Point", "coordinates": ["-75.065143", "40.041011"]}
+location: '{"type": "Point", "coordinates": ["-75.065143", "40.041011"]}'
 ---
 
 location: 6826 bustleton avenue
 
 
             
-related: https://northeasttimes.com/2020/11/25/new-oxford-circle-mural-incites-liberty-unity/
+
+
 
 
 
