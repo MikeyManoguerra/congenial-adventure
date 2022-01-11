@@ -31,6 +31,12 @@ soup = BeautifulSoup(req.text, "html.parser")
 write_list_to_file(find_titles_in_soup(soup))
 
 
+
+# This was silly in retrospect. instead of generating the slugs myself. i could have just pulled the href!
+# can use the query results to search by titles, and then get the link for the 40 or so that 404
+# https://www.muralarts.org/?s=american+tableau
+
+
 for page in range(2, 23):
     sleep(4) if page % 3 == 0 else sleep(7)
     # try:
