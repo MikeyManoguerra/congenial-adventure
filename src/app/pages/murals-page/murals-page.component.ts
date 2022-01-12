@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ScullyRoute, ScullyRoutesService } from '@scullyio/ng-lib';
-import { map, Observable, share, tap } from 'rxjs';
+import { combineLatest, map, Observable, share, tap } from 'rxjs';
 import { Mural } from 'src/app/models/mural';
+import { mapPoint, PointOfInterest } from 'src/app/models/point-of-interest';
 
 @Component({
   selector: 'murals-page',
@@ -19,6 +20,11 @@ export class MuralsPageComponent implements OnInit {
       ) as Mural[]
     )
   );
-  
+
+  mapPoints$: Observable<PointOfInterest[]> = this.murals$.pipe(
+    map(murals => murals.map(mural => mapPoint({ ...mural, isPrimary: true }))
+    ),
+  );
+
   ngOnInit(): void { }
 }

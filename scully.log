@@ -655,3 +655,8 @@ handleUnknownRoute: "/marker-icon.d577052aa271e13f.png%22)marker-icon.png", 404:
 
 handleUnknownRoute: "/marker-icon.d577052aa271e13f.png%22)marker-icon.png", 404:""handleUnknownRoute: "/marker-icon.d577052aa271e13f.png%22)marker-shadow.png", 404:""
 
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npm run scully -- --scanRoutes"----------------------------------
+
+
+
+The file ./content/murals/.DS_Store has extension  that has no plugin defined, scully will skip this file.

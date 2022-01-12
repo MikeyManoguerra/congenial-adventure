@@ -1,7 +1,7 @@
 ---
-title: Circlle eh
+title: Circlle
 id: 469ea11f-60d5-4a20-8b88-3ef2416a0709
-attribution: "Henry Bermudez "
+attribution: Henry Bermudez
 publish: true
 src: /uploads/pxl_20210508_224959317.jpg
 alt: Circle Thrift Muralr

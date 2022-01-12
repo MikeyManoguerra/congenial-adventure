@@ -1,5 +1,14 @@
 <the-layout>
   <h1>These are the murals</h1>
+  <div
+  *ngIf=" mapPoints$|async as points"
+  class="flex justify-center"
+>
+  <div class=" flex-1 max-w-lg">
+
+    <the-map [mapPoints]="points"></the-map>
+  </div>
+</div>
   <ul class="">
     <li *ngFor="let mural of (murals$ | async)">
       <a

@@ -5,8 +5,6 @@ import { ChipCardComponent } from './components/chip-card/chip-card.component';
 import { TheMapComponent } from './components/the-map/the-map.component';
 import { TheLayoutComponent } from './components/the-layout/the-layout.component';
 
-
-
 @NgModule({
   declarations: [
     PrimaryCardComponent,

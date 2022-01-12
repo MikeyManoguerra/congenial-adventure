@@ -2,6 +2,23 @@ import { Component, AfterViewInit, Input } from '@angular/core';
 import * as L from 'leaflet';
 import { Observable } from 'rxjs';
 import { PointOfInterest } from 'src/app/models/point-of-interest';
+import { MapService } from 'src/app/shared/services/map.service';
+
+
+const iconRetinaUrl = 'assets/marker-icon-2x.png';
+const iconUrl = 'assets/marker-icon.png';
+const shadowUrl = 'assets/marker-shadow.png';
+const iconDefault = L.icon({
+  iconRetinaUrl,
+  iconUrl,
+  shadowUrl,
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  tooltipAnchor: [16, -28],
+  shadowSize: [41, 41]
+});
+L.Marker.prototype.options.icon = iconDefault;
 
 @Component({
   selector: 'the-map',
@@ -11,19 +28,16 @@ import { PointOfInterest } from 'src/app/models/point-of-interest';
 export class TheMapComponent implements AfterViewInit {
   private map: L.Map;
 
-  @Input() mapPoints: PointOfInterest[] | null; //todo
-  constructor() { }
+  @Input() mapPoints: PointOfInterest[]; //todo
+  constructor(private mapService: MapService) { }
   // https://www.digitalocean.com/community/tutorials/angular-angular-and-leaflet
 
   ngAfterViewInit(): void {
     this.initMap();
+    this.mapService.addPointsToMap(this.map, this.mapPoints)
   }
   private initMap(): void {
-    this.map = L.map('map', {
-      center: [39.8282, -98.5795],
-      zoom: 3
-    });
-
+    this.map = L.map('map').setView([39.983705199999996, -75.135626], 12)
 
     const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
@@ -34,26 +48,5 @@ export class TheMapComponent implements AfterViewInit {
 
 
     tiles.addTo(this.map);
-
-    const points = this.serializeMapPoints();
-    if (!points) return
-
-    points.forEach(point => {
-
-      L.geoJSON(point.location).addTo(this.map)
-        .bindPopup(`${point.title}`)
-        .openPopup()
-    })
-  }
-
-  private serializeMapPoints() {
-    debugger
-    return this.mapPoints?.map(point => {
-      return {
-        ...point,
-        location: JSON.parse(point.location) 
-      };
-
-    })
-  }
+}
 }
