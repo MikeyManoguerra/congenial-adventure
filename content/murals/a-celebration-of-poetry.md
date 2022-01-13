@@ -1,9 +1,12 @@
 ---
+src: /uploads/screen-shot-2022-01-13-at-12.31.43-am.png
+alt: a lot with a mural on each side and a cloudy sky
+neighborhood: North Philadelphia
+date: 2022-01-13T05:27:04.949Z
+publish: true
 title: A Celebration of Poetry
 id: d85f4f26-c1d9-4078-bf6c-a38bad8a61fb
-neighborhood: North Philadelphia
 attribution: Parris Stancell
-publish: true
 location: '{"type": "Point", "coordinates": ["-75.16165063265306", "39.97183175510204"]}'
 ---
 
