@@ -8,9 +8,8 @@ backend:
   repo: mikeymanoguerra/congenial-adventure
   branch: main
 
-media_folder: static/uploads
-public_folder: /uploads
-
+media_folder: src/assets/uploads
+public_folder: assets/uploads
 
 collections:
   - label: Page level information

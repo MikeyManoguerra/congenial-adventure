@@ -6,11 +6,11 @@
   <ng-container *ngIf="mural | async as mural">
     <h1 class="bg-grey-900 text-4xl">{{ mural.title }}</h1>
     <div>ATTRIBUTION: {{ mural.attribution }}</div>
-    <div class="mt-8  overflow-hidden rounded-xl shadow-lg max-h-72">
+    <div class="mt-8  overflow-hidden rounded-xl shadow-lg max-h-[80vh]">
       <img
         class="object-cover w-full "
-        src="https://source.unsplash.com/random"
-        alt="No image available. heres a random one"
+        [src]="mural.src || 'https://source.unsplash.com/random'"
+        [alt]="mural.alt || 'No image available. heres a random one'"
       >
     </div>
     <div class="mt-4 pb-2 border-gray-300 border-b-2">
@@ -37,11 +37,11 @@
 
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-3">
-    <chip-card
+    <primary-card
       *ngFor="let tree of (trees$ | async)"
       [path]="tree.route"
       [title]="tree.title"
-    ></chip-card>
+      [image]="{src: tree.src, alt: tree.alt}"
+    ></primary-card>
   </div>
 </div>
-

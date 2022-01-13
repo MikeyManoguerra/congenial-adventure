@@ -25,6 +25,8 @@ export class MapService {
         .bindPopup(this.muralPopup(point))
         .addTo(map)
     })
+
+
   }
 
   private deserializePoints(points: PointOfInterest[]) {

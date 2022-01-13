@@ -660,3 +660,19 @@ handleUnknownRoute: "/marker-icon.d577052aa271e13f.png%22)marker-icon.png", 404:
 
 
 The file ./content/murals/.DS_Store has extension  that has no plugin defined, scully will skip this file.
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npm run scully -- --scanRoutes"----------------------------------
+The file ./content/murals/.DS_Store has extension  that has no plugin defined, scully will skip this file.
+
+
+
+handleUnknownRoute: "/uploads/screen-shot-2022-01-13-at-12.31.43-am.png", 404:""
+handleUnknownRoute: "/uploads/pxl_20210530_223451876.jpg", 404:""
+handleUnknownRoute: "/uploads/pxl_20210530_224139111.jpg", 404:""
+handleUnknownRoute: "/uploads/screen-shot-2021-03-28-at-11.45.04-pm.png", 404:""
+handleUnknownRoute: "/uploads/screen-shot-2021-03-29-at-12.40.00-am.png", 404:""
+handleUnknownRoute: "/uploads/screen-shot-2021-04-05-at-10.17.53-pm.png", 404:""
+----------------------------------Using stored unhandled routes!.----------------------------------   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+The file ./content/murals/.DS_Store has extension  that has no plugin defined, scully will skip this file.
+
+
+

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ScullyRoutesService, ScullyRoute } from '@scullyio/ng-lib';
-import { combineLatest, map, Observable, pluck, share, tap } from 'rxjs';
+import { ScullyRoutesService } from '@scullyio/ng-lib';
+import { combineLatest, map, Observable, pluck } from 'rxjs';
 import { BaseContent } from 'src/app/models/BaseContent';
 import { Mural } from 'src/app/models/mural';
 import { mapPoint, PointOfInterest } from 'src/app/models/point-of-interest';
@@ -45,15 +45,5 @@ export class MuralComponent implements OnInit {
     ),
   );
 
-  ngOnInit(): void {
-
-
-
-    // this.trees$ =
-
-
-    //   this.mapPoints$ =
-    //   this.mapPoints$.subscribe()
-  }
-
+  ngOnInit(): void { }
 }

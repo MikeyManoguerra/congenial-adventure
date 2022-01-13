@@ -1,5 +1,5 @@
 ---
-src: /uploads/screen-shot-2022-01-13-at-12.31.43-am.png
+src: /assets/uploads/screen-shot-2022-01-13-at-12.31.43-am.png
 alt: a lot with a mural on each side and a cloudy sky
 neighborhood: North Philadelphia
 date: 2022-01-13T05:27:04.949Z

@@ -9,11 +9,11 @@ export class PrimaryCardComponent implements OnInit {
 
   constructor() { }
 
-  image: any = {
+  // todo refactor takes a "cardble" object
 
-  }
-  @Input() title: string 
-  @Input() path: string 
+  @Input() image: { src: string, alt: string }
+  @Input() title: string
+  @Input() path: string
   ngOnInit(): void {
   }
 
