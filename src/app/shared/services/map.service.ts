@@ -81,10 +81,12 @@ export class MapService {
 
     }
 
-    return coordinates.map((point: number[]) => [{
-      type,
-      coordinates: point
-    }])
+    return coordinates.map((point: number[]) => {
+      return {
+        type,
+        coordinates: point
+      }
+    });
   }
 
   private muralPopup(point: DeserializedPoint): string {

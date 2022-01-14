@@ -712,3 +712,12 @@ The file ./content/murals/.DS_Store has extension  that has no plugin defined, s
 
 Content file "./content/murals/kids-hands-friends.md" has no content!
 Content file "./content/murals/modern-rowhouses-in-the-woods.md" has no content!
+Using stored unhandled routes!.----------------------------------   To discover new routes in the angular app use "npm run scully -- --scanRoutes"----------------------------------
+The file ./content/murals/.DS_Store has extension  that has no plugin defined, scully will skip this file.Content file "./content/murals/kids-hands-friends.md" has no content!Content file "./content/murals/modern-rowhouses-in-the-woods.md" has no content!
+
+
+
+
+
+Content file "./content/murals/kids-hands-friends.md" has no content!
+Content file "./content/murals/modern-rowhouses-in-the-woods.md" has no content!

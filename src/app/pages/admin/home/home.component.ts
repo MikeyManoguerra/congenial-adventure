@@ -19,7 +19,11 @@ declare global {
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent  {
+
+  // try redirecting to static file
+
+
   private renderer2; constructor(
     private rendererFactory2: RendererFactory2,
     @Inject(DOCUMENT) private _document: Document,
@@ -28,7 +32,8 @@ export class HomeComponent implements OnInit {
   ) {
     this.renderer2 = this.rendererFactory2.createRenderer(null, null);
   }
-  ngOnInit(): void {
+
+  ngAfterViewInit(): void {
     const script: HTMLScriptElement = this.renderer2.createElement('script');
     script.type = 'text/javascript';
     script.src = `https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js`;

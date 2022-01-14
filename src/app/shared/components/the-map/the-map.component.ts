@@ -29,6 +29,7 @@ export class TheMapComponent implements AfterViewInit {
   private map: L.Map;
 
   @Input() mapPoints: PointOfInterest[]; //todo
+  @Input() intialZoom: number = 15;
 
   constructor(private mapService: MapService) { }
   // https://www.digitalocean.com/community/tutorials/angular-angular-and-leaflet
@@ -41,7 +42,7 @@ export class TheMapComponent implements AfterViewInit {
 
   private initMap(initalPosition: number[]): void {
     const [lon, lat] = initalPosition;
-    this.map = L.map('map').setView([lat, lon], 15);
+    this.map = L.map('map').setView([lat, lon], this.intialZoom);
 
     const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
