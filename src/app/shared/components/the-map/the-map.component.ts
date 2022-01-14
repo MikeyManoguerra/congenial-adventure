@@ -29,15 +29,19 @@ export class TheMapComponent implements AfterViewInit {
   private map: L.Map;
 
   @Input() mapPoints: PointOfInterest[]; //todo
+
   constructor(private mapService: MapService) { }
   // https://www.digitalocean.com/community/tutorials/angular-angular-and-leaflet
 
   ngAfterViewInit(): void {
-    this.initMap();
-    this.mapService.addPointsToMap(this.map, this.mapPoints)
+    const deserializedPoints = this.mapService.deserializedPoints(this.mapPoints);
+    this.initMap(this.mapService.primaryCoordinates(deserializedPoints));
+    this.mapService.addPointsToMap(this.map, deserializedPoints);
   }
-  private initMap(): void {
-    this.map = L.map('map').setView([39.983705199999996, -75.135626], 12)
+
+  private initMap(initalPosition: number[]): void {
+    const [lon, lat] = initalPosition;
+    this.map = L.map('map').setView([lat, lon], 15);
 
     const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
@@ -45,7 +49,7 @@ export class TheMapComponent implements AfterViewInit {
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     });
 
-    const x = L.circle([39.9, -75.135], { radius: 200 }).addTo(this.map);
+    // const x = L.circle([39.9, -75.135], { radius: 200 }).addTo(this.map);
     tiles.addTo(this.map);
   }
 }

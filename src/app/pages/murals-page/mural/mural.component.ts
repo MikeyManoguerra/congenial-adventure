@@ -6,6 +6,7 @@ import { BaseContent } from 'src/app/models/BaseContent';
 import { Mural } from 'src/app/models/mural';
 import { mapPoint, PointOfInterest } from 'src/app/models/point-of-interest';
 import { Tree } from 'src/app/models/tree';
+
 @Component({
   selector: 'mural',
   templateUrl: './mural.component.html',
@@ -15,7 +16,8 @@ export class MuralComponent implements OnInit {
 
   constructor(
     private activatedRoute: ActivatedRoute,
-    private scully: ScullyRoutesService) { }
+    private scully: ScullyRoutesService
+  ) { }
 
   publishedRoutes: Observable<BaseContent[]> = this.scully.available$ as Observable<BaseContent[]>;
 
@@ -41,7 +43,7 @@ export class MuralComponent implements OnInit {
 
   mapPoints$: Observable<PointOfInterest[]> = combineLatest([this.mural, this.trees$]).pipe(
     map(([mural, trees]) =>
-      [{ ...mural, isPrimary: true }, ...trees].map((point: Tree | Mural) => mapPoint(point))
+      [...trees, { ...mural, isPrimary: true }].map((point: Tree | Mural) => mapPoint(point))
     ),
   );
 

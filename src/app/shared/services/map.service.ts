@@ -30,29 +30,31 @@ interface DeserializedPoint extends Omit<PointOfInterest, 'location'> {
 })
 export class MapService {
 
-  pointsOfInterest: DeserializedPoint[]
-
   constructor() { }
 
-  addPointsToMap(map: L.Map, points: PointOfInterest[]) {
-    if (!points) return
-    this.pointsOfInterest = this.deserializedPoints(points)
-    this.pointsOfInterest.forEach(point => {
+  primaryCoordinates(pointsOfInterest: DeserializedPoint[]): number[] {
+    return pointsOfInterest.find(point => point.isPrimary)?.location?.coordinates || [39.983705, -75.135626];
+  }
+
+  addPointsToMap(map: L.Map, pointsOfInterest: DeserializedPoint[]) {
+    if (!pointsOfInterest) return;
+    // .sort((a: DeserializedPoint, b: DeserializedPoint) => Number(b.isPrimary) - Number(a.isPrimary))
+    pointsOfInterest.forEach(point => {
       this.initializedLeafletPoint(point).addTo(map)
     })
   }
 
   private initializedLeafletPoint(point: DeserializedPoint) {
-    const className = point.isPrimary ? 'map-icon' : 'map-icon map-icon--featured'
+    const className = point.isPrimary ? 'map-icon map-icon--primary' : 'map-icon';
     const icon = L.divIcon({ className });
     const [lon, lat] = point.location.coordinates
-    return L.marker([lat, lon], { icon })
-      .bindPopup(this.muralPopup(point))
+
+    return L.marker([lat, lon], { icon }).bindPopup(this.muralPopup(point))
   }
 
   // ?
   // https://stackoverflow.com/questions/41285211/overriding-interface-property-type-defined-in-typescript-d-ts-file
-  private deserializedPoints(points: PointOfInterest[]): DeserializedPoint[] {
+  deserializedPoints(points: PointOfInterest[]): DeserializedPoint[] {
     return points.flatMap(point => {
       return this.geoJSON(point.location).map(location => ({
         ...point,
@@ -61,11 +63,16 @@ export class MapService {
     });
   }
 
-  // Dont care about the order of the line points at this time, 
+  // Dont care about the order of the line points at this time,
   // and multipoint is not an available option by the underlying api,
   // so creating our own points no matter the original type
   private geoJSON(geoJSON: string): GeoJSON.Point[] {
     const { type, coordinates } = JSON.parse(geoJSON);
+
+    if (![GeoJSONType.POINT, GeoJSONType.LINE].includes(type)) {
+      throw new Error("Unsupported GeoJSON type");
+    }
+
     if (type === GeoJSONType.POINT) {
       return [{
         type,
@@ -79,7 +86,6 @@ export class MapService {
       coordinates: point
     }])
   }
-
 
   private muralPopup(point: DeserializedPoint): string {
     // TODO use component factory

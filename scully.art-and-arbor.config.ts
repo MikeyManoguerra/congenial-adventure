@@ -9,7 +9,9 @@ export const config: ScullyConfig = {
   projectName: "art-and-arbor",
   outDir: './dist/static',
   routes: {
-
+    '/admin': {
+      type: 'ignored'
+    },
     '/murals/:slug': {
       type: 'contentFolder',
       slug: {

@@ -5,6 +5,14 @@
 
 .map-icon {
   border-radius: 50%;
-  opacity: 0.5;
+  opacity: 0.8;
+  width: 20px !important;
+  height: 20px !important;
+  background-color: teal;
+}
+
+.map-icon--primary {
   background-color: tomato;
+  width: 25px !important;
+  height: 25px !important;
 }
