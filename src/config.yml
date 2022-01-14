@@ -83,7 +83,7 @@ collections:
         collection: species
         search_fields: [name, genus, species]
         value_field: id
-        display_fields: [genus, species]
+        display_fields: [genus, species, name]
       - label: Nearby Mural
         name: mural
         widget: relation
@@ -101,7 +101,8 @@ collections:
       - label: Location
         name: location
         widget: map
-        default: '{"type":"Point","coordinates":[-75.1640227,39.9523726]}'
+        type: LineString
+        default: '{"type":"LineString","coordinates":[[-75.1640227,39.9523726]]}'
       - label: Publish Date
         name: date
         widget: date
