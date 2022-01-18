@@ -23,7 +23,7 @@ import { MapService } from 'src/app/shared/services/map.service';
 @Component({
   selector: 'the-map',
   templateUrl: './the-map.component.html',
-  styleUrls: ['./the-map.component.scss']
+  styleUrls: ['./the-map.component.css']
 })
 export class TheMapComponent implements AfterViewInit {
   private map: L.Map;
@@ -42,7 +42,11 @@ export class TheMapComponent implements AfterViewInit {
 
   private initMap(initalPosition: number[]): void {
     const [lon, lat] = initalPosition;
-    this.map = L.map('map').setView([lat, lon], this.intialZoom);
+    this.map = L.map('map', {
+      scrollWheelZoom: false
+    }).setView(
+      [lat, lon],
+      this.intialZoom);
 
     const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,

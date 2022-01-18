@@ -4,13 +4,15 @@ import { PrimaryCardComponent } from './components/primary-card/primary-card.com
 import { ChipCardComponent } from './components/chip-card/chip-card.component';
 import { TheMapComponent } from './components/the-map/the-map.component';
 import { TheLayoutComponent } from './components/the-layout/the-layout.component';
+import { WindowCardComponent } from './components/window-card/window-card.component';
 
 @NgModule({
   declarations: [
     PrimaryCardComponent,
     ChipCardComponent,
     TheMapComponent,
-    TheLayoutComponent
+    TheLayoutComponent,
+    WindowCardComponent
   ],
   imports: [
     CommonModule
@@ -19,7 +21,8 @@ import { TheLayoutComponent } from './components/the-layout/the-layout.component
     PrimaryCardComponent,
     ChipCardComponent,
     TheMapComponent,
-    TheLayoutComponent
+    TheLayoutComponent,
+    WindowCardComponent,
   ]
 })
 export class SharedModule { }

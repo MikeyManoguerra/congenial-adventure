@@ -4,17 +4,18 @@
   *ngIf=" mapPoints$|async as points"
   class="flex justify-center"
 >
-  <div class=" flex-1 max-w-lg">
+  <div class=" flex-1">
 
     <the-map [mapPoints]="points" [intialZoom]="12"></the-map>
   </div>
 </div>
   <ul class="">
-    <li *ngFor="let mural of (murals$ | async)">
-      <a
-        class="underline hover:no-underline"
-        [routerLink]="mural.route"
-      >{{mural.title}}</a>
+    <li *ngFor="let mural of (murals$ | async); index as i">
+      <chip-card
+        class=" block mt-3"
+        [title]="mural.title"
+        [path]="mural.route"
+      ></chip-card>
     </li>
   </ul>
 </the-layout>

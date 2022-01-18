@@ -10,7 +10,7 @@ import { Tree } from 'src/app/models/tree';
 @Component({
   selector: 'mural',
   templateUrl: './mural.component.html',
-  styleUrls: ['./mural.component.scss']
+  styleUrls: ['./mural.component.css']
 })
 export class MuralComponent implements OnInit {
 

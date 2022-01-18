@@ -5,7 +5,7 @@ import { map, Observable } from 'rxjs';
 @Component({
   selector: 'species-list',
   templateUrl: './species-list.component.html',
-  styleUrls: ['./species-list.component.scss']
+  styleUrls: ['./species-list.component.css']
 })
 export class SpeciesListComponent implements OnInit {
 

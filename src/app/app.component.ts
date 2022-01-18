@@ -5,7 +5,7 @@ import { filter, map, Observable } from 'rxjs';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
   title = 'art-and-arbor';
@@ -22,5 +22,17 @@ export class AppComponent implements OnInit {
         return evt.url.includes('/admin');
       }),
     );
+    // window.addEventListener('scroll', this.scroll, true); //third parameter
   }
+
+  // scroll = ($event: any): void => {
+  //   console.log($event);
+  //   //handle your scroll here
+  //   //notice the 'odd' function assignment to a class field
+  //   //this is used to be able to remove the event listener
+  // };
+
+
+
+
 }

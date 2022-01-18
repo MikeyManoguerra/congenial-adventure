@@ -36,3 +36,12 @@ https://www.netlify.com/blog/2020/02/24/update-on-scully-angulars-static-site-ge
 - warn - The `purge`/`content` options have changed in Tailwind CSS v3.0.
 - warn - Update your configuration file to eliminate this warning.
 - deprioritize "tree" in favor of displaying species info
+- try moving all netlify content to admin section
+- completely static admin index.html file
+- ligh house stuffs
+- https://stackoverflow.com/questions/44516017/how-to-handle-window-scroll-event-in-angular-4
+
+## Desnign
+- getting started street tree with supports and waater bag
+- windows as cards
+- icons

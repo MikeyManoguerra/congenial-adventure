@@ -4,6 +4,7 @@ import { PlaceholderComponent } from './components/placeholder/placeholder.compo
 
 const routes: Routes = [
   { path: 'trees', loadChildren: () => import('./pages/trees/trees.module').then(m => m.TreesModule) },
+  { path: 'sandbox', loadChildren: () => import('./pages/sandbox/sandbox.module').then(m => m.SandboxModule) },
   { path: 'admin', loadChildren: () => import('./pages/admin/admin.module').then((m) => m.AdminModule) },
   { path: 'about', loadChildren: () => import('./pages/about-page/about-page.module').then(m => m.AboutPageModule) },
   { path: 'murals', loadChildren: () => import('./pages/murals-page/murals-page.module').then(m => m.MuralsPageModule) },

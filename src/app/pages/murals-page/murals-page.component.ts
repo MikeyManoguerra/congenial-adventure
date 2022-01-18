@@ -7,7 +7,7 @@ import { mapPoint, PointOfInterest } from 'src/app/models/point-of-interest';
 @Component({
   selector: 'murals-page',
   templateUrl: './murals-page.component.html',
-  styleUrls: ['./murals-page.component.scss']
+  styleUrls: ['./murals-page.component.css']
 })
 export class MuralsPageComponent implements OnInit {
 

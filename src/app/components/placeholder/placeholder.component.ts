@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'placeholder',
   templateUrl: './placeholder.component.html',
-  styleUrls: ['./placeholder.component.scss']
+  styleUrls: ['./placeholder.component.css']
 })
 export class PlaceholderComponent implements OnInit {
 
