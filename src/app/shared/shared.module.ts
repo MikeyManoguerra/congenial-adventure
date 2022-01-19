@@ -5,6 +5,7 @@ import { ChipCardComponent } from './components/chip-card/chip-card.component';
 import { TheMapComponent } from './components/the-map/the-map.component';
 import { TheLayoutComponent } from './components/the-layout/the-layout.component';
 import { WindowCardComponent } from './components/window-card/window-card.component';
+import { FormatPipe } from './pipes/format.pipe';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { WindowCardComponent } from './components/window-card/window-card.compon
     ChipCardComponent,
     TheMapComponent,
     TheLayoutComponent,
-    WindowCardComponent
+    WindowCardComponent,
+    FormatPipe
   ],
   imports: [
     CommonModule

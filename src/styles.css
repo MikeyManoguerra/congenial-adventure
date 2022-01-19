@@ -9,11 +9,11 @@
   }
 
   .icon--1 {
-    @apply items-end before:absolute before:h-1 before:w-7 before:top-1/2 before:right-0 before:bg-emerald-400 after:relative after:grid after:grid-cols-2 after:grid-rows-2 after:w-4 after:h-5 after:rounded-t-full after:bg-purple-800;
+    @apply items-end before:absolute before:h-1 before:w-7 before:top-1/2 before:right-0 before:bg-yellow-500 after:relative after:grid after:grid-cols-2 after:grid-rows-2 after:w-4 after:h-5 after:rounded-t-full after:bg-red-800;
   }
 
   .icon--2 {
-    @apply before:relative before:w-4 before:h-4 before:bg-purple-600 before:rotate-45 after:absolute after:h-3 after:w-3 after:bottom-1/2 after:right-1/2 after:translate-y-1/2 after:translate-x-1/2 after:rounded-full after:bg-emerald-400;
+    @apply before:relative before:w-4 before:h-4 before:bg-red-600 before:rotate-45 after:absolute after:h-3 after:w-3 after:bottom-1/2 after:right-1/2 after:translate-y-1/2 after:translate-x-1/2 after:rounded-full after:bg-yellow-500;
   }
 
   .icon--3 {

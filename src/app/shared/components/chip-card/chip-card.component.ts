@@ -18,4 +18,9 @@ export class ChipCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+// todo lol
+  randomRange() {
+    return Math.floor(Math.random() * 3) + 1
+  }
 }

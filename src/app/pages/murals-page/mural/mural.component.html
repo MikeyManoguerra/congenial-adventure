@@ -1,11 +1,7 @@
-<div class="container ml-auto mr-auto mb-10">
-  <a
-    [routerLink]="'/murals'"
-    class="underline"
-  >see all murals</a>
+<the-layout>
   <ng-container *ngIf="mural | async as mural">
-    <h1 class="bg-grey-900 text-4xl">{{ mural.title }}</h1>
-    <div>ATTRIBUTION: {{ mural.attribution }}</div>
+    <h1 class="bg-grey-900 text-4xl mt-4">{{ mural.title }}</h1>
+    <div class="mt-4">ATTRIBUTION: {{ mural.attribution }}</div>
     <div class="mt-8 bg-gray-200 overflow-hidden rounded-xl shadow-lg min-h-[20vh] max-h-[80vh]">
       <img
         class="object-cover w-full"
@@ -13,23 +9,21 @@
         [alt]="mural.alt || 'No image available. heres a random one'"
       >
     </div>
-    <div class="mt-4 pb-2 border-gray-300 border-b-2">
+    <div class="mt-4 pb-2">
       <h2 class="text-2xl">Location</h2>
     </div>
-    <div
-
-      *ngIf=" mapPoints$|async as points"
-    >
-        <the-map [mapPoints]="points"></the-map>
+    <div *ngIf=" mapPoints$|async as points">
+      <the-map [mapPoints]="points"></the-map>
     </div>
   </ng-container>
-  <div class="mt-4 pb-2 border-gray-300 border-b-2">
+
+  <div class="mt-4 pb-2">
     <h2 class="text-2xl">Blog</h2>
     <scully-content></scully-content>
   </div>
   <div class=" mt-3 text-lg font-serif">
   </div>
-  <div class="mt-4 pb-2 border-gray-300 border-b-2">
+  <div class="mt-4 pb-2">
     <h2 class="text-2xl">Nearby Trees</h2>
 
   </div>
@@ -41,4 +35,4 @@
       [image]="{src: tree.src, alt: tree.alt}"
     ></primary-card>
   </div>
-</div>
+</the-layout>

@@ -27,4 +27,5 @@ export class MuralsPageComponent implements OnInit {
   );
 
   ngOnInit(): void { }
+
 }

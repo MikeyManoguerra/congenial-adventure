@@ -8,11 +8,11 @@
   <div
     class="relative transition-color flex items-center h-full w-full rounded-md bg-gray-50 group-hover:bg-gray-100 group-focus:bg-gray-100 p-2"
   >
-  <div class="icon icon--3"></div>
+    <div class="icon icon--{{ 0 | format : randomRange }}"></div>
     <!-- <div
       class="relative flex-shrink-0 h-36 w-36 bg-black m-3 rounded-full overflow-hidden shadow-lg group-hover:shadow-lg"
     > -->
-      <!-- <img
+    <!-- <img
         class="absolute inset-0 block max-w-none object-cover w-full h-full"
         *ngIf="image && image.src; else placeholderImage"
         [src]="image.src"
