@@ -9,4 +9,5 @@ export interface Mural extends BaseContent, ScullyRoute {
   attribution: string
   publish: boolean
   date: Date
+  id:string
 }

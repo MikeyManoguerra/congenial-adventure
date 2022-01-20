@@ -35,3 +35,9 @@
   width: 25px !important;
   height: 25px !important;
 }
+
+.map-icon--featured {
+  background-color: goldenrod;
+  width: 25px !important;
+  height: 25px !important;
+}

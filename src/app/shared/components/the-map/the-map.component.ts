@@ -30,14 +30,18 @@ export class TheMapComponent implements AfterViewInit {
 
   @Input() mapPoints: PointOfInterest[]; //todo
   @Input() intialZoom: number = 15;
+  @Input() currentTargetId$: Observable<string>;
 
   constructor(private mapService: MapService) { }
   // https://www.digitalocean.com/community/tutorials/angular-angular-and-leaflet
 
   ngAfterViewInit(): void {
-    const deserializedPoints = this.mapService.deserializedPoints(this.mapPoints);
-    this.initMap(this.mapService.primaryCoordinates(deserializedPoints));
-    this.mapService.addPointsToMap(this.map, deserializedPoints);
+    this.initMap(this.mapService.primaryCoordinates());
+    this.mapPoints.forEach(point => {
+      this.mapService.addPoint(this.map, point)
+    })
+
+    this.currentTargetId$.subscribe(id => this.mapService.updateCurrentTargetId(id))
   }
 
   private initMap(initalPosition: number[]): void {

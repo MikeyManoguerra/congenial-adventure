@@ -1,21 +1,27 @@
 <the-layout>
   <h1>These are the murals</h1>
-  <div
-  *ngIf=" mapPoints$|async as points"
-  class="flex justify-center"
->
-  <div class=" flex-1">
 
-    <the-map [mapPoints]="points" [intialZoom]="12"></the-map>
-  </div>
-</div>
-  <ul class="">
-    <li *ngFor="let mural of (murals$ | async); index as i">
-      <chip-card
-        class=" block mt-3"
-        [title]="mural.title"
-        [path]="mural.route"
-      ></chip-card>
-    </li>
-  </ul>
+    <div
+      *ngIf=" mapPoints$|async as points"
+      class="sticky top-12 z-10"
+    >
+      <the-map
+        [currentTargetId$]="currentTargetId$"
+        [mapPoints]="points"
+        [intialZoom]="12"
+      ></the-map>
+    </div>
+    <ul class="">
+      <li
+        #li
+        *ngFor="let mural of (murals$ | async); index as i"
+      >
+        <chip-card
+          id="{{mural.id}}"
+          class=" block mt-3"
+          [title]="mural.title"
+          [path]="mural.route"
+        ></chip-card>
+      </li>
+    </ul>
 </the-layout>
