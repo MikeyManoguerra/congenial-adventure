@@ -31,7 +31,10 @@ https://www.netlify.com/blog/2020/02/24/update-on-scully-angulars-static-site-ge
 
 ---
 
+[https://congenial-adventure.netlify.app/murals](https://congenial-adventure.netlify.app/murals)
+
 ## todo
+- cliocker scroller type thing for mobile. highlighted mural in scroller is highlighted in map
 - service for sub routes, appTrees, app species, etc
 - warn - The `purge`/`content` options have changed in Tailwind CSS v3.0.
 - warn - Update your configuration file to eliminate this warning.

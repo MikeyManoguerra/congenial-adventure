@@ -6,6 +6,9 @@ import { TheMapComponent } from './components/the-map/the-map.component';
 import { TheLayoutComponent } from './components/the-layout/the-layout.component';
 import { WindowCardComponent } from './components/window-card/window-card.component';
 import { FormatPipe } from './pipes/format.pipe';
+import { FocusHoverDirective } from './directives/focus-hover.directive';
+import { PopupComponent } from './components/popup/popup.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -14,17 +17,22 @@ import { FormatPipe } from './pipes/format.pipe';
     TheMapComponent,
     TheLayoutComponent,
     WindowCardComponent,
-    FormatPipe
+    FormatPipe,
+    FocusHoverDirective,
+    PopupComponent,
   ],
   imports: [
+    RouterModule,
     CommonModule
   ],
-  exports:[
+  exports: [
     PrimaryCardComponent,
     ChipCardComponent,
     TheMapComponent,
     TheLayoutComponent,
     WindowCardComponent,
+    FocusHoverDirective,
+    PopupComponent
   ]
 })
 export class SharedModule { }

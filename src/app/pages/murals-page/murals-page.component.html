@@ -1,27 +1,25 @@
 <the-layout>
   <h1>These are the murals</h1>
 
-    <div
-      *ngIf=" mapPoints$|async as points"
-      class="sticky top-12 z-10"
-    >
-      <the-map
-        [currentTargetId$]="currentTargetId$"
-        [mapPoints]="points"
-        [intialZoom]="12"
-      ></the-map>
-    </div>
-    <ul class="">
-      <li
-        #li
-        *ngFor="let mural of (murals$ | async); index as i"
-      >
-        <chip-card
-          id="{{mural.id}}"
-          class=" block mt-3"
-          [title]="mural.title"
-          [path]="mural.route"
-        ></chip-card>
-      </li>
-    </ul>
+  <div
+    *ngIf=" mapPoints$|async as points"
+    class="sticky top-12 z-10"
+  >
+    <the-map
+      [currentTargetId$]="currentTargetId$"
+      [mapPoints]="points"
+      [intialZoom]="12"
+    ></the-map>
+  </div>
+  <ul class="grid gap-2 lg:grid-cols-2">
+    <li *ngFor="let mural of (murals$ | async); index as i">
+      <chip-card
+        id="{{mural.id}}"
+        class=" block"
+        [title]="mural.title"
+        [path]="mural.route"
+        (focusHover)="currentTarget($event, mural.id)"
+      ></chip-card>
+    </li>
+  </ul>
 </the-layout>

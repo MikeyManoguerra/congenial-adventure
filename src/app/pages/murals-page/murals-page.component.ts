@@ -1,9 +1,10 @@
 import { Component, ElementRef, OnInit, QueryList, ViewChildren } from '@angular/core';
-import { ScullyRoute, ScullyRoutesService } from '@scullyio/ng-lib';
-import { combineLatest, fromEvent, map, merge, Observable, share, switchMap, take, tap } from 'rxjs';
+import { ScullyRoutesService } from '@scullyio/ng-lib';
+import { map, Observable } from 'rxjs';
 import { Mural } from 'src/app/models/mural';
 import { mapPoint, PointOfInterest } from 'src/app/models/point-of-interest';
 import { ChipCardComponent } from 'src/app/shared/components/chip-card/chip-card.component';
+import { FocusHoverService } from 'src/app/shared/services/focus-hover.service';
 
 @Component({
   selector: 'murals-page',
@@ -13,7 +14,10 @@ import { ChipCardComponent } from 'src/app/shared/components/chip-card/chip-card
 export class MuralsPageComponent implements OnInit {
   @ViewChildren(ChipCardComponent, { read: ElementRef }) cardRefs!: QueryList<ElementRef>;
 
-  constructor(private scully: ScullyRoutesService) { }
+  constructor(
+    private scully: ScullyRoutesService,
+    private focusHoverService: FocusHoverService
+  ) { }
 
   murals$: Observable<Mural[]> = this.scully.available$.pipe(
     map(routes =>
@@ -28,39 +32,15 @@ export class MuralsPageComponent implements OnInit {
     ),
   );
 
-  currentTargetId$: Observable<string>
+  currentTargetId$: Observable<string> = this.focusHoverService.identifier$;
 
   ngOnInit(): void {
   }
 
-  ngAfterViewInit(): void {
-    const muralCards = this.cardRefs.changes.pipe(
-      take(1),
-    ) as Observable<ElementRef[]>
+  currentTarget(isCurrentTarget: boolean, id: string) {
+    if (isCurrentTarget) {
+      return this.focusHoverService.updateIdentifer(id);
+    }
 
-    const mouseEnter$ = muralCards.pipe(
-      switchMap(cards => merge(
-        ...cards.map(el => fromEvent<Event>(el.nativeElement, 'mouseenter'))
-      )),
-      map(el => {
-        const target = el.target as HTMLElement;
-        return target.id;
-      })
-    )
-
-    const mouseLeave$ = muralCards.pipe(
-      switchMap(cards => merge(
-        ...cards.map(el => fromEvent<Event>(el.nativeElement, 'mouseleave'))
-      )),
-      map(() => '')
-    )
-
-    this.currentTargetId$ = merge(
-      mouseEnter$,
-      mouseLeave$
-    );
-
-
-  }
-
-}
+    return this.focusHoverService.updateIdentifer('');
+  }}

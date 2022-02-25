@@ -41,7 +41,7 @@ export class TheMapComponent implements AfterViewInit {
       this.mapService.addPoint(this.map, point)
     })
 
-    this.currentTargetId$.subscribe(id => this.mapService.updateCurrentTargetId(id))
+    this.currentTargetId$.subscribe(id => this.mapService.updateCurrentTargetId(id));
   }
 
   private initMap(initalPosition: number[]): void {

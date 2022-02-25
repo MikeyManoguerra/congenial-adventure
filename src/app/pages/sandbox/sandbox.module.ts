@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { SandboxRoutingModule } from './sandbox-routing.module';
 import { SandboxComponent } from './sandbox.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SharedModule } from 'src/app/shared/shared.module';
   imports: [
     CommonModule,
     SandboxRoutingModule,
-    SharedModule
+    SharedModule,
+    FormsModule
   ]
 })
 export class SandboxModule { }

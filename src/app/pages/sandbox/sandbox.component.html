@@ -1,8 +1,16 @@
 <the-layout>
-  <div class="py-10">
-    <div class="icon icon--3">
+  <div class="py-10" *ngIf="y | async as stuff">
+    <div *ngFor="let z of stuff.cools">
+    <input [(ngModel)]="z.colds" type="text" name="" id="">
     </div>
   </div>
+
+  <div class="py-10" *ngIf="w | async as nah">
+
+    <span>fmdskl;afds</span>
+    <input [(ngModel)]="nah.yea" type="text" name="" id="" class="border-2">
+    </div>
+
   <div class="py-10">
     <div class="icon icon--1">
     </div>

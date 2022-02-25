@@ -6,6 +6,7 @@ import { BaseContent } from 'src/app/models/BaseContent';
 import { Mural } from 'src/app/models/mural';
 import { mapPoint, PointOfInterest } from 'src/app/models/point-of-interest';
 import { Tree } from 'src/app/models/tree';
+import { FocusHoverService } from 'src/app/shared/services/focus-hover.service';
 
 @Component({
   selector: 'mural',
@@ -16,7 +17,8 @@ export class MuralComponent implements OnInit {
 
   constructor(
     private activatedRoute: ActivatedRoute,
-    private scully: ScullyRoutesService
+    private scully: ScullyRoutesService,
+    private focusHoverService: FocusHoverService
   ) { }
 
   publishedRoutes: Observable<BaseContent[]> = this.scully.available$ as Observable<BaseContent[]>;
@@ -47,5 +49,17 @@ export class MuralComponent implements OnInit {
     ),
   );
 
+  currentTargetId$: Observable<string> = this.focusHoverService.identifier$;
+
+
   ngOnInit(): void { }
+
+
+  currentTarget(isCurrentTarget: boolean, id: string) {
+    if (isCurrentTarget) {
+      return this.focusHoverService.updateIdentifer(id);
+    }
+
+    return this.focusHoverService.updateIdentifer('')
+  }
 }
