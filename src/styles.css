@@ -30,6 +30,14 @@
   background-color: teal;
 }
 
+.map-icon:focus,
+.map-icon:hover  {
+  background-color: goldenrod;
+  width: 25px !important;
+  height: 25px !important;
+
+}
+
 .map-icon--primary {
   background-color: tomato;
   width: 25px !important;
