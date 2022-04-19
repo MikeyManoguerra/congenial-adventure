@@ -4,7 +4,6 @@ import { SpeciesComponent } from './species.component';
 
 const routes: Routes = [
   { path: '', component: SpeciesComponent },
-
 ];
 
 @NgModule({

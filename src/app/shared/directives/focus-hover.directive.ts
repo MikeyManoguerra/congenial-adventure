@@ -8,8 +8,6 @@ export class FocusHoverDirective {
   @Output('focusHover') onInteraction = new EventEmitter<boolean>()
 
   @HostListener('mouseenter') onMouseEnter() {
-    console.log('hey');
-
     this.onInteraction.emit(true);
   }
 

@@ -9,7 +9,6 @@ export class FocusHoverService {
   constructor() { }
 
   private readonly _identifierSource = new BehaviorSubject<string>('');
-
   readonly identifier$ = this._identifierSource.asObservable()
 
   _setIdentifer(id: string) {
@@ -17,7 +16,7 @@ export class FocusHoverService {
   }
 
   getIdentifer() {
-    return this._identifierSource.getValue()
+    return this._identifierSource.getValue();
   }
 
   updateIdentifer(id: string) {

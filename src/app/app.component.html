@@ -1,7 +1,10 @@
 <ng-container *ngIf="!(isAdminPage$|async)">
   <the-header  class="z-50 relative"></the-header>
 </ng-container>
-<router-outlet></router-outlet>
+<!-- eh -->
+<div class="min-h-screen">
+  <router-outlet></router-outlet>
+</div>
 <ng-container *ngIf="!(isAdminPage$|async)">
   <the-footer class=""></the-footer>
 </ng-container>
