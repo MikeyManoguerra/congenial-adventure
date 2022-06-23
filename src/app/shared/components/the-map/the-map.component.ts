@@ -1,8 +1,9 @@
 import { Component, AfterViewInit, Input } from '@angular/core';
 import * as L from 'leaflet';
-import { Observable } from 'rxjs';
+import { Observable, Subscription } from 'rxjs';
 import { PointOfInterest } from 'src/app/models/point-of-interest';
 import { MapService } from 'src/app/shared/services/map.service';
+import { FocusHoverService } from '../../services/focus-hover.service';
 
 
 // const iconRetinaUrl = 'assets/marker-icon-2x.png';
@@ -30,18 +31,24 @@ export class TheMapComponent implements AfterViewInit {
 
   @Input() mapPoints: PointOfInterest[]; //todo
   @Input() intialZoom: number = 15;
-  @Input() currentTargetId$: Observable<string>;
 
-  constructor(private mapService: MapService) { }
+  sub: Subscription;
+
+  constructor(
+    private mapService: MapService,
+    private focusHoverService: FocusHoverService
+  ) { }
   // https://www.digitalocean.com/community/tutorials/angular-angular-and-leaflet
 
   ngAfterViewInit(): void {
     this.initMap(this.mapService.primaryCoordinates());
     this.mapPoints.forEach(point => {
-      this.mapService.addPoint(this.map, point)
+      this.mapService.addEntityToMap(this.map, point)
     })
 
-    this.currentTargetId$.subscribe(id => this.mapService.updateCurrentTargetId(id));
+    this.sub = this.focusHoverService.identifier$.subscribe(([prevId, currentId]) => {
+      this.mapService.updateCurrentTargetId([prevId, currentId])
+    });
   }
 
   private initMap(initalPosition: number[]): void {
@@ -60,5 +67,9 @@ export class TheMapComponent implements AfterViewInit {
 
     // const x = L.circle([39.9, -75.135], { radius: 200 }).addTo(this.map);
     tiles.addTo(this.map);
+  }
+
+  ngOnDestroy(){
+    this.sub?.unsubscribe();
   }
 }

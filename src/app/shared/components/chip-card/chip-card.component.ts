@@ -21,6 +21,6 @@ export class ChipCardComponent implements OnInit {
 
 // todo lol
   randomRange() {
-    return Math.floor(Math.random() * 3) + 1
+    return Math.floor(Math.random() * 3) + 3
   }
 }

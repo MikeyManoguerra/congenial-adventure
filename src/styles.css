@@ -8,11 +8,11 @@
     @apply relative flex justify-center items-center rounded-full w-7 h-7 overflow-hidden bg-gray-300 shadow-md shadow-gray-300;
   }
 
-  .icon--1 {
+  .icon--4 {
     @apply items-end before:absolute before:h-1 before:w-7 before:top-1/2 before:right-0 before:bg-yellow-500 after:relative after:grid after:grid-cols-2 after:grid-rows-2 after:w-4 after:h-5 after:rounded-t-full after:bg-red-800;
   }
 
-  .icon--2 {
+  .icon--5 {
     @apply before:relative before:w-4 before:h-4 before:bg-red-600 before:rotate-45 after:absolute after:h-3 after:w-3 after:bottom-1/2 after:right-1/2 after:translate-y-1/2 after:translate-x-1/2 after:rounded-full after:bg-yellow-500;
   }
 
@@ -25,27 +25,18 @@
 .map-icon {
   border-radius: 50%;
   opacity: 0.8;
-  width: 20px !important;
-  height: 20px !important;
   background-color: teal;
 }
 
 .map-icon:focus,
 .map-icon:hover  {
   background-color: goldenrod;
-  width: 25px !important;
-  height: 25px !important;
-
 }
 
 .map-icon--primary {
   background-color: tomato;
-  width: 25px !important;
-  height: 25px !important;
 }
 
 .map-icon--featured {
   background-color: goldenrod;
-  width: 25px !important;
-  height: 25px !important;
 }

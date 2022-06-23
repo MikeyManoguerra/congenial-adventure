@@ -14,10 +14,7 @@
     </div>
     <!-- class="sticky top-12 z-10" -->
     <div *ngIf="mapPoints$ | async as points">
-      <the-map
-        [currentTargetId$]="currentTargetId$"
-        [mapPoints]="points"
-      ></the-map>
+      <the-map [mapPoints]="points"></the-map>
     </div>
     <div class="mt-4 pb-2">
       <h2 class="text-2xl">Blog</h2>

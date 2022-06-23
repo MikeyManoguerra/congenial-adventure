@@ -32,8 +32,6 @@ export class MuralsPageComponent implements OnInit {
     ),
   );
 
-  currentTargetId$: Observable<string> = this.focusHoverService.identifier$;
-
   ngOnInit(): void {
   }
 

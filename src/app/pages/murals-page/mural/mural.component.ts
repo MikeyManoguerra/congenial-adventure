@@ -49,11 +49,7 @@ export class MuralComponent implements OnInit {
     ),
   );
 
-  currentTargetId$: Observable<string> = this.focusHoverService.identifier$;
-
-
   ngOnInit(): void { }
-
 
   currentTarget(isCurrentTarget: boolean, id: string) {
     if (isCurrentTarget) {

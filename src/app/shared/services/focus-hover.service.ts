@@ -7,12 +7,12 @@ import { BehaviorSubject } from 'rxjs';
 export class FocusHoverService {
 
   constructor() { }
-
-  private readonly _identifierSource = new BehaviorSubject<string>('');
+  private readonly _identifierSource = new BehaviorSubject<[string, string]>(['', '']); // [prev, current]
   readonly identifier$ = this._identifierSource.asObservable()
 
-  _setIdentifer(id: string) {
-    this._identifierSource.next(id);
+  _setIdentifer(currentId: string) {
+    const [, prevId] = this._identifierSource.getValue();
+    this._identifierSource.next([prevId, currentId]);
   }
 
   getIdentifer() {
