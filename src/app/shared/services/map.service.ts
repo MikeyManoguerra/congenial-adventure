@@ -4,6 +4,7 @@ import * as L from 'leaflet';
 import { BehaviorSubject } from 'rxjs';
 import { PointOfInterest } from 'src/app/models/point-of-interest';
 import { normalizedGeoJSON } from '../lib';
+import { DiscernibleTextService } from './discernible-text.service';
 import { MapPopupService } from './map-popup.service';
 
 export interface DeserializedPoint extends Omit<PointOfInterest, 'location'> {
@@ -21,7 +22,8 @@ interface MappedPoint {
 export class MapService {
 
   constructor(
-    private mapPopupService: MapPopupService
+    private mapPopupService: MapPopupService,
+    private accessibleLabelService: DiscernibleTextService
   ) { }
 
   private readonly _pointSource = new BehaviorSubject<MappedPoint[]>([]);
@@ -80,28 +82,57 @@ export class MapService {
   private _updateIconClass(id: string, klass: string) {
     const points = this.getPoints().filter(point => point.point.id === id);
 
-    points.map(point => point.layer.setIcon(this._divIcon(point.point.isPrimary, klass)));
+    points.forEach(point => point.layer.setIcon(this._divIcon(point.point, klass)));
 
     this._setPoints([...points, ...this.getPoints().filter(point => id !== point.point.id)]);
   }
 
   private _initializedLeafletPoint(point: DeserializedPoint) {
-    const icon = this._divIcon(point.isPrimary, '');
+    const icon = this._divIcon(point, '');
     const [lon, lat] = point.location.coordinates;
 
     return L.marker([lat, lon], { icon }).bindPopup(this.mapPopupService.popupElement(point));
   }
 
-  private _divIcon(isPrimary: boolean, targetClass: string) {
+  //  todo config object
+  private _divIcon({ isPrimary, title }: DeserializedPoint, targetClass: string, size: number = 10) {
+
+
+
     const className = targetClass + ' ' + (isPrimary ? 'map-icon map-icon--primary' : 'map-icon');
 
     return L.divIcon({
-      iconSize:[20, 20],
+      html: this.accessibleLabelService.labelElement('Location of ' + title + ' on map'),
+      bgPos: [5, 5],
+      iconSize: [size, size],
       className
     });
   }
 
   primaryCoordinates(pointsOfInterest: DeserializedPoint[] = []): number[] {
     return pointsOfInterest.find(point => point.isPrimary)?.location?.coordinates || [-75.135626, 39.983705];
+  }
+
+  updatePointsSize(currentZoom: number) {
+    console.log(currentZoom);
+    const updatedSize = (currentZoom: Number) => {
+      if (currentZoom > 15) {
+        return 20;
+      }
+      if (currentZoom > 12) {
+        return 15;
+      }
+      if (currentZoom > 9) {
+        return 10;
+      }
+
+      return 5;
+    }
+
+    const size = updatedSize(currentZoom);
+
+    const points = this.getPoints()
+    points.forEach(point => point.layer.setIcon(this._divIcon(point.point, '', size)))
+    this._setPoints(points)
   }
 }

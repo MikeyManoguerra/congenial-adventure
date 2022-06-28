@@ -7,7 +7,7 @@ import { DeserializedPoint } from '../../services/map.service';
   styleUrls: ['./popup.component.css']
 })
 export class PopupComponent implements OnInit {
- @Input() point: DeserializedPoint
+ @Input() point: DeserializedPoint;
   constructor() { }
 
   ngOnInit(): void {

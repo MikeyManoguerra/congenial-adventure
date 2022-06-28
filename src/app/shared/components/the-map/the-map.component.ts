@@ -49,6 +49,8 @@ export class TheMapComponent implements AfterViewInit {
     this.sub = this.focusHoverService.identifier$.subscribe(([prevId, currentId]) => {
       this.mapService.updateCurrentTargetId([prevId, currentId])
     });
+
+    this.map.on('zoom', () => { this.mapService.updatePointsSize(this.map.getZoom()) })
   }
 
   private initMap(initalPosition: number[]): void {
@@ -65,7 +67,6 @@ export class TheMapComponent implements AfterViewInit {
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     });
 
-    // const x = L.circle([39.9, -75.135], { radius: 200 }).addTo(this.map);
     tiles.addTo(this.map);
   }
 

@@ -9,6 +9,7 @@ import { FormatPipe } from './pipes/format.pipe';
 import { FocusHoverDirective } from './directives/focus-hover.directive';
 import { PopupComponent } from './components/popup/popup.component';
 import { RouterModule } from '@angular/router';
+import { DiscernibleTextComponent } from './components/discernible-text/discernible-text.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { RouterModule } from '@angular/router';
     FormatPipe,
     FocusHoverDirective,
     PopupComponent,
+    DiscernibleTextComponent,
   ],
   imports: [
     RouterModule,
@@ -32,7 +34,8 @@ import { RouterModule } from '@angular/router';
     TheLayoutComponent,
     WindowCardComponent,
     FocusHoverDirective,
-    PopupComponent
+    PopupComponent,
+    DiscernibleTextComponent
   ]
 })
 export class SharedModule { }

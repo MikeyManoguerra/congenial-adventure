@@ -12,11 +12,11 @@ export class MapPopupService {
     private injector: Injector
   ) { }
 
-  popupElement(point: DeserializedPoint){
+  popupElement(point: DeserializedPoint) {
     return this.popupComponent(point).location.nativeElement;
   }
 
-  private popupComponent(point: DeserializedPoint): ComponentRef<PopupComponent> {
+  private popupComponent(point: DeserializedPoint) {
     // https://stackoverflow.com/a/64008789/14888291
     const component = this.resolver.resolveComponentFactory(PopupComponent).create(this.injector);
     component.instance.point = point;
