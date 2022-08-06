@@ -96,9 +96,6 @@ export class MapService {
 
   //  todo config object
   private _divIcon({ isPrimary, title }: DeserializedPoint, targetClass: string, size: number = 10) {
-
-
-
     const className = targetClass + ' ' + (isPrimary ? 'map-icon map-icon--primary' : 'map-icon');
 
     return L.divIcon({
@@ -114,8 +111,7 @@ export class MapService {
   }
 
   updatePointsSize(currentZoom: number) {
-    console.log(currentZoom);
-    const updatedSize = (currentZoom: Number) => {
+    const updatedSize = (currentZoom: number) => {
       if (currentZoom > 15) {
         return 20;
       }
@@ -131,8 +127,8 @@ export class MapService {
 
     const size = updatedSize(currentZoom);
 
-    const points = this.getPoints()
-    points.forEach(point => point.layer.setIcon(this._divIcon(point.point, '', size)))
-    this._setPoints(points)
+    const points = this.getPoints();
+    points.forEach(point => point.layer.setIcon(this._divIcon(point.point, '', size)));
+    this._setPoints(points);
   }
 }
