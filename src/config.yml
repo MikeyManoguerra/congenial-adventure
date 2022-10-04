@@ -1,10 +1,17 @@
 
 # loaded via angular.json file
 backend:
+
+  # live cms config
   name: git-gateway
+
+  ### start of local backend config
   # local_backend: true
   # localStorage.removeItem("netlifySiteURL");
   # name: github
+  ### end of local backend config
+
+
   repo: mikeymanoguerra/congenial-adventure
   branch: main
 
