@@ -9,7 +9,7 @@ import { FocusHoverService } from 'src/app/shared/services/focus-hover.service';
 @Component({
   selector: 'murals-page',
   templateUrl: './murals-page.component.html',
-  styleUrls: ['./murals-page.component.css']
+  styleUrls: ['./murals-page.component.scss']
 })
 export class MuralsPageComponent implements OnInit {
   @ViewChildren(ChipCardComponent, { read: ElementRef }) cardRefs!: QueryList<ElementRef>;

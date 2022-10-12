@@ -3,7 +3,7 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'chip-card',
   templateUrl: './chip-card.component.html',
-  styleUrls: ['./chip-card.component.css']
+  styleUrls: ['./chip-card.component.scss']
 })
 export class ChipCardComponent implements OnInit {
 

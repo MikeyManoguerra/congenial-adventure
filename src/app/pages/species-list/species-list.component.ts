@@ -6,7 +6,7 @@ import { Species } from 'src/app/models/species';
 @Component({
   selector: 'species-list',
   templateUrl: './species-list.component.html',
-  styleUrls: ['./species-list.component.css']
+  styleUrls: ['./species-list.component.scss']
 })
 export class SpeciesListComponent implements OnInit {
 

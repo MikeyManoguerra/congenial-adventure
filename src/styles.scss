@@ -1,0 +1,20 @@
+
+
+.map-icon {
+  border-radius: 50%;
+  opacity: 0.8;
+  background-color: teal;
+}
+
+.map-icon:focus,
+.map-icon:hover  {
+  background-color: goldenrod;
+}
+
+.map-icon--primary {
+  background-color: tomato;
+}
+
+.map-icon--featured {
+  background-color: goldenrod;
+}

@@ -4,7 +4,7 @@ import { BehaviorSubject, interval, of, switchMap, tap } from 'rxjs';
 @Component({
   selector: 'sandbox',
   templateUrl: './sandbox.component.html',
-  styleUrls: ['./sandbox.component.css']
+  styleUrls: ['./sandbox.component.scss']
 })
 export class SandboxComponent implements OnInit {
 

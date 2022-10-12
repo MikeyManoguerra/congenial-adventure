@@ -9,7 +9,7 @@ import { FocusHoverService } from 'src/app/shared/services/focus-hover.service';
 @Component({
   selector: 'species',
   templateUrl: './species.component.html',
-  styleUrls: ['./species.component.css']
+  styleUrls: ['./species.component.scss']
 })
 export class SpeciesComponent implements OnInit {
 

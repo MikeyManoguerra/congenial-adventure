@@ -4,7 +4,7 @@ import { DeserializedPoint } from '../../services/map.service';
 @Component({
   selector: 'popup',
   templateUrl: './popup.component.html',
-  styleUrls: ['./popup.component.css']
+  styleUrls: ['./popup.component.scss']
 })
 export class PopupComponent implements OnInit {
  @Input() point: DeserializedPoint;

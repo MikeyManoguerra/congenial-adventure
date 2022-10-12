@@ -24,7 +24,7 @@ import { FocusHoverService } from '../../services/focus-hover.service';
 @Component({
   selector: 'the-map',
   templateUrl: './the-map.component.html',
-  styleUrls: ['./the-map.component.css']
+  styleUrls: ['./the-map.component.scss']
 })
 export class TheMapComponent implements AfterViewInit {
   private map: L.Map;

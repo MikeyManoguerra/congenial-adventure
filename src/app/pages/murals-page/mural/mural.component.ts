@@ -11,7 +11,7 @@ import { FocusHoverService } from 'src/app/shared/services/focus-hover.service';
 @Component({
   selector: 'mural',
   templateUrl: './mural.component.html',
-  styleUrls: ['./mural.component.css']
+  styleUrls: ['./mural.component.scss']
 })
 export class MuralComponent implements OnInit {
 
