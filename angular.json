@@ -33,7 +33,7 @@
             ],
             "styles": [
               "./node_modules/leaflet/dist/leaflet.css",
-              "src/styles.scss"
+              "src/assets/styles/main.scss"
             ],
             "scripts": []
           },
@@ -101,13 +101,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/assets/styles/main.scss"
             ],
             "scripts": []
           }
         }
       }
     }
-  },
-  "defaultProject": "art-and-arbor"
+  }
 }

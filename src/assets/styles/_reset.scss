@@ -1,0 +1,88 @@
+// stylelint-disable selector-max-type
+
+// Layout
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+// Media
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+// Typography
+ol,
+ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+li {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: currentColor;
+  letter-spacing: inherit;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: currentColor;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding:0
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  appearance: none;
+}
+
+blockquote {
+  padding: 0;
+  margin: 0;
+}
+
+b{
+  color: tomato;
+}
