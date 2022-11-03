@@ -1,5 +1,5 @@
 import { ComponentFactoryResolver, ComponentRef, Injectable, Injector } from '@angular/core';
-import { PopupComponent } from '../components/popup/popup.component';
+import { PopupComponent } from 'src/app/shared/components/popup/popup.component';
 import { DeserializedPoint } from './map.service';
 
 @Injectable({

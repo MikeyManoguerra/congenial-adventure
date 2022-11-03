@@ -4,7 +4,7 @@ import { ScullyRoutesService } from '@scullyio/ng-lib';
 import { combineLatest, map, Observable, pluck } from 'rxjs';
 import { BaseContent } from 'src/app/models/BaseContent';
 import { Species } from 'src/app/models/species';
-import { FocusHoverService } from 'src/app/shared/services/focus-hover.service';
+import { FocusHoverService } from 'src/app/services/focus-hover.service';
 
 @Component({
   selector: 'species',

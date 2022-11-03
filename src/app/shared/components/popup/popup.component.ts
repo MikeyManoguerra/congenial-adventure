@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { DeserializedPoint } from '../../services/map.service';
+import { DeserializedPoint } from '../../../services/map.service';
 
 @Component({
   selector: 'popup',

@@ -2,8 +2,8 @@ import { Component, AfterViewInit, Input } from '@angular/core';
 import * as L from 'leaflet';
 import { Observable, Subscription } from 'rxjs';
 import { PointOfInterest } from 'src/app/models/point-of-interest';
-import { MapService } from 'src/app/shared/services/map.service';
-import { FocusHoverService } from '../../services/focus-hover.service';
+import { MapService } from 'src/app/services/map.service';
+import { FocusHoverService } from 'src/app/services/focus-hover.service';
 
 
 // const iconRetinaUrl = 'assets/marker-icon-2x.png';

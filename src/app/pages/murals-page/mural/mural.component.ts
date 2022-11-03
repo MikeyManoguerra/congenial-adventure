@@ -6,7 +6,7 @@ import { BaseContent } from 'src/app/models/BaseContent';
 import { Mural } from 'src/app/models/mural';
 import { mapPoint, PointOfInterest } from 'src/app/models/point-of-interest';
 import { Tree } from 'src/app/models/tree';
-import { FocusHoverService } from 'src/app/shared/services/focus-hover.service';
+import { FocusHoverService } from 'src/app/services/focus-hover.service';
 
 @Component({
   selector: 'mural',

@@ -1,5 +1,5 @@
 import { ComponentFactoryResolver, Injectable, Injector } from '@angular/core';
-import { DiscernibleTextComponent } from '../components/discernible-text/discernible-text.component';
+import { DiscernibleTextComponent } from '../shared/components/discernible-text/discernible-text.component';
 
 @Injectable({
   providedIn: 'root'

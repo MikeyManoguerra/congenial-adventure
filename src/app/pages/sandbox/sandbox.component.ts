@@ -8,6 +8,8 @@ import { BehaviorSubject, interval, of, switchMap, tap } from 'rxjs';
 })
 export class SandboxComponent implements OnInit {
 
+  // This is for testing. Do what ever you want here, delete whatever you want.
+
   constructor() { }
 
   x = new BehaviorSubject({ cools: [{ colds: '' }] })

@@ -4,6 +4,7 @@ import * as L from 'leaflet';
 import { BehaviorSubject } from 'rxjs';
 import { PointOfInterest } from 'src/app/models/point-of-interest';
 import { normalizedGeoJSON } from '../lib';
+
 import { DiscernibleTextService } from './discernible-text.service';
 import { MapPopupService } from './map-popup.service';
 
