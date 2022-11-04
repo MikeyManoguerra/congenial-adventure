@@ -1,0 +1,27 @@
+@import 'variables';
+@mixin container {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+
+  @include breakpoint(medium) {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  @include breakpoint(large) {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  @include breakpoint(xlarge) {
+    max-width: $grid-width;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@mixin breakpoint($size) {
+  @media screen and (min-width: (map-get($breakpoints, $size))) {
+    @content;
+  }
+}

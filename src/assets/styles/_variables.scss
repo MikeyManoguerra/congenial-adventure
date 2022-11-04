@@ -1,0 +1,18 @@
+// Breakpoints
+$breakpoints: (
+  xsmall: 0px,
+  small: 420px,
+  medium: 640px,
+  large: 1024px,
+  xlarge: 1250px,
+  xxlarge: 1440px,
+);
+
+
+$grid-width: 1250px;
+
+$primary: purple;
+$secondary: tomato;
+$highlight: gold;
+$text: rgba(black, 0.8);
+$white: ivory;

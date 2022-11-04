@@ -1,3 +1,15 @@
+@import 'src/assets/styles/mixins';
+@import 'src/assets/styles/variables';
+
+header {
+  background-color: $primary;
+  color: $white;
+
+}
+
+.the-header__inner {
+  @include container
+}
 
 .nav-list {
   display: flex;
