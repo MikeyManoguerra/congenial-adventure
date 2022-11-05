@@ -1,14 +1,13 @@
-
 # loaded via angular.json file
+local_backend: true
 backend:
 
   # live cms config
-  name: git-gateway
+  # name: git-gateway
 
   ### start of local backend config
-  # local_backend: true
-  # localStorage.removeItem("netlifySiteURL");
-  # name: github
+  name: github
+  # use for browser cache issue => localStorage.removeItem("netlifySiteURL");
   ### end of local backend config
 
 
@@ -71,53 +70,6 @@ collections:
             required: false
 
 # content configs
-  - name: "tree"
-    label: "Tree"
-    extention: md
-    folder: "content/trees"
-    create: true
-    identifier_field: title
-    fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: ID
-        name: id
-        widget: hidden
-      - label: Tree Species
-        name: species
-        widget: relation
-        collection: species
-        search_fields: [name, genus, species]
-        value_field: id
-        display_fields: [genus, species, name]
-      - label: Nearby Mural
-        name: mural
-        widget: relation
-        collection: mural
-        search_fields: [title]
-        value_field: id
-        display_fields: [title]
-      - label: Image
-        name: src
-        widget: image
-        required: false
-      - label: Image Alt Text
-        name: alt
-        widget: string
-      - label: Location
-        name: location
-        widget: map
-        type: LineString
-        default: '{"type":"LineString","coordinates":[[-75.1640227,39.9523726]]}'
-      - label: Publish Date
-        name: date
-        widget: date
-      - label: Content
-        name: body
-        minimal: true
-        widget: markdown
-        required: false
   - name: "mural"
     label: "Mural"
     extention: md
@@ -134,6 +86,10 @@ collections:
       - label: Attribution
         name: attribution
         widget: string
+      - label: Location
+        name: location
+        widget: map
+        default: '{"type":"Point","coordinates":[-75.1640227,39.9523726]}'
       - label: Image
         name: src
         widget: image
@@ -141,10 +97,31 @@ collections:
       - label: Image Alt Text
         name: alt
         widget: string
-      - label: Location
-        name: location
-        widget: map
-        default: '{"type":"Point","coordinates":[-75.1640227,39.9523726]}'
+      - label: "Nearby Trees"
+        name: "nearbyTrees"
+        widget: list
+        add_to_top: true
+        summary: '{{fields.species.name}} - {{fields.alt}}'
+        fields:
+          - label: Tree Species
+            name: species
+            widget: relation
+            collection: species
+            search_fields: [name, genus, species]
+            value_field: id
+            display_fields: [genus, species, name]
+          - label: Image
+            name: src
+            widget: image
+            required: false
+          - label: Image Alt Text
+            name: alt
+            widget: string
+            required: false
+          - label: Location
+            name: location
+            widget: map
+            default: '{"type":"Point","coordinates":[-75.1640227,39.9523726]}'
       - label: Publish Date
         name: date
         widget: date
@@ -153,6 +130,7 @@ collections:
         minimal: true
         widget: markdown
         required: false
+
   - name: species
     label: Species
     extention: md
@@ -181,3 +159,15 @@ collections:
         minimal: true
         widget: markdown
         required: false
+      - label: "Gallery"
+        name: "galleryImages"
+        widget: list
+        add_to_top: true
+        max: 5
+        fields:
+          - label: Image
+            name: src
+            widget: image
+          - label: Image Alt Text
+            name: alt
+            widget: string
