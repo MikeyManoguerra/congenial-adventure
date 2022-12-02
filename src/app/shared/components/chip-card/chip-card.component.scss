@@ -1,0 +1,15 @@
+@import 'src/assets/styles/variables';
+
+
+
+.text-wrapper {
+  p {
+color: $primary;
+  }
+}
+
+p {
+  .text-wrapper & {
+
+  }
+}

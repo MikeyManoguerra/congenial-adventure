@@ -2,12 +2,12 @@
 
 
 # LOCAL BACKEND CONFIG USED FOR DEVELOPMENT VV
-# local_backend: true
+local_backend: true
   # use for browser cache issue => localStorage.removeItem("netlifySiteURL");
 backend:
 
-  name: git-gateway
-  # name: github
+  # name: git-gateway
+  name: github
 
   repo: mikeymanoguerra/congenial-adventure
   branch: main
