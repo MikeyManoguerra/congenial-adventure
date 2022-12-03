@@ -24,11 +24,5 @@ export const config: ScullyConfig = {
         folder: "./content/species"
       }
     },
-    '/trees/:slug': {
-      type: 'contentFolder',
-      slug: {
-        folder: "./content/trees"
-      }
-    },
   }
 };

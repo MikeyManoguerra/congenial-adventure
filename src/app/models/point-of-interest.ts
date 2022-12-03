@@ -12,7 +12,7 @@ export interface PointOfInterest {
   isPrimary: boolean;
 }
 
-export function mapPoint(baseContent: Mural | Tree): PointOfInterest {
+export function mapPoint(baseContent: Mural): PointOfInterest {
   const {
     route,
     location,
@@ -23,7 +23,7 @@ export function mapPoint(baseContent: Mural | Tree): PointOfInterest {
     mural,
     isPrimary
   } = baseContent
-  
+
   const mapPoint = {
     route,
     location,

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ScullyRoutesService } from '@scullyio/ng-lib';
-import { combineLatest, map, Observable, pluck } from 'rxjs';
+import { combineLatest, map, Observable, pluck, tap } from 'rxjs';
 import { BaseContent } from 'src/app/models/BaseContent';
-import { Mural } from 'src/app/models/mural';
+import { Mural, NearbySpecies } from 'src/app/models/mural';
 import { mapPoint, PointOfInterest } from 'src/app/models/point-of-interest';
-import { Tree } from 'src/app/models/tree';
+import { Species } from 'src/app/models/species';
 import { FocusHoverService } from 'src/app/services/focus-hover.service';
 
 @Component({
@@ -36,20 +36,30 @@ export class MuralComponent implements OnInit {
     map(mural => mural.id),
   )
 
-  trees$: Observable<Tree[]> = combineLatest([
-    this.muralId$,
+  nearbyTrees$: Observable<NearbySpecies[]> = combineLatest([
+    this.mural,
     this.publishedRoutes
   ]).pipe(
-    map(([id, routes]) => routes.filter(route => route.mural === id) as Tree[]),
+    map(([mural, routes]) => {
+      if (!mural.nearbyTrees) {
+        return []
+      }
+      return mural.nearbyTrees.map(nearbyTree => ({
+        ...nearbyTree,
+        species: routes.find(route => route.id === nearbyTree.species) as Species
+      }))
+    }),
   )
 
-  mapPoints$: Observable<PointOfInterest[]> = combineLatest([this.mural, this.trees$]).pipe(
+  mapPoints$: Observable<PointOfInterest[]> = combineLatest([this.mural, this.nearbyTrees$]).pipe(
     map(([mural, trees]) =>
-      [...trees, { ...mural, isPrimary: true }].map((point: Tree | Mural) => mapPoint(point))
+      [...trees, { ...mural, isPrimary: true }].map((point: NearbySpecies | Mural) => mapPoint(point as any)) // TODO bad any
     ),
   );
 
-  ngOnInit(): void { }
+  ngOnInit(): void {
+    this.publishedRoutes.pipe(tap(x => { debugger })).subscribe()
+  }
 
   currentTarget(isCurrentTarget: boolean, id: string) {
     if (isCurrentTarget) {
