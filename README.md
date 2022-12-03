@@ -1,4 +1,28 @@
-# ArtAndArbor
+# Congenial adventure
+
+## Description: 
+
+Mini tours of Public Art and Nature in Philadelphia and beyond. Each tour is centered around a piece of public Art, A mural, statue, etc . The tour then identifies individual near by trees, providing info about the morphology.
+
+Each tour provides a map identifying the art and the nearby trees. An expected future feature is the ability to locate other nearby tours.
+
+If the project grows, ideally tour creation could expand to include the public  in some way
+
+## Live Site\
+
+[https://congenial-adventure.netlify.app/murals](https://congenial-adventure.netlify.app/murals)
+
+## code/tools
+
+Framework: Angular 14
+
+Static Site Generator: scully.io
+
+Styling: scss
+
+Content Management System: netlify CMS
+
+Content Delivery network: Netlify.app
 
 ## Project setup
 
@@ -28,14 +52,10 @@ https://www.netlify.com/blog/2020/02/24/update-on-scully-angulars-static-site-ge
 
 ---
 
-[https://congenial-adventure.netlify.app/murals](https://congenial-adventure.netlify.app/murals)
 
 ## todo
 - cliocker scroller type thing for mobile. highlighted mural in scroller is highlighted in map
 - service for sub routes, appTrees, app species, etc
-- warn - The `purge`/`content` options have changed in Tailwind CSS v3.0.
-- warn - Update your configuration file to eliminate this warning.
-- deprioritize "tree" in favor of displaying species info
 - try moving all netlify content to admin section
 - completely static admin index.html file
 - ligh house stuffs
