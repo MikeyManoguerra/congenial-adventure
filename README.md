@@ -8,7 +8,7 @@ Each tour provides a map identifying the art and the nearby trees. An expected f
 
 If the project grows, ideally tour creation could expand to include the public  in some way
 
-## Live Site\
+## Live Site
 
 [https://congenial-adventure.netlify.app/murals](https://congenial-adventure.netlify.app/murals)
 
