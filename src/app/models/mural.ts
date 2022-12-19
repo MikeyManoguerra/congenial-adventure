@@ -24,6 +24,6 @@ export interface NearbyTree {
 
 
 // TODO update with https://github.com/MikeyManoguerra/congenial-adventure/issues/9
-export type NearbySpecies = Omit<NearbyTree, 'species'> & {
+export type NearbySpecies = Omit<NearbyTree, 'species'>  & {
   species: Species
 }

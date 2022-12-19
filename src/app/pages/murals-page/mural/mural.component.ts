@@ -58,7 +58,6 @@ export class MuralComponent implements OnInit {
   );
 
   ngOnInit(): void {
-    this.publishedRoutes.pipe(tap(x => { debugger })).subscribe()
   }
 
   currentTarget(isCurrentTarget: boolean, id: string) {

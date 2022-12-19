@@ -16,10 +16,13 @@ declare global {
 
 @Component({
   selector: 'home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  template: `
+    <!-- https://github.com/netlify/netlify-cms/blob/dea27c4001151b6d60a560a7564e1fd471563a69/website/content/docs/beta-features.md#custom-mount-element -->
+    <!-- duplicating the identity widget w/o -->
+    <div id="nc-root"></div>
+  `,
 })
-export class HomeComponent  {
+export class LoadAdminComponent  {
 
   // try redirecting to static file
 

@@ -1,40 +1,38 @@
 <the-layout>
   <div *ngIf="mural | async as mural">
-    <h1 class="bg-grey-900 text-4xl mt-4">{{ mural.title }}</h1>
-    <div class="mt-4">ATTRIBUTION: {{ mural.attribution }}</div>
-    <div class="mt-8 bg-gray-200 overflow-hidden rounded-xl shadow-lg min-h-[20vh] max-h-[80vh]">
+    <h1 class="">{{ mural.title }}</h1>
+    <div class="">ATTRIBUTION: {{ mural.attribution }}</div>
+    <div class="">
       <img
-        class="object-cover w-full"
+        class=""
         [src]="mural.src || 'https://source.unsplash.com/random'"
         [alt]="mural.alt || 'No image available. heres a random one'"
       >
     </div>
-    <div class="mt-4 pb-2">
-      <h2 class="text-2xl">Location</h2>
+    <div>
+      <h2 class="">Location</h2>
     </div>
     <!-- class="sticky top-12 z-10" -->
     <div *ngIf="mapPoints$ | async as points">
       <the-map [mapPoints]="points"></the-map>
     </div>
-    <div class="mt-4 pb-2">
-      <h2 class="text-2xl">Blog</h2>
+    <div >
+      <h2 class="">Blog</h2>
       <scully-content></scully-content>
     </div>
-    <div class=" mt-3 text-lg font-serif">
-    </div>
   </div>
 
-  <!-- <div class="mt-4 pb-2">
-    <h2 class="text-2xl">Nearby Trees</h2>
+  <div class="">
+    <h2 class="">Nearby Trees</h2>
 
   </div>
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-3">
+  <div class="">
     <primary-card
-      *ngFor="let tree of (trees$ | async)"
-      [path]="tree.route"
-      [title]="tree.title"
-      [image]="{src: tree.src, alt: tree.alt}"
-      (focusHover)="currentTarget($event, tree.id)"
-    ></primary-card>
-  </div> -->
+        *ngFor="let tree of (nearbyTrees$ | async)"
+        [path]="tree.species.route"
+        [title]="tree.species.name"
+        [image]="{src: tree.species.src, alt: tree.species.alt}"
+       ></primary-card>
+       <!-- (focusHover)="currentTarget($event, tree.id)"  -->
+  </div>
 </the-layout>
