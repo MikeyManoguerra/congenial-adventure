@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ScullyRoutesService } from '@scullyio/ng-lib';
-import { combineLatest, map, Observable, pluck } from 'rxjs';
-import { BaseContent } from 'src/app/models/BaseContent';
-import { Species } from 'src/app/models/species';
+import { tap } from 'rxjs';
 import { FocusHoverService } from 'src/app/services/focus-hover.service';
+import { SpeciesService } from 'src/app/services/species.service';
 
 @Component({
   selector: 'species',
@@ -14,23 +12,17 @@ import { FocusHoverService } from 'src/app/services/focus-hover.service';
 export class SpeciesComponent implements OnInit {
 
   constructor(
+    private speciesService: SpeciesService,
     private activatedRoute: ActivatedRoute,
-    private scully: ScullyRoutesService,
     private focusHoverService: FocusHoverService
   ) { }
 
-  publishedRoutes$: Observable<BaseContent[]> = this.scully.available$ as Observable<BaseContent[]>;
 
-  public species$: Observable<Species> = combineLatest([
-    this.activatedRoute.params.pipe(pluck('slug')),
-    this.publishedRoutes$
-  ]).pipe(
-    map(([slug, routes]) =>
-      routes.find(route => route.route === `/species/${slug}`) as Species
-    ),
-    );
+  public species$ = this.speciesService.species(this.activatedRoute);
 
-    ngOnInit(): void {
+
+  ngOnInit(): void {
+    this.speciesService.speciesExamples(this.activatedRoute).pipe(tap(x => { console.log(x); })).subscribe()
   }
 
 }

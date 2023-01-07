@@ -3,17 +3,13 @@ import { Injectable } from '@angular/core';
 import * as L from 'leaflet';
 import { BehaviorSubject } from 'rxjs';
 import { PointOfInterest } from 'src/app/models/point-of-interest';
-import { normalizedGeoJSON } from '../lib';
+
 
 import { DiscernibleTextService } from './discernible-text.service';
 import { MapPopupService } from './map-popup.service';
 
-export interface DeserializedPoint extends Omit<PointOfInterest, 'location'> {
-  'location': GeoJSON.Point;
-}
-
 interface MappedPoint {
-  point: DeserializedPoint;
+  point: PointOfInterest;
   layer: L.Marker
 }
 
@@ -41,9 +37,9 @@ export class MapService {
     this._layerGroupSource.next(layerGroup);
   }
 
-  private _addLayerToGroup(layer: L.Layer) {
-    this._setLayerGroup(this.getLayerGroup().addLayer(layer))
-  }
+  // private _addLayerToGroup(layer: L.Layer) {
+  //   this._setLayerGroup(this.getLayerGroup().addLayer(layer))
+  // }
 
   getPoints(): MappedPoint[] {
     return this._pointSource.getValue();
@@ -64,20 +60,10 @@ export class MapService {
   }
 
   addEntityToMap(map: L.Map, point: PointOfInterest) {
-    const pointOrLine = normalizedGeoJSON(point.location).map(location => ({
-      ...point,
-      location
-    }));
-
-    const mappedPoints: MappedPoint[] = pointOrLine.map(point => {
-      const layer = this._initializedLeafletPoint(point).addTo(map);
-      // warning: side effect!
-      // this._addLayerToGroup(layer);
-
-      return { point, layer };
-    })
-
-    this._setPoints([...this.getPoints(), ...mappedPoints]);
+    const layer = this._initializedLeafletPoint(point).addTo(map);
+    // warning: side effect!
+    // this._addLayerToGroup(layer);
+    this._setPoints([...this.getPoints(), { point, layer }]);
   }
 
   private _updateIconClass(id: string, klass: string) {
@@ -88,7 +74,7 @@ export class MapService {
     this._setPoints([...points, ...this.getPoints().filter(point => id !== point.point.id)]);
   }
 
-  private _initializedLeafletPoint(point: DeserializedPoint) {
+  private _initializedLeafletPoint(point: PointOfInterest) {
     const icon = this._divIcon(point, '');
     const [lon, lat] = point.location.coordinates;
 
@@ -96,7 +82,7 @@ export class MapService {
   }
 
   //  todo config object
-  private _divIcon({ isPrimary, title }: DeserializedPoint, targetClass: string, size: number = 10) {
+  private _divIcon({ isPrimary, title }: PointOfInterest, targetClass: string, size: number = 10) {
     const className = targetClass + ' ' + (isPrimary ? 'map-icon map-icon--primary' : 'map-icon');
 
     return L.divIcon({
@@ -107,7 +93,8 @@ export class MapService {
     });
   }
 
-  primaryCoordinates(pointsOfInterest: DeserializedPoint[] = []): number[] {
+  primaryCoordinates(pointsOfInterest: PointOfInterest[] = []): number[] {
+    console.log(pointsOfInterest);
     return pointsOfInterest.find(point => point.isPrimary)?.location?.coordinates || [-75.135626, 39.983705];
   }
 

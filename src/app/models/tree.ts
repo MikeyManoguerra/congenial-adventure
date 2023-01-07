@@ -1,5 +1,5 @@
 import { ScullyRoute } from "@scullyio/ng-lib";
-import { BaseContent } from "./BaseContent";
+import { BaseContent } from "./base-content";
 
 
 export interface Tree extends BaseContent, ScullyRoute {

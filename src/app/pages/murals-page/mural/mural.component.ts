@@ -1,12 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ScullyRoutesService } from '@scullyio/ng-lib';
-import { combineLatest, map, Observable, pluck, tap } from 'rxjs';
-import { BaseContent } from 'src/app/models/BaseContent';
-import { Mural, NearbySpecies } from 'src/app/models/mural';
+import { combineLatest, map, Observable, tap } from 'rxjs';
 import { mapPoint, PointOfInterest } from 'src/app/models/point-of-interest';
-import { Species } from 'src/app/models/species';
 import { FocusHoverService } from 'src/app/services/focus-hover.service';
+import { MuralService } from 'src/app/services/mural.service';
+import { SpeciesService } from 'src/app/services/species.service';
 
 @Component({
   selector: 'mural',
@@ -17,43 +15,17 @@ export class MuralComponent implements OnInit {
 
   constructor(
     private activatedRoute: ActivatedRoute,
-    private scully: ScullyRoutesService,
-    private focusHoverService: FocusHoverService
+    private focusHoverService: FocusHoverService,
+    private muralService: MuralService,
+    private speciesService: SpeciesService
   ) { }
 
-  publishedRoutes: Observable<BaseContent[]> = this.scully.available$ as Observable<BaseContent[]>;
+  protected mural$ = this.muralService.mural(this.activatedRoute);
+  protected nearbyTrees$ = this.speciesService.nearbySpecies(this.mural$);
 
-  public mural: Observable<Mural> = combineLatest([
-    this.activatedRoute.params.pipe(pluck('slug')),
-    this.publishedRoutes
-  ]).pipe(
-    map(([slug, routes]) =>
-      routes.find(route => route.route === `/murals/${slug}`) as Mural
-    ),
-  );
-
-  muralId$: Observable<string> = this.mural.pipe(
-    map(mural => mural.id),
-  )
-
-  nearbyTrees$: Observable<NearbySpecies[]> = combineLatest([
-    this.mural,
-    this.publishedRoutes
-  ]).pipe(
-    map(([mural, routes]) => {
-      if (!mural.nearbyTrees) {
-        return []
-      }
-      return mural.nearbyTrees.map(nearbyTree => ({
-        ...nearbyTree,
-        species: routes.find(route => route.id === nearbyTree.species) as Species
-      }))
-    }),
-  )
-
-  mapPoints$: Observable<PointOfInterest[]> = combineLatest([this.mural, this.nearbyTrees$]).pipe(
+  mapPoints$: Observable<PointOfInterest[]> = combineLatest([this.mural$, this.nearbyTrees$]).pipe(
     map(([mural, trees]) =>
-      [...trees, { ...mural, isPrimary: true }].map((point: NearbySpecies | Mural) => mapPoint(point as any)) // TODO bad any
+      [...trees, { ...mural, isPrimary: true }].map(point => mapPoint(point))
     ),
   );
 

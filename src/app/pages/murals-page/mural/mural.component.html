@@ -1,5 +1,5 @@
 <the-layout>
-  <div *ngIf="mural | async as mural">
+  <div *ngIf="mural$ | async as mural">
     <h1 class="">{{ mural.title }}</h1>
     <div class="">ATTRIBUTION: {{ mural.attribution }}</div>
     <div class="">
@@ -26,7 +26,7 @@
     <h2 class="">Nearby Trees</h2>
 
   </div>
-  <div class="">
+  <div class="nearby-trees">
     <primary-card
         *ngFor="let tree of (nearbyTrees$ | async)"
         [path]="tree.species.route"

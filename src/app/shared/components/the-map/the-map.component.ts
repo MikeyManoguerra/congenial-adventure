@@ -41,7 +41,7 @@ export class TheMapComponent implements AfterViewInit {
   // https://www.digitalocean.com/community/tutorials/angular-angular-and-leaflet
 
   ngAfterViewInit(): void {
-    this.initMap(this.mapService.primaryCoordinates());
+    this.initMap(this.mapService.primaryCoordinates(this.mapPoints));
     this.mapPoints.forEach(point => {
       this.mapService.addEntityToMap(this.map, point)
     })

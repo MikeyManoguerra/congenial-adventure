@@ -1,8 +1,7 @@
-import { ScullyRoute } from "@scullyio/ng-lib";
-import { BaseContent } from "./BaseContent";
+import { BaseContent } from "./base-content";
 import { Species } from "./species";
 
-export interface Mural extends BaseContent, ScullyRoute {
+export interface Mural extends BaseContent {
   location: string;
   title: string;
   src: string;
@@ -11,19 +10,14 @@ export interface Mural extends BaseContent, ScullyRoute {
   publish: boolean
   date: Date
   id: string
-  nearbyTrees?: NearbyTree[]
+  nearbyTrees?: NearbyTree[]; // TODO ensure an array, and not undefined
 }
 
 
-export interface NearbyTree {
+export interface NearbyTree  {
   location: string;
   species: string; // id
   src?: string;
   alt?: string;
 }
 
-
-// TODO update with https://github.com/MikeyManoguerra/congenial-adventure/issues/9
-export type NearbySpecies = Omit<NearbyTree, 'species'>  & {
-  species: Species
-}

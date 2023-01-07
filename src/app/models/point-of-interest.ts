@@ -1,10 +1,13 @@
+import { Observable } from "rxjs";
+import { BaseContent } from "./base-content";
+import { GeoJSONType } from "./geo-json-type";
 import { Mural } from "./mural";
-import { Tree } from "./tree";
+
 
 export interface PointOfInterest {
   route: string;
-  location: string;
-  title: string;
+  location: GeoJSON.Point;
+  title?: string; // used on popup
   id: string;
   src: string;
   alt: string;
@@ -12,7 +15,7 @@ export interface PointOfInterest {
   isPrimary: boolean;
 }
 
-export function mapPoint(baseContent: Mural): PointOfInterest {
+export function mapPoint(baseContent: BaseContent): PointOfInterest {
   const {
     route,
     location,
@@ -26,7 +29,7 @@ export function mapPoint(baseContent: Mural): PointOfInterest {
 
   const mapPoint = {
     route,
-    location,
+    location: normalizedGeoJSONPoint(location),
     title,
     id,
     src,
@@ -38,3 +41,23 @@ export function mapPoint(baseContent: Mural): PointOfInterest {
 
   return mapPoint;
 }
+
+
+
+export function normalizedGeoJSONPoint(geoJSON: string): GeoJSON.Point {
+  const { type, coordinates } = JSON.parse(geoJSON);
+
+  if (GeoJSONType.POINT !== type) {
+    throw new Error("Unsupported GeoJSON type");
+  }
+
+  return {
+    type,
+    coordinates,
+  };
+}
+
+// export function mapPoints(...args: Observable<BaseContent|>[]) {
+
+// }
+
