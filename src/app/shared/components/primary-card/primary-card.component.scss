@@ -1,0 +1,13 @@
+@import 'src/assets/styles/mixins';
+
+.primary-card__image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.primary-card__image {
+  @include adhere;
+  overflow: hidden;
+  object-fit: cover;
+}

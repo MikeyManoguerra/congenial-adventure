@@ -14,8 +14,6 @@ export interface Species extends BaseContent {
   alt: string;
 }
 
-
-
 // were inheriting from BaseContent here.
 // technically a nearby tree doesnt have an id or route as its just an array item  on Mural
 // we can accept putting species id/route here because its a 1:1 relationship

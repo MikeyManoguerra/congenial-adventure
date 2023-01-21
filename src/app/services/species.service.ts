@@ -47,7 +47,7 @@ export class SpeciesService {
 
 
         return mural.nearbyTrees.map(nearbyTree => {
-          const species = routes.find(route => route.id === nearbyTree.species) as Species;
+          const species = routes.find(route => route.id === nearbyTree.speciesId) as Species;
 
           // see NearbySpecies interface for note on why id and route are here
           return {
@@ -62,6 +62,7 @@ export class SpeciesService {
   }
 
   // should take slug
+  // todo memoize
   speciesExamples(activatedRoute: ActivatedRoute) {
     const species$ = this.species(activatedRoute);
 
@@ -70,7 +71,7 @@ export class SpeciesService {
         // TODO workaround as
         const allTrees = murals.filter(({ nearbyTrees }) => !!nearbyTrees).flatMap(({ nearbyTrees }) => nearbyTrees) as NearbyTree[];
 
-        return allTrees.filter((tree) => tree.species === currentSpecies.id);
+        return allTrees.filter(({ speciesId }) => speciesId === currentSpecies.id);
       })
     )
   }

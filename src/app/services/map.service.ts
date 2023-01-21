@@ -27,15 +27,15 @@ export class MapService {
   private readonly _layerGroupSource = new BehaviorSubject<L.LayerGroup>(L.layerGroup([]))
 
   // Exposed observable (read-only).
-  // readonly points$ = this._pointSource.asObservable();
+  readonly points$ = this._pointSource.asObservable();
 
-  getLayerGroup(): L.LayerGroup {
-    return this._layerGroupSource.getValue();
-  }
+  // getLayerGroup(): L.LayerGroup {
+  //   return this._layerGroupSource.getValue();
+  // }
 
-  private _setLayerGroup(layerGroup: L.LayerGroup) {
-    this._layerGroupSource.next(layerGroup);
-  }
+  // // private _setLayerGroup(layerGroup: L.LayerGroup) {
+  //   this._layerGroupSource.next(layerGroup);
+  // }
 
   // private _addLayerToGroup(layer: L.Layer) {
   //   this._setLayerGroup(this.getLayerGroup().addLayer(layer))
@@ -94,8 +94,7 @@ export class MapService {
   }
 
   primaryCoordinates(pointsOfInterest: PointOfInterest[] = []): number[] {
-    console.log(pointsOfInterest);
-    return pointsOfInterest.find(point => point.isPrimary)?.location?.coordinates || [-75.135626, 39.983705];
+    return pointsOfInterest.find(point => point.isPrimary)?.location?.coordinates || [-75.135626, 39.983705]; // or city hall
   }
 
   updatePointsSize(currentZoom: number) {

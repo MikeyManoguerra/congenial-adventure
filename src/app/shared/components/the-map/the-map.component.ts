@@ -1,6 +1,6 @@
 import { Component, AfterViewInit, Input } from '@angular/core';
 import * as L from 'leaflet';
-import { Observable, Subscription } from 'rxjs';
+import { Observable, Subscription, take } from 'rxjs';
 import { PointOfInterest } from 'src/app/models/point-of-interest';
 import { MapService } from 'src/app/services/map.service';
 import { FocusHoverService } from 'src/app/services/focus-hover.service';
@@ -50,6 +50,12 @@ export class TheMapComponent implements AfterViewInit {
       this.mapService.updateCurrentTargetId([prevId, currentId])
     });
 
+    // TODO revist?
+    this.mapService.points$.pipe(take(1)).subscribe(y => {
+      const x = L.featureGroup([...y.map(({ layer }) => layer)]);
+      this.map.fitBounds(x.getBounds());
+    })
+
     this.map.on('zoom', () => { this.mapService.updatePointsSize(this.map.getZoom()) })
   }
 
@@ -59,7 +65,8 @@ export class TheMapComponent implements AfterViewInit {
       scrollWheelZoom: false
     }).setView(
       [lat, lon],
-      this.intialZoom);
+      this.intialZoom,
+    );
 
     const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
@@ -70,7 +77,7 @@ export class TheMapComponent implements AfterViewInit {
     tiles.addTo(this.map);
   }
 
-  ngOnDestroy(){
+  ngOnDestroy() {
     this.sub?.unsubscribe();
   }
 }

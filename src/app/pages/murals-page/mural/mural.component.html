@@ -2,9 +2,9 @@
   <div *ngIf="mural$ | async as mural">
     <h1 class="">{{ mural.title }}</h1>
     <div class="">ATTRIBUTION: {{ mural.attribution }}</div>
-    <div class="">
+    <div class="mural__image-wrapper">
       <img
-        class=""
+        class="mural__image"
         [src]="mural.src || 'https://source.unsplash.com/random'"
         [alt]="mural.alt || 'No image available. heres a random one'"
       >

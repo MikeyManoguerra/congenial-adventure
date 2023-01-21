@@ -1,6 +1,5 @@
 import { Component, ElementRef, OnInit, QueryList, ViewChildren } from '@angular/core';
 import { map, Observable } from 'rxjs';
-import { Mural } from 'src/app/models/mural';
 import { mapPoint, PointOfInterest } from 'src/app/models/point-of-interest';
 import { ChipCardComponent } from 'src/app/shared/components/chip-card/chip-card.component';
 import { FocusHoverService } from 'src/app/services/focus-hover.service';

@@ -16,12 +16,12 @@ nearbyTrees:
     src: /assets/uploads/ian-wagg-sfyd5fnmdwk-unsplash.jpg
     alt: pine tree
     date: 2021-03-03T01:03:23.854Z
-  - species: f30c1c5e-544a-463b-aa33-9886861a57f0
+  - speciesId: f30c1c5e-544a-463b-aa33-9886861a57f0
     src: null
     alt: street tree on route 13
     location: '{"type":"Point","coordinates":[-75.1874138,39.9881242]}'
     date: 2021-03-03T01:12:41.852Z
-  - species: c6de9fe2-d462-42c9-b548-f98d27153e01
+  - speciesId: c6de9fe2-d462-42c9-b548-f98d27153e01
     src: null
     alt: another pine tree
     location: '{"type":"Point","coordinates":[-75.1884101,39.9874212]}'

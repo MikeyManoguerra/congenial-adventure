@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { combineLatest, map, Observable, pluck, share } from 'rxjs';
+import { combineLatest, map } from 'rxjs';
 import { Mural } from '../models/mural';
-import { NearbySpecies, Species } from '../models/species';
 import { AppScullyService } from './app-scully.service';
 
 @Injectable({
@@ -20,7 +19,6 @@ export class MuralService {
       map(([slug, routes]) => {
         return routes.find(route => route.route === `/murals/${slug}`) as Mural;
       }),
-      share(),
     );
   }
 

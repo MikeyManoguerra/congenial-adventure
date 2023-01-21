@@ -102,7 +102,7 @@ collections:
         summary: '{{fields.species.name}} - {{fields.alt}}'
         fields:
           - label: Tree Species
-            name: species
+            name: speciesId
             widget: relation
             collection: species
             search_fields: [name, genus, species]
