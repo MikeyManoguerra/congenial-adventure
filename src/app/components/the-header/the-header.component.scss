@@ -2,16 +2,62 @@
 @import 'src/assets/styles/variables';
 
 header {
+  position: fixed;
+  display: block;
+  top: 0;
+  width: 100%;
   background-color: $primary;
   color: $white;
-
+  z-index: 5000; // gotta supercede leaflet
 }
 
 .the-header__inner {
-  @include container
-}
-
-.nav-list {
+  @include app-layout;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.the-header__app-name {
+  display: block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.the-header__nav {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: $primary;
+  border-radius: 0 0 $border-radius $border-radius;
+
+  @include breakpoint(md) {
+    border-radius: 0 0 0 0;
+    position: relative;
+  }
+}
+
+.the-header__nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  @include breakpoint(md) {
+    gap: 2rem;
+    flex-direction: row;
+  }
+}
+
+.the-header__nav-link {
+  display: block;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+
+  @include breakpoint(md) {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }

@@ -1,49 +1,27 @@
 <header>
   <div class="the-header__inner">
-    <div class="">
-      <strong>
-        <a [routerLink]="'/'">{{ name }}</a>
-      </strong>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li>
-            <a
-              class=""
-              [routerLink]="'/'"
-            >Home</a>
-          </li>
-          <li>
-            <a
-              class="ml-4"
-              [routerLink]="'/about/'"
-            >About</a>
-          </li>
-          <li>
-            <a
-              class="ml-4"
-              [routerLink]="'/murals/'"
-            >Murals</a>
-          </li>
-          <li>
-            <a
-              class="ml-4"
-              [routerLink]="'/species/'"
-            >Species</a>
-          </li>
-          <li>
-            <a
-              class="ml-4"
-              [routerLink]="'/species/'"
-            >Trees</a>
-          </li>
-          <li>
-            <a
-              class="ml-4"
-              [routerLink]="'/admin/'"
-            >Admin</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <strong class="the-header__app-name">
+      <a [routerLink]="'/'">{{ name }}</a>
+    </strong>
+    <button class="the-header__mobile-nav-toggle"></button>
+    <nav class="the-header__nav">
+      <ul class="the-header__nav-list">
+        <li>
+          <a [routerLink]="'/'" class="the-header__nav-link">Home</a>
+        </li>
+        <li>
+          <a [routerLink]="'/about/'" class="the-header__nav-link">About</a>
+        </li>
+        <li>
+          <a [routerLink]="'/murals/'" class="the-header__nav-link">Murals</a>
+        </li>
+        <li>
+          <a [routerLink]="'/species/'" class="the-header__nav-link">Species</a>
+        </li>
+        <li>
+          <a [routerLink]="'/admin/'" class="the-header__nav-link">Admin</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>

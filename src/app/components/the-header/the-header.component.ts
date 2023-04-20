@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./the-header.component.scss']
 })
 export class TheHeaderComponent implements OnInit {
-
   name: string = 'Art and Arbor'
   constructor() { }
 

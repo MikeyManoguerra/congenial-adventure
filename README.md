@@ -65,3 +65,5 @@ https://www.netlify.com/blog/2020/02/24/update-on-scully-angulars-static-site-ge
 - getting started street tree with supports and waater bag
 - windows as cards
 - icons
+
+how to styles []?

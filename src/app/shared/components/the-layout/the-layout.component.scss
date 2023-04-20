@@ -1,5 +1,6 @@
 @import 'src/assets/styles/mixins';
 
-div {
-  @include container;
+:host {
+  @include app-layout;
+  display: block;
 }

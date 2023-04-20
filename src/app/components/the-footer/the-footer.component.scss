@@ -1,0 +1,13 @@
+@import 'src/assets/styles/mixins';
+@import 'src/assets/styles/variables';
+
+.footer {
+  background-color: $primary;
+  color: $white
+}
+
+.footer__inner {
+  @include app-layout;
+  display: flex;
+  justify-content: space-between;
+}

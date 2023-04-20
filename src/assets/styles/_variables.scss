@@ -1,15 +1,16 @@
 // Breakpoints
 $breakpoints: (
-  xsmall: 0px,
-  small: 420px,
-  medium: 640px,
-  large: 1024px,
-  xlarge: 1250px,
-  xxlarge: 1440px,
+  xs: 0px,
+  sm: 420px,
+  md: 640px,
+  lg: 1024px,
+  xl: 1250px,
+  xxl: 1440px,
 );
 
 
-$grid-width: 1250px;
+$grid-width: 1250px - 16px;
+$border-radius: 0.5rem;
 
 $primary: purple;
 $secondary: tomato;
